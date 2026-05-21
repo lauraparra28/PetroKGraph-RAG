@@ -1,0 +1,42 @@
+2026-05-21 02:07:19.895+0000 INFO  Logging config in use: File '/var/lib/neo4j/conf/user-logs.xml'
+2026-05-21 02:07:19.913+0000 INFO  The license agreement was accepted with environment variable NEO4J_ACCEPT_LICENSE_AGREEMENT=yes when the Software was started.
+
+
+2026-05-21 02:07:20.060+0000 INFO  Starting...
+2026-05-21 02:07:21.928+0000 INFO  Resolved endpoints with LIST{endpoints:'[2ab40b722eec:5000]'} to '[2ab40b722eec:5000]'
+2026-05-21 02:07:23.408+0000 INFO  ======== Neo4j 5.20.0 ========
+2026-05-21 02:07:23.448+0000 INFO  This instance is ServerId{b297821c} (b297821c-5bf5-417e-a0fe-f6b7036bb4e1)
+2026-05-21 02:07:23.504+0000 INFO  Progress tracking: enabled
+2026-05-21 02:07:23.505+0000 INFO  Memory usage guard: minimum estimate
+2026-05-21 02:07:23.509+0000 INFO  GDS license file: null
+2026-05-21 02:07:23.510+0000 INFO  GDS license state: unlicensed
+2026-05-21 02:07:23.517+0000 INFO  Register GraphDataScience...
+2026-05-21 02:07:23.535+0000 INFO  GraphDataScience registered.
+2026-05-21 02:07:23.535+0000 INFO  Register GraphDataScienceExtras...
+2026-05-21 02:07:23.536+0000 INFO  GraphDataScienceExtras registered.
+2026-05-21 02:07:23.537+0000 INFO  Register MetricsFacade...
+2026-05-21 02:07:23.538+0000 INFO  MetricsFacade registered.
+2026-05-21 02:07:23.539+0000 INFO  Register legacy Task Store/ Registry...
+2026-05-21 02:07:23.540+0000 INFO  Task Store/ Registry registered.
+2026-05-21 02:07:23.541+0000 INFO  Register legacy User Log Registry...
+2026-05-21 02:07:23.541+0000 INFO  User Log Registry registered.
+2026-05-21 02:07:23.761+0000 INFO  GDS compatibility: for Neo4j Settings 5.x -- available, for Neo4j Settings 4.4 -- not available, selected: Neo4j Settings 5.x
+2026-05-21 02:07:23.761+0000 INFO  GDS compatibility: for Neo4j 4.4 -- not available, for Neo4j 5.11 -- not available, for Neo4j 5.12 -- not available, for Neo4j 5.13 -- not available, for Neo4j 5.14 -- not available, for Neo4j 5.15 -- not available, for Neo4j 5.16 -- not available, for Neo4j 5.17 -- not available, for Neo4j 5.18 -- not available, for Neo4j 5.19 -- not available, for Neo4j 5.20 -- available, selected: Neo4j 5.20
+2026-05-21 02:07:24.000+0000 INFO  Resolved endpoints with LIST{endpoints:'[2ab40b722eec:5000]'} to '[2ab40b722eec:5000]'
+2026-05-21 02:07:27.445+0000 INFO  Default database 'neo4j' is created
+2026-05-21 02:07:51.195+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2026-05-21 02:07:51.196+0000 INFO  Notify listeners for DB 'system' with new enrichment mode: OFF
+2026-05-21 02:07:51.199+0000 INFO  Sending metrics to CSV file at /var/lib/neo4j/metrics
+2026-05-21 02:07:51.253+0000 INFO  Anonymous Usage Data is being sent to Neo4j, see https://neo4j.com/docs/usage_data/
+2026-05-21 02:07:51.269+0000 INFO  Bolt enabled on 0.0.0.0:7687.
+2026-05-21 02:07:51.276+0000 INFO  Bolt (Routing) enabled on 0.0.0.0:7688.
+2026-05-21 02:07:51.323+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2026-05-21 02:07:51.432+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2026-05-21 02:07:51.438+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2026-05-21 02:07:52.687+0000 INFO  HTTP enabled on 0.0.0.0:7474.
+2026-05-21 02:07:52.688+0000 INFO  Remote interface available at http://localhost:7474/
+2026-05-21 02:07:52.693+0000 INFO  id: 667E7EB009D86CAE6369AEC6CE678B51F570014C3E2BE30A3CAABF8A64D11C64
+2026-05-21 02:07:52.693+0000 INFO  name: system
+2026-05-21 02:07:52.693+0000 INFO  creationDate: 2026-05-21T02:07:25.947Z
+2026-05-21 02:07:52.694+0000 INFO  Started.
+2026-05-21 02:07:54.321+0000 INFO  Called db.clearQueryCaches(): Query cache already empty.
