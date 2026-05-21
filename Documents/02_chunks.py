@@ -1,5 +1,4 @@
 from collections import defaultdict
-from tqdm import tqdm
 from neo4j import GraphDatabase
 
 # ============================================================
@@ -230,11 +229,7 @@ def link_chunks_to_entities(chunks):
     MATCH (c:TextChunk {id: row.id})
 
     UNWIND row.source_sentence_ids AS sentence_id
-    MATCH (:Sentence {id: sentence_id})
-        -[:HAS_MENTION]->
-        (:EntityMention)
-        -[:REFERS_TO]->
-        (e:KGEntity)
+    MATCH (:Sentence {id: sentence_id})-[:MENTIONS_ENTITY]->(e:KGEntity)
 
     MERGE (c)-[:MENTIONS_ENTITY]->(e)
     """

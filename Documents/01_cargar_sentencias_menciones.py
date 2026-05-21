@@ -9,7 +9,7 @@ CONLLU_PATH = "petroner-uri-2023-07-11.conllu"
 def load_article_ranges(excel_path):
     raw = pd.read_excel(excel_path, sheet_name=0, header=2)
 
-    df = raw.iloc[:10, [0, 1, 2, 3, 4, 5, 13]].copy()
+    df = raw.iloc[:, [0, 1, 2, 3, 4, 5, 13]].copy()
     df.columns = [
         "conllu_code",
         "volume_file",
@@ -218,44 +218,32 @@ def load_sentences(sentences):
             session.run(query, rows=rows)
 
 
-def load_mentions(mentions):
+def load_sentence_entity_links(mentions):
+    rows_with_kg = [
+        m for m in mentions
+        if m.get("local_id")
+    ]
+
     query = """
     UNWIND $rows AS row
 
     MATCH (s:Sentence {id: row.sentence_id})
-
-    MERGE (m:EntityMention {id: row.id})
-    SET m.text = row.text,
-        m.ner_label = row.ner_label,
-        m.grafo = row.grafo,
-        m.local_id = row.local_id,
-        m.start_char = row.start_char,
-        m.end_char = row.end_char
-
-    MERGE (s)-[:HAS_MENTION]->(m)
-    """
-
-    with driver.session() as session:
-        for rows in batch(mentions):
-            session.run(query, rows=rows)
-
-
-def link_mentions_to_kg(mentions):
-    rows_with_kg = [m for m in mentions if m["local_id"]]
-
-    query = """
-    UNWIND $rows AS row
-
-    MATCH (m:EntityMention {id: row.id})
     MATCH (e:KGEntity {local_id: row.local_id})
 
-    MERGE (m)-[:REFERS_TO]->(e)
+    MERGE (s)-[r:MENTIONS_ENTITY {mention_id: row.id}]->(e)
+    SET r.text = row.text,
+        r.ner_label = row.ner_label,
+        r.grafo = row.grafo,
+        r.local_id = row.local_id,
+        r.start_char = row.start_char,
+        r.end_char = row.end_char
     """
 
     with driver.session() as session:
         for rows in batch(rows_with_kg):
             session.run(query, rows=rows)
-            
+
+           
 article_ranges = load_article_ranges(EXCEL_PATH)
 range_index = build_range_index(article_ranges)
 
@@ -263,10 +251,7 @@ sentences, mentions = parse_conllu_sentences(CONLLU_PATH, range_index)
 
 load_sentences(sentences)
 
-load_mentions(mentions)
-print(f"Loaded {len(sentences)} sentences and {len(mentions)} mentions into Neo4j.")
-
-
-link_mentions_to_kg(mentions)
-print("Linked mentions to KG entities where possible.")
-print("Done.")
+load_sentence_entity_links(mentions)
+print(f"✅ Loaded {len(sentences)} sentences and {len(mentions)} mentions into Neo4j.")
+print("✅ Linked mentions to KG entities where possible.")
+print("✅ Done.")
