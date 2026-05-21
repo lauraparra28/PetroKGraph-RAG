@@ -1823,3 +1823,363 @@ UNION ALL
 MATCH ()-[]->() RETURN { name:'relationships', data: count(*)} AS result
  - {} - runtime=pipelined - {app: 'neo4j-browser_v5.15.0', type: 'system'}
 2026-05-21 02:20:47.047+0000 INFO  id:333 - transaction id:1053 - 9 ms: (planning: 7, waiting: 0) - -1 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39344	server/172.20.0.2:7687>	system - neo4j - CALL dbms.showCurrentUser() - {} - runtime=system - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:21:46.892+0000 INFO  Query started: id:335 - transaction id:1093 - 0 ms: (planning: 0, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39350	server/172.20.0.2:7687>	system - neo4j - SHOW DATABASES - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:21:46.892+0000 INFO  Query started: id:337 - transaction id:1092 - 0 ms: (planning: 0, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39312	server/172.20.0.2:7687>	system - neo4j - SHOW PROCEDURES yield name, description, signature - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:21:46.892+0000 INFO  Query started: id:338 - transaction id:1095 - 0 ms: (planning: 0, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39368	server/172.20.0.2:7687>	system - neo4j - SHOW ALIASES FOR DATABASE - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:21:46.892+0000 INFO  Query started: id:336 - transaction id:344 - 0 ms: (planning: 0, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39344	server/172.20.0.2:7687>	neo4j - neo4j - 
+CALL db.labels() YIELD label
+RETURN {name:'labels', data:COLLECT(label)[..1000]} AS result
+UNION ALL
+CALL db.relationshipTypes() YIELD relationshipType
+RETURN {name:'relationshipTypes', data:COLLECT(relationshipType)[..1000]} AS result
+UNION ALL
+CALL db.propertyKeys() YIELD propertyKey
+RETURN {name:'propertyKeys', data:COLLECT(propertyKey)[..1000]} AS result
+ - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:21:46.905+0000 INFO  Query started: id:339 - transaction id:1094 - 8 ms: (planning: 8, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39356	server/172.20.0.2:7687>	system - neo4j - SHOW FUNCTIONS yield name, description, signature - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:21:46.907+0000 INFO  id:336 - transaction id:344 - 15 ms: (planning: 10, waiting: 0) - 36120 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39344	server/172.20.0.2:7687>	neo4j - neo4j - 
+CALL db.labels() YIELD label
+RETURN {name:'labels', data:COLLECT(label)[..1000]} AS result
+UNION ALL
+CALL db.relationshipTypes() YIELD relationshipType
+RETURN {name:'relationshipTypes', data:COLLECT(relationshipType)[..1000]} AS result
+UNION ALL
+CALL db.propertyKeys() YIELD propertyKey
+RETURN {name:'propertyKeys', data:COLLECT(propertyKey)[..1000]} AS result
+ - {} - runtime=pipelined - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:21:46.907+0000 INFO  id:338 - transaction id:1095 - 14 ms: (planning: 1, waiting: 0) - -1 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39368	server/172.20.0.2:7687>	system - neo4j - SHOW ALIASES FOR DATABASE - {} - runtime=system - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:21:46.911+0000 INFO  id:335 - transaction id:1093 - 20 ms: (planning: 4, waiting: 0) - -1 B - 15 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39350	server/172.20.0.2:7687>	system - neo4j - SHOW DATABASES - {} - runtime=system - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:21:46.915+0000 INFO  id:339 - transaction id:1094 - 19 ms: (planning: 9, waiting: 0) - -1 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39356	server/172.20.0.2:7687>	system - neo4j - SHOW FUNCTIONS yield name, description, signature - {} - runtime=system - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:21:46.923+0000 INFO  id:337 - transaction id:1092 - 30 ms: (planning: 1, waiting: 0) - -1 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39312	server/172.20.0.2:7687>	system - neo4j - SHOW PROCEDURES yield name, description, signature - {} - runtime=system - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:21:47.080+0000 INFO  Query started: id:340 - transaction id:1098 - 0 ms: (planning: 0, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39356	server/172.20.0.2:7687>	system - neo4j - CALL dbms.showCurrentUser() - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:21:47.080+0000 INFO  Query started: id:341 - transaction id:345 - 0 ms: (planning: 0, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39312	server/172.20.0.2:7687>	neo4j - neo4j - 
+MATCH () RETURN { name:'nodes', data:count(*) } AS result
+UNION ALL
+MATCH ()-[]->() RETURN { name:'relationships', data: count(*)} AS result
+ - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:21:47.082+0000 INFO  id:341 - transaction id:345 - 2 ms: (planning: 1, waiting: 0) - 1200 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39312	server/172.20.0.2:7687>	neo4j - neo4j - 
+MATCH () RETURN { name:'nodes', data:count(*) } AS result
+UNION ALL
+MATCH ()-[]->() RETURN { name:'relationships', data: count(*)} AS result
+ - {} - runtime=pipelined - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:21:47.088+0000 INFO  id:340 - transaction id:1098 - 8 ms: (planning: 6, waiting: 0) - -1 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39356	server/172.20.0.2:7687>	system - neo4j - CALL dbms.showCurrentUser() - {} - runtime=system - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:22:46.851+0000 INFO  Query started: id:342 - transaction id:1139 - 1 ms: (planning: 1, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39350	server/172.20.0.2:7687>	system - neo4j - SHOW FUNCTIONS yield name, description, signature - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:22:46.851+0000 INFO  Query started: id:346 - transaction id:1140 - 0 ms: (planning: 0, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39368	server/172.20.0.2:7687>	system - neo4j - SHOW ALIASES FOR DATABASE - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:22:46.851+0000 INFO  Query started: id:343 - transaction id:1137 - 0 ms: (planning: 0, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39312	server/172.20.0.2:7687>	system - neo4j - SHOW PROCEDURES yield name, description, signature - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:22:46.851+0000 INFO  Query started: id:345 - transaction id:346 - 0 ms: (planning: 0, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39356	server/172.20.0.2:7687>	neo4j - neo4j - 
+CALL db.labels() YIELD label
+RETURN {name:'labels', data:COLLECT(label)[..1000]} AS result
+UNION ALL
+CALL db.relationshipTypes() YIELD relationshipType
+RETURN {name:'relationshipTypes', data:COLLECT(relationshipType)[..1000]} AS result
+UNION ALL
+CALL db.propertyKeys() YIELD propertyKey
+RETURN {name:'propertyKeys', data:COLLECT(propertyKey)[..1000]} AS result
+ - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:22:46.851+0000 INFO  Query started: id:344 - transaction id:1138 - 0 ms: (planning: 0, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39344	server/172.20.0.2:7687>	system - neo4j - SHOW DATABASES - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:22:46.856+0000 INFO  id:345 - transaction id:346 - 5 ms: (planning: 1, waiting: 0) - 36120 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39356	server/172.20.0.2:7687>	neo4j - neo4j - 
+CALL db.labels() YIELD label
+RETURN {name:'labels', data:COLLECT(label)[..1000]} AS result
+UNION ALL
+CALL db.relationshipTypes() YIELD relationshipType
+RETURN {name:'relationshipTypes', data:COLLECT(relationshipType)[..1000]} AS result
+UNION ALL
+CALL db.propertyKeys() YIELD propertyKey
+RETURN {name:'propertyKeys', data:COLLECT(propertyKey)[..1000]} AS result
+ - {} - runtime=pipelined - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:22:46.856+0000 INFO  id:346 - transaction id:1140 - 5 ms: (planning: 1, waiting: 0) - -1 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39368	server/172.20.0.2:7687>	system - neo4j - SHOW ALIASES FOR DATABASE - {} - runtime=system - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:22:46.860+0000 INFO  id:342 - transaction id:1139 - 10 ms: (planning: 1, waiting: 0) - -1 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39350	server/172.20.0.2:7687>	system - neo4j - SHOW FUNCTIONS yield name, description, signature - {} - runtime=system - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:22:46.863+0000 INFO  id:344 - transaction id:1138 - 13 ms: (planning: 1, waiting: 0) - -1 B - 15 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39344	server/172.20.0.2:7687>	system - neo4j - SHOW DATABASES - {} - runtime=system - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:22:46.866+0000 INFO  id:343 - transaction id:1137 - 15 ms: (planning: 1, waiting: 0) - -1 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39312	server/172.20.0.2:7687>	system - neo4j - SHOW PROCEDURES yield name, description, signature - {} - runtime=system - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:22:47.020+0000 INFO  Query started: id:348 - transaction id:347 - 0 ms: (planning: 0, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39312	server/172.20.0.2:7687>	neo4j - neo4j - 
+MATCH () RETURN { name:'nodes', data:count(*) } AS result
+UNION ALL
+MATCH ()-[]->() RETURN { name:'relationships', data: count(*)} AS result
+ - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:22:47.020+0000 INFO  Query started: id:347 - transaction id:1143 - 0 ms: (planning: 0, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39344	server/172.20.0.2:7687>	system - neo4j - CALL dbms.showCurrentUser() - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:22:47.021+0000 INFO  id:348 - transaction id:347 - 1 ms: (planning: 0, waiting: 0) - 1200 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39312	server/172.20.0.2:7687>	neo4j - neo4j - 
+MATCH () RETURN { name:'nodes', data:count(*) } AS result
+UNION ALL
+MATCH ()-[]->() RETURN { name:'relationships', data: count(*)} AS result
+ - {} - runtime=pipelined - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:22:47.029+0000 INFO  id:347 - transaction id:1143 - 10 ms: (planning: 8, waiting: 0) - -1 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39344	server/172.20.0.2:7687>	system - neo4j - CALL dbms.showCurrentUser() - {} - runtime=system - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:23:46.860+0000 INFO  Query started: id:349 - transaction id:1184 - 0 ms: (planning: 0, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39350	server/172.20.0.2:7687>	system - neo4j - SHOW FUNCTIONS yield name, description, signature - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:23:46.860+0000 INFO  Query started: id:351 - transaction id:348 - 0 ms: (planning: 0, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39344	server/172.20.0.2:7687>	neo4j - neo4j - 
+CALL db.labels() YIELD label
+RETURN {name:'labels', data:COLLECT(label)[..1000]} AS result
+UNION ALL
+CALL db.relationshipTypes() YIELD relationshipType
+RETURN {name:'relationshipTypes', data:COLLECT(relationshipType)[..1000]} AS result
+UNION ALL
+CALL db.propertyKeys() YIELD propertyKey
+RETURN {name:'propertyKeys', data:COLLECT(propertyKey)[..1000]} AS result
+ - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:23:46.860+0000 INFO  Query started: id:350 - transaction id:1182 - 0 ms: (planning: 0, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39368	server/172.20.0.2:7687>	system - neo4j - SHOW ALIASES FOR DATABASE - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:23:46.860+0000 INFO  Query started: id:352 - transaction id:1183 - 0 ms: (planning: 0, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39356	server/172.20.0.2:7687>	system - neo4j - SHOW DATABASES - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:23:46.860+0000 INFO  Query started: id:353 - transaction id:1185 - 0 ms: (planning: 0, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39312	server/172.20.0.2:7687>	system - neo4j - SHOW PROCEDURES yield name, description, signature - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:23:46.864+0000 INFO  id:350 - transaction id:1182 - 4 ms: (planning: 1, waiting: 0) - -1 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39368	server/172.20.0.2:7687>	system - neo4j - SHOW ALIASES FOR DATABASE - {} - runtime=system - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:23:46.867+0000 INFO  id:351 - transaction id:348 - 7 ms: (planning: 1, waiting: 0) - 36120 B - 374 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39344	server/172.20.0.2:7687>	neo4j - neo4j - 
+CALL db.labels() YIELD label
+RETURN {name:'labels', data:COLLECT(label)[..1000]} AS result
+UNION ALL
+CALL db.relationshipTypes() YIELD relationshipType
+RETURN {name:'relationshipTypes', data:COLLECT(relationshipType)[..1000]} AS result
+UNION ALL
+CALL db.propertyKeys() YIELD propertyKey
+RETURN {name:'propertyKeys', data:COLLECT(propertyKey)[..1000]} AS result
+ - {} - runtime=pipelined - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:23:46.871+0000 INFO  id:349 - transaction id:1184 - 11 ms: (planning: 1, waiting: 0) - -1 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39350	server/172.20.0.2:7687>	system - neo4j - SHOW FUNCTIONS yield name, description, signature - {} - runtime=system - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:23:46.873+0000 INFO  id:352 - transaction id:1183 - 13 ms: (planning: 0, waiting: 0) - -1 B - 15 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39356	server/172.20.0.2:7687>	system - neo4j - SHOW DATABASES - {} - runtime=system - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:23:46.878+0000 INFO  id:353 - transaction id:1185 - 17 ms: (planning: 0, waiting: 0) - -1 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39312	server/172.20.0.2:7687>	system - neo4j - SHOW PROCEDURES yield name, description, signature - {} - runtime=system - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:23:47.064+0000 INFO  Query started: id:354 - transaction id:349 - 0 ms: (planning: 0, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39312	server/172.20.0.2:7687>	neo4j - neo4j - 
+MATCH () RETURN { name:'nodes', data:count(*) } AS result
+UNION ALL
+MATCH ()-[]->() RETURN { name:'relationships', data: count(*)} AS result
+ - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:23:47.066+0000 INFO  Query started: id:355 - transaction id:1188 - 0 ms: (planning: 0, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39356	server/172.20.0.2:7687>	system - neo4j - CALL dbms.showCurrentUser() - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:23:47.067+0000 INFO  id:354 - transaction id:349 - 3 ms: (planning: 1, waiting: 0) - 1200 B - 4 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39312	server/172.20.0.2:7687>	neo4j - neo4j - 
+MATCH () RETURN { name:'nodes', data:count(*) } AS result
+UNION ALL
+MATCH ()-[]->() RETURN { name:'relationships', data: count(*)} AS result
+ - {} - runtime=pipelined - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:23:47.075+0000 INFO  id:355 - transaction id:1188 - 9 ms: (planning: 7, waiting: 0) - -1 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39356	server/172.20.0.2:7687>	system - neo4j - CALL dbms.showCurrentUser() - {} - runtime=system - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:24:46.850+0000 INFO  Query started: id:357 - transaction id:1229 - 1 ms: (planning: 1, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39312	server/172.20.0.2:7687>	system - neo4j - SHOW PROCEDURES yield name, description, signature - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:24:46.850+0000 INFO  Query started: id:356 - transaction id:1228 - 1 ms: (planning: 1, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39350	server/172.20.0.2:7687>	system - neo4j - SHOW DATABASES - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:24:46.850+0000 INFO  Query started: id:359 - transaction id:1230 - 0 ms: (planning: 0, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39344	server/172.20.0.2:7687>	system - neo4j - SHOW FUNCTIONS yield name, description, signature - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:24:46.850+0000 INFO  Query started: id:358 - transaction id:1227 - 0 ms: (planning: 0, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39368	server/172.20.0.2:7687>	system - neo4j - SHOW ALIASES FOR DATABASE - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:24:46.851+0000 INFO  Query started: id:360 - transaction id:350 - 0 ms: (planning: 0, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39356	server/172.20.0.2:7687>	neo4j - neo4j - 
+CALL db.labels() YIELD label
+RETURN {name:'labels', data:COLLECT(label)[..1000]} AS result
+UNION ALL
+CALL db.relationshipTypes() YIELD relationshipType
+RETURN {name:'relationshipTypes', data:COLLECT(relationshipType)[..1000]} AS result
+UNION ALL
+CALL db.propertyKeys() YIELD propertyKey
+RETURN {name:'propertyKeys', data:COLLECT(propertyKey)[..1000]} AS result
+ - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:24:46.855+0000 INFO  id:358 - transaction id:1227 - 6 ms: (planning: 1, waiting: 0) - -1 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39368	server/172.20.0.2:7687>	system - neo4j - SHOW ALIASES FOR DATABASE - {} - runtime=system - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:24:46.860+0000 INFO  id:360 - transaction id:350 - 9 ms: (planning: 1, waiting: 0) - 36120 B - 374 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39356	server/172.20.0.2:7687>	neo4j - neo4j - 
+CALL db.labels() YIELD label
+RETURN {name:'labels', data:COLLECT(label)[..1000]} AS result
+UNION ALL
+CALL db.relationshipTypes() YIELD relationshipType
+RETURN {name:'relationshipTypes', data:COLLECT(relationshipType)[..1000]} AS result
+UNION ALL
+CALL db.propertyKeys() YIELD propertyKey
+RETURN {name:'propertyKeys', data:COLLECT(propertyKey)[..1000]} AS result
+ - {} - runtime=pipelined - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:24:46.861+0000 INFO  id:359 - transaction id:1230 - 11 ms: (planning: 1, waiting: 0) - -1 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39344	server/172.20.0.2:7687>	system - neo4j - SHOW FUNCTIONS yield name, description, signature - {} - runtime=system - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:24:46.863+0000 INFO  id:356 - transaction id:1228 - 14 ms: (planning: 2, waiting: 0) - -1 B - 15 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39350	server/172.20.0.2:7687>	system - neo4j - SHOW DATABASES - {} - runtime=system - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:24:46.870+0000 INFO  id:357 - transaction id:1229 - 21 ms: (planning: 2, waiting: 0) - -1 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39312	server/172.20.0.2:7687>	system - neo4j - SHOW PROCEDURES yield name, description, signature - {} - runtime=system - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:24:47.018+0000 INFO  Query started: id:362 - transaction id:351 - 0 ms: (planning: 0, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39312	server/172.20.0.2:7687>	neo4j - neo4j - 
+MATCH () RETURN { name:'nodes', data:count(*) } AS result
+UNION ALL
+MATCH ()-[]->() RETURN { name:'relationships', data: count(*)} AS result
+ - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:24:47.018+0000 INFO  Query started: id:361 - transaction id:1233 - 0 ms: (planning: 0, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39356	server/172.20.0.2:7687>	system - neo4j - CALL dbms.showCurrentUser() - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:24:47.021+0000 INFO  id:362 - transaction id:351 - 2 ms: (planning: 0, waiting: 0) - 1200 B - 4 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39312	server/172.20.0.2:7687>	neo4j - neo4j - 
+MATCH () RETURN { name:'nodes', data:count(*) } AS result
+UNION ALL
+MATCH ()-[]->() RETURN { name:'relationships', data: count(*)} AS result
+ - {} - runtime=pipelined - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:24:47.031+0000 INFO  id:361 - transaction id:1233 - 13 ms: (planning: 10, waiting: 0) - -1 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39356	server/172.20.0.2:7687>	system - neo4j - CALL dbms.showCurrentUser() - {} - runtime=system - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:25:46.855+0000 INFO  Query started: id:364 - transaction id:1275 - 0 ms: (planning: 0, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39350	server/172.20.0.2:7687>	system - neo4j - SHOW DATABASES - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:25:46.855+0000 INFO  Query started: id:363 - transaction id:1272 - 0 ms: (planning: 0, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39312	server/172.20.0.2:7687>	system - neo4j - SHOW PROCEDURES yield name, description, signature - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:25:46.856+0000 INFO  Query started: id:366 - transaction id:1273 - 0 ms: (planning: 0, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39344	server/172.20.0.2:7687>	system - neo4j - SHOW FUNCTIONS yield name, description, signature - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:25:46.856+0000 INFO  Query started: id:365 - transaction id:352 - 0 ms: (planning: 0, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39356	server/172.20.0.2:7687>	neo4j - neo4j - 
+CALL db.labels() YIELD label
+RETURN {name:'labels', data:COLLECT(label)[..1000]} AS result
+UNION ALL
+CALL db.relationshipTypes() YIELD relationshipType
+RETURN {name:'relationshipTypes', data:COLLECT(relationshipType)[..1000]} AS result
+UNION ALL
+CALL db.propertyKeys() YIELD propertyKey
+RETURN {name:'propertyKeys', data:COLLECT(propertyKey)[..1000]} AS result
+ - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:25:46.857+0000 INFO  Query started: id:367 - transaction id:1274 - 0 ms: (planning: 0, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39368	server/172.20.0.2:7687>	system - neo4j - SHOW ALIASES FOR DATABASE - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:25:46.861+0000 INFO  id:365 - transaction id:352 - 5 ms: (planning: 0, waiting: 0) - 36120 B - 374 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39356	server/172.20.0.2:7687>	neo4j - neo4j - 
+CALL db.labels() YIELD label
+RETURN {name:'labels', data:COLLECT(label)[..1000]} AS result
+UNION ALL
+CALL db.relationshipTypes() YIELD relationshipType
+RETURN {name:'relationshipTypes', data:COLLECT(relationshipType)[..1000]} AS result
+UNION ALL
+CALL db.propertyKeys() YIELD propertyKey
+RETURN {name:'propertyKeys', data:COLLECT(propertyKey)[..1000]} AS result
+ - {} - runtime=pipelined - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:25:46.861+0000 INFO  id:367 - transaction id:1274 - 4 ms: (planning: 1, waiting: 0) - -1 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39368	server/172.20.0.2:7687>	system - neo4j - SHOW ALIASES FOR DATABASE - {} - runtime=system - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:25:46.866+0000 INFO  id:366 - transaction id:1273 - 10 ms: (planning: 0, waiting: 0) - -1 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39344	server/172.20.0.2:7687>	system - neo4j - SHOW FUNCTIONS yield name, description, signature - {} - runtime=system - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:25:46.869+0000 INFO  id:364 - transaction id:1275 - 13 ms: (planning: 1, waiting: 0) - -1 B - 15 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39350	server/172.20.0.2:7687>	system - neo4j - SHOW DATABASES - {} - runtime=system - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:25:46.876+0000 INFO  id:363 - transaction id:1272 - 21 ms: (planning: 1, waiting: 0) - -1 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39312	server/172.20.0.2:7687>	system - neo4j - SHOW PROCEDURES yield name, description, signature - {} - runtime=system - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:25:47.065+0000 INFO  Query started: id:369 - transaction id:1278 - 0 ms: (planning: 0, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39350	server/172.20.0.2:7687>	system - neo4j - CALL dbms.showCurrentUser() - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:25:47.065+0000 INFO  Query started: id:368 - transaction id:353 - 0 ms: (planning: 0, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39312	server/172.20.0.2:7687>	neo4j - neo4j - 
+MATCH () RETURN { name:'nodes', data:count(*) } AS result
+UNION ALL
+MATCH ()-[]->() RETURN { name:'relationships', data: count(*)} AS result
+ - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:25:47.068+0000 INFO  id:368 - transaction id:353 - 2 ms: (planning: 1, waiting: 0) - 1200 B - 4 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39312	server/172.20.0.2:7687>	neo4j - neo4j - 
+MATCH () RETURN { name:'nodes', data:count(*) } AS result
+UNION ALL
+MATCH ()-[]->() RETURN { name:'relationships', data: count(*)} AS result
+ - {} - runtime=pipelined - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:25:47.074+0000 INFO  id:369 - transaction id:1278 - 9 ms: (planning: 7, waiting: 0) - -1 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39350	server/172.20.0.2:7687>	system - neo4j - CALL dbms.showCurrentUser() - {} - runtime=system - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:26:46.849+0000 INFO  Query started: id:370 - transaction id:1318 - 0 ms: (planning: 0, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39356	server/172.20.0.2:7687>	system - neo4j - SHOW DATABASES - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:26:46.850+0000 INFO  Query started: id:372 - transaction id:1320 - 0 ms: (planning: 0, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39344	server/172.20.0.2:7687>	system - neo4j - SHOW FUNCTIONS yield name, description, signature - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:26:46.850+0000 INFO  Query started: id:371 - transaction id:354 - 0 ms: (planning: 0, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39350	server/172.20.0.2:7687>	neo4j - neo4j - 
+CALL db.labels() YIELD label
+RETURN {name:'labels', data:COLLECT(label)[..1000]} AS result
+UNION ALL
+CALL db.relationshipTypes() YIELD relationshipType
+RETURN {name:'relationshipTypes', data:COLLECT(relationshipType)[..1000]} AS result
+UNION ALL
+CALL db.propertyKeys() YIELD propertyKey
+RETURN {name:'propertyKeys', data:COLLECT(propertyKey)[..1000]} AS result
+ - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:26:46.856+0000 INFO  id:371 - transaction id:354 - 7 ms: (planning: 1, waiting: 0) - 36120 B - 374 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39350	server/172.20.0.2:7687>	neo4j - neo4j - 
+CALL db.labels() YIELD label
+RETURN {name:'labels', data:COLLECT(label)[..1000]} AS result
+UNION ALL
+CALL db.relationshipTypes() YIELD relationshipType
+RETURN {name:'relationshipTypes', data:COLLECT(relationshipType)[..1000]} AS result
+UNION ALL
+CALL db.propertyKeys() YIELD propertyKey
+RETURN {name:'propertyKeys', data:COLLECT(propertyKey)[..1000]} AS result
+ - {} - runtime=pipelined - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:26:46.861+0000 INFO  Query started: id:373 - transaction id:1319 - 1 ms: (planning: 1, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39368	server/172.20.0.2:7687>	system - neo4j - SHOW ALIASES FOR DATABASE - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:26:46.862+0000 INFO  Query started: id:374 - transaction id:1317 - 0 ms: (planning: 0, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39312	server/172.20.0.2:7687>	system - neo4j - SHOW PROCEDURES yield name, description, signature - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:26:46.863+0000 INFO  id:372 - transaction id:1320 - 13 ms: (planning: 0, waiting: 0) - -1 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39344	server/172.20.0.2:7687>	system - neo4j - SHOW FUNCTIONS yield name, description, signature - {} - runtime=system - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:26:46.865+0000 INFO  id:373 - transaction id:1319 - 5 ms: (planning: 1, waiting: 0) - -1 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39368	server/172.20.0.2:7687>	system - neo4j - SHOW ALIASES FOR DATABASE - {} - runtime=system - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:26:46.867+0000 INFO  id:370 - transaction id:1318 - 19 ms: (planning: 2, waiting: 0) - -1 B - 15 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39356	server/172.20.0.2:7687>	system - neo4j - SHOW DATABASES - {} - runtime=system - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:26:46.880+0000 INFO  id:374 - transaction id:1317 - 18 ms: (planning: 1, waiting: 0) - -1 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39312	server/172.20.0.2:7687>	system - neo4j - SHOW PROCEDURES yield name, description, signature - {} - runtime=system - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:26:47.064+0000 INFO  Query started: id:375 - transaction id:355 - 0 ms: (planning: 0, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39312	server/172.20.0.2:7687>	neo4j - neo4j - 
+MATCH () RETURN { name:'nodes', data:count(*) } AS result
+UNION ALL
+MATCH ()-[]->() RETURN { name:'relationships', data: count(*)} AS result
+ - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:26:47.065+0000 INFO  Query started: id:376 - transaction id:1323 - 0 ms: (planning: 0, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39344	server/172.20.0.2:7687>	system - neo4j - CALL dbms.showCurrentUser() - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:26:47.067+0000 INFO  id:375 - transaction id:355 - 2 ms: (planning: 1, waiting: 0) - 1200 B - 4 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39312	server/172.20.0.2:7687>	neo4j - neo4j - 
+MATCH () RETURN { name:'nodes', data:count(*) } AS result
+UNION ALL
+MATCH ()-[]->() RETURN { name:'relationships', data: count(*)} AS result
+ - {} - runtime=pipelined - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:26:47.073+0000 INFO  id:376 - transaction id:1323 - 8 ms: (planning: 6, waiting: 0) - -1 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39344	server/172.20.0.2:7687>	system - neo4j - CALL dbms.showCurrentUser() - {} - runtime=system - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:27:46.857+0000 INFO  Query started: id:378 - transaction id:1362 - 0 ms: (planning: 0, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39356	server/172.20.0.2:7687>	system - neo4j - SHOW FUNCTIONS yield name, description, signature - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:27:46.857+0000 INFO  Query started: id:379 - transaction id:356 - 0 ms: (planning: 0, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39344	server/172.20.0.2:7687>	neo4j - neo4j - 
+CALL db.labels() YIELD label
+RETURN {name:'labels', data:COLLECT(label)[..1000]} AS result
+UNION ALL
+CALL db.relationshipTypes() YIELD relationshipType
+RETURN {name:'relationshipTypes', data:COLLECT(relationshipType)[..1000]} AS result
+UNION ALL
+CALL db.propertyKeys() YIELD propertyKey
+RETURN {name:'propertyKeys', data:COLLECT(propertyKey)[..1000]} AS result
+ - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:27:46.857+0000 INFO  Query started: id:377 - transaction id:1364 - 0 ms: (planning: 0, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39312	server/172.20.0.2:7687>	system - neo4j - SHOW PROCEDURES yield name, description, signature - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:27:46.857+0000 INFO  Query started: id:380 - transaction id:1365 - 0 ms: (planning: 0, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39368	server/172.20.0.2:7687>	system - neo4j - SHOW DATABASES - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:27:46.857+0000 INFO  Query started: id:381 - transaction id:1363 - 0 ms: (planning: 0, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39350	server/172.20.0.2:7687>	system - neo4j - SHOW ALIASES FOR DATABASE - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:27:46.861+0000 INFO  id:381 - transaction id:1363 - 4 ms: (planning: 0, waiting: 0) - -1 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39350	server/172.20.0.2:7687>	system - neo4j - SHOW ALIASES FOR DATABASE - {} - runtime=system - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:27:46.863+0000 INFO  id:379 - transaction id:356 - 6 ms: (planning: 1, waiting: 0) - 36120 B - 374 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39344	server/172.20.0.2:7687>	neo4j - neo4j - 
+CALL db.labels() YIELD label
+RETURN {name:'labels', data:COLLECT(label)[..1000]} AS result
+UNION ALL
+CALL db.relationshipTypes() YIELD relationshipType
+RETURN {name:'relationshipTypes', data:COLLECT(relationshipType)[..1000]} AS result
+UNION ALL
+CALL db.propertyKeys() YIELD propertyKey
+RETURN {name:'propertyKeys', data:COLLECT(propertyKey)[..1000]} AS result
+ - {} - runtime=pipelined - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:27:46.868+0000 INFO  id:380 - transaction id:1365 - 11 ms: (planning: 1, waiting: 0) - -1 B - 15 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39368	server/172.20.0.2:7687>	system - neo4j - SHOW DATABASES - {} - runtime=system - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:27:46.871+0000 INFO  id:378 - transaction id:1362 - 14 ms: (planning: 1, waiting: 0) - -1 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39356	server/172.20.0.2:7687>	system - neo4j - SHOW FUNCTIONS yield name, description, signature - {} - runtime=system - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:27:46.877+0000 INFO  id:377 - transaction id:1364 - 20 ms: (planning: 1, waiting: 0) - -1 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39312	server/172.20.0.2:7687>	system - neo4j - SHOW PROCEDURES yield name, description, signature - {} - runtime=system - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:27:47.031+0000 INFO  Query started: id:382 - transaction id:1368 - 0 ms: (planning: 0, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39356	server/172.20.0.2:7687>	system - neo4j - CALL dbms.showCurrentUser() - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:27:47.031+0000 INFO  Query started: id:383 - transaction id:357 - 0 ms: (planning: 0, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39312	server/172.20.0.2:7687>	neo4j - neo4j - 
+MATCH () RETURN { name:'nodes', data:count(*) } AS result
+UNION ALL
+MATCH ()-[]->() RETURN { name:'relationships', data: count(*)} AS result
+ - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:27:47.033+0000 INFO  id:383 - transaction id:357 - 2 ms: (planning: 0, waiting: 0) - 1200 B - 4 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39312	server/172.20.0.2:7687>	neo4j - neo4j - 
+MATCH () RETURN { name:'nodes', data:count(*) } AS result
+UNION ALL
+MATCH ()-[]->() RETURN { name:'relationships', data: count(*)} AS result
+ - {} - runtime=pipelined - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:27:47.039+0000 INFO  id:382 - transaction id:1368 - 8 ms: (planning: 6, waiting: 0) - -1 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39356	server/172.20.0.2:7687>	system - neo4j - CALL dbms.showCurrentUser() - {} - runtime=system - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:28:46.847+0000 INFO  Query started: id:384 - transaction id:1410 - 0 ms: (planning: 0, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39350	server/172.20.0.2:7687>	system - neo4j - SHOW ALIASES FOR DATABASE - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:28:46.847+0000 INFO  Query started: id:385 - transaction id:1407 - 0 ms: (planning: 0, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39344	server/172.20.0.2:7687>	system - neo4j - SHOW DATABASES - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:28:46.847+0000 INFO  Query started: id:386 - transaction id:358 - 0 ms: (planning: 0, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39356	server/172.20.0.2:7687>	neo4j - neo4j - 
+CALL db.labels() YIELD label
+RETURN {name:'labels', data:COLLECT(label)[..1000]} AS result
+UNION ALL
+CALL db.relationshipTypes() YIELD relationshipType
+RETURN {name:'relationshipTypes', data:COLLECT(relationshipType)[..1000]} AS result
+UNION ALL
+CALL db.propertyKeys() YIELD propertyKey
+RETURN {name:'propertyKeys', data:COLLECT(propertyKey)[..1000]} AS result
+ - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:28:46.848+0000 INFO  Query started: id:387 - transaction id:1409 - 0 ms: (planning: 0, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39368	server/172.20.0.2:7687>	system - neo4j - SHOW FUNCTIONS yield name, description, signature - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:28:46.849+0000 INFO  Query started: id:388 - transaction id:1408 - 0 ms: (planning: 0, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39312	server/172.20.0.2:7687>	system - neo4j - SHOW PROCEDURES yield name, description, signature - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:28:46.851+0000 INFO  id:384 - transaction id:1410 - 4 ms: (planning: 1, waiting: 0) - -1 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39350	server/172.20.0.2:7687>	system - neo4j - SHOW ALIASES FOR DATABASE - {} - runtime=system - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:28:46.853+0000 INFO  id:386 - transaction id:358 - 5 ms: (planning: 0, waiting: 0) - 36120 B - 374 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39356	server/172.20.0.2:7687>	neo4j - neo4j - 
+CALL db.labels() YIELD label
+RETURN {name:'labels', data:COLLECT(label)[..1000]} AS result
+UNION ALL
+CALL db.relationshipTypes() YIELD relationshipType
+RETURN {name:'relationshipTypes', data:COLLECT(relationshipType)[..1000]} AS result
+UNION ALL
+CALL db.propertyKeys() YIELD propertyKey
+RETURN {name:'propertyKeys', data:COLLECT(propertyKey)[..1000]} AS result
+ - {} - runtime=pipelined - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:28:46.858+0000 INFO  id:387 - transaction id:1409 - 10 ms: (planning: 0, waiting: 0) - -1 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39368	server/172.20.0.2:7687>	system - neo4j - SHOW FUNCTIONS yield name, description, signature - {} - runtime=system - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:28:46.863+0000 INFO  id:385 - transaction id:1407 - 16 ms: (planning: 1, waiting: 0) - -1 B - 15 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39344	server/172.20.0.2:7687>	system - neo4j - SHOW DATABASES - {} - runtime=system - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:28:46.870+0000 INFO  id:388 - transaction id:1408 - 21 ms: (planning: 0, waiting: 0) - -1 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39312	server/172.20.0.2:7687>	system - neo4j - SHOW PROCEDURES yield name, description, signature - {} - runtime=system - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:28:47.041+0000 INFO  Query started: id:389 - transaction id:359 - 0 ms: (planning: 0, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39312	server/172.20.0.2:7687>	neo4j - neo4j - 
+MATCH () RETURN { name:'nodes', data:count(*) } AS result
+UNION ALL
+MATCH ()-[]->() RETURN { name:'relationships', data: count(*)} AS result
+ - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:28:47.043+0000 INFO  Query started: id:390 - transaction id:1413 - 0 ms: (planning: 0, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39344	server/172.20.0.2:7687>	system - neo4j - CALL dbms.showCurrentUser() - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:28:47.043+0000 INFO  id:389 - transaction id:359 - 2 ms: (planning: 0, waiting: 0) - 1200 B - 4 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39312	server/172.20.0.2:7687>	neo4j - neo4j - 
+MATCH () RETURN { name:'nodes', data:count(*) } AS result
+UNION ALL
+MATCH ()-[]->() RETURN { name:'relationships', data: count(*)} AS result
+ - {} - runtime=pipelined - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:28:47.052+0000 INFO  id:390 - transaction id:1413 - 9 ms: (planning: 7, waiting: 0) - -1 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39344	server/172.20.0.2:7687>	system - neo4j - CALL dbms.showCurrentUser() - {} - runtime=system - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:29:46.857+0000 INFO  Query started: id:391 - transaction id:1453 - 1 ms: (planning: 1, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39350	server/172.20.0.2:7687>	system - neo4j - SHOW DATABASES - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:29:46.857+0000 INFO  Query started: id:393 - transaction id:1452 - 0 ms: (planning: 0, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39368	server/172.20.0.2:7687>	system - neo4j - SHOW FUNCTIONS yield name, description, signature - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:29:46.857+0000 INFO  Query started: id:394 - transaction id:1454 - 0 ms: (planning: 0, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39312	server/172.20.0.2:7687>	system - neo4j - SHOW PROCEDURES yield name, description, signature - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:29:46.857+0000 INFO  Query started: id:392 - transaction id:360 - 0 ms: (planning: 0, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39344	server/172.20.0.2:7687>	neo4j - neo4j - 
+CALL db.labels() YIELD label
+RETURN {name:'labels', data:COLLECT(label)[..1000]} AS result
+UNION ALL
+CALL db.relationshipTypes() YIELD relationshipType
+RETURN {name:'relationshipTypes', data:COLLECT(relationshipType)[..1000]} AS result
+UNION ALL
+CALL db.propertyKeys() YIELD propertyKey
+RETURN {name:'propertyKeys', data:COLLECT(propertyKey)[..1000]} AS result
+ - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:29:46.857+0000 INFO  Query started: id:395 - transaction id:1455 - 0 ms: (planning: 0, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39356	server/172.20.0.2:7687>	system - neo4j - SHOW ALIASES FOR DATABASE - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:29:46.863+0000 INFO  id:395 - transaction id:1455 - 5 ms: (planning: 1, waiting: 0) - -1 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39356	server/172.20.0.2:7687>	system - neo4j - SHOW ALIASES FOR DATABASE - {} - runtime=system - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:29:46.867+0000 INFO  id:392 - transaction id:360 - 10 ms: (planning: 1, waiting: 0) - 36120 B - 374 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39344	server/172.20.0.2:7687>	neo4j - neo4j - 
+CALL db.labels() YIELD label
+RETURN {name:'labels', data:COLLECT(label)[..1000]} AS result
+UNION ALL
+CALL db.relationshipTypes() YIELD relationshipType
+RETURN {name:'relationshipTypes', data:COLLECT(relationshipType)[..1000]} AS result
+UNION ALL
+CALL db.propertyKeys() YIELD propertyKey
+RETURN {name:'propertyKeys', data:COLLECT(propertyKey)[..1000]} AS result
+ - {} - runtime=pipelined - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:29:46.872+0000 INFO  id:391 - transaction id:1453 - 16 ms: (planning: 2, waiting: 0) - -1 B - 15 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39350	server/172.20.0.2:7687>	system - neo4j - SHOW DATABASES - {} - runtime=system - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:29:46.872+0000 INFO  id:393 - transaction id:1452 - 15 ms: (planning: 1, waiting: 0) - -1 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39368	server/172.20.0.2:7687>	system - neo4j - SHOW FUNCTIONS yield name, description, signature - {} - runtime=system - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:29:46.882+0000 INFO  id:394 - transaction id:1454 - 26 ms: (planning: 1, waiting: 0) - -1 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39312	server/172.20.0.2:7687>	system - neo4j - SHOW PROCEDURES yield name, description, signature - {} - runtime=system - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:29:47.025+0000 INFO  Query started: id:397 - transaction id:1458 - 0 ms: (planning: 0, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39368	server/172.20.0.2:7687>	system - neo4j - CALL dbms.showCurrentUser() - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:29:47.025+0000 INFO  Query started: id:396 - transaction id:361 - 0 ms: (planning: 0, waiting: 0) - 0 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39312	server/172.20.0.2:7687>	neo4j - neo4j - 
+MATCH () RETURN { name:'nodes', data:count(*) } AS result
+UNION ALL
+MATCH ()-[]->() RETURN { name:'relationships', data: count(*)} AS result
+ - {} - runtime=null - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:29:47.028+0000 INFO  id:396 - transaction id:361 - 2 ms: (planning: 0, waiting: 0) - 1200 B - 4 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39312	server/172.20.0.2:7687>	neo4j - neo4j - 
+MATCH () RETURN { name:'nodes', data:count(*) } AS result
+UNION ALL
+MATCH ()-[]->() RETURN { name:'relationships', data: count(*)} AS result
+ - {} - runtime=pipelined - {app: 'neo4j-browser_v5.15.0', type: 'system'}
+2026-05-21 02:29:47.038+0000 INFO  id:397 - transaction id:1458 - 12 ms: (planning: 10, waiting: 0) - -1 B - 0 page hits, 0 page faults - bolt-session	bolt	neo4j-browser/v5.15.0		client/172.20.0.1:39368	server/172.20.0.2:7687>	system - neo4j - CALL dbms.showCurrentUser() - {} - runtime=system - {app: 'neo4j-browser_v5.15.0', type: 'system'}
