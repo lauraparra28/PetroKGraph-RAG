@@ -1,0 +1,42 @@
+✅ Qual é a unidade litoestratigrafica que faz parte de Formação Manacapuru?"
+✅ Quantos poços estão localizados na bacia AMAZONAS?
+✅ Quantos poços estão localizados na bacia CAMAMU-ALMADA?
+✅ Que unidades litoestratigráficas atravessam que são constituídas por rochas do tipo dolomito?
+✅ Que unidades litoestratigráficas atravessam que são constituídas por rochas do tipo clay? 
+✅ Em que bacia está localizado o poço 9-FZ-27-AM? POCO_CD_POCO_022712
+✅ Em que bacia está localizado o poço 1MD-0001-AM?
+✅ Em que bacia está localizado o campo MORRO DO BARRO?
+✅ Em que bacia está localizado o campo CAMP_CD_CAMPO_0633?
+✅ Quais campos estao localizados na bacia AMAZONAS?
+✅ Em que bacia está localizado o campo Rio Uatuma de ID CAMP_CD_CAMPO_0131?
+✅ Que unidades litoestratigráficas o poço 1-LG-3-AM atravessa que são constituídas por rochas do tipo sandstone?
+✅ Que UNIDADES LITOESTRATIGRÁFICAS o poço 1-LT-1-AM de URI POCO_CD_POCO_022819 atravessa que são constituídas por MATERIAL do tipo taquidrita?
+✅ Que unidades litoestratigráficas atravessam o poço POCO_CD_POCO_022712?
+✅ Quantos campos estao localizados nas bacias do grafo?
+
+29-05-2025
+✅ Quais são os poços localizados no campo CAMP_CD_CAMPO_0888?
+✅ Qual é a localização de Formação Taipus-Mirim? 
+✅ Qual é a localização da formacao_343?
+✅ Que unidades litoestratigráficas o poço POCO_CD_POCO_022752 atravessa que são constituídas por material do tipo folhelho?
+
+06-08-2025
+✅ Que unidades litoestratigráficas o poço POCO_CD_POCO_005753 atravessa?
+✅ Que unidades litoestratigráficas o poço POCO_CD_POCO_022766 atravessa que são constituídas por material do tipo diabásio?
+✅ Em quais campos atravessam as unidades litoestratigraficas que apresentam a estrutura geológica Estratificação Cruzada?
+
+12-08-2025
+✅ Quais sao os nomes da unidade litoestratigrafica membro_052?
+✅ Em que bacia está localizado o poço 1-MD-1-AM?
+✅ Quais sao os nomes do poço POCO_CD_POCO_022993?
+✅ Quais outros nomes possíveis para o poço BCST-1? 
+✅ Que unidades litoestratigráficas atravessa o poço 1AQ-1-AM (POCO_CD_POCO_022753) que são constituídas por material do tipo folhelho?
+
+28/08/2025 - hybrid_rag_KG.py
+    q2 = "Que unidades litoestratigráficas o poço 2-CAST-0002-AM atravessa que são constituídas por rochas do tipo conglomerado?"
+    # Em que bacia está localizado o poço 1MD-0001-AM?
+    # O que é um sandstone?
+    # O que é um(a) quartzoarenito?
+    # Que unidades litoestratigráficas o poço 2-CAST-0002-AM atravessa que são constituídas por rochas do tipo conglomerado?" 
+    # Descreva a unidade cronoestratigráfica Paibiano.
+    # Que unidades litoestratigráficas o poco POCO_CD_POCO_022749 atravessa?

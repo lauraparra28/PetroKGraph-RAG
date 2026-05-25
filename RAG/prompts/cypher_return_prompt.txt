@@ -1,0 +1,132 @@
+Task:Generate Cypher statement to query a graph database.
+
+Instructions:
+Only use node labels, relationship types and properties defined in the schema.
+Do not use any other relationship types or properties that are not provided.
+Do not include any explanations or apologies in your responses.
+Do not respond to any questions that might ask anything else than for you to construct a Cypher statement.
+Do not include any text except the generated Cypher statement.
+
+Schema:
+{schema}
+
+Node‐label mapping:
+   - “poco”, “poço” → `:well`  
+   - “campo” → `:field`  
+   - “bacia” → `:basin`  
+   - “unidade litoestratigráfica”, “formação” → `:lithostratigraphic_unit`  
+   - “estrutura geologica” → `:geological_structure`
+
+Matching rules for basin, wells or fields, any node:
+- If the question contains an internal code (e.g. “POCO_CD_POCO_XXXXX”), only match on `well._id`.
+- If the question contains an internal code (e.g. “CAMP_CD_CAMPO_XXXX”), only match on `field._id`.
+- If the question contains an internal code (e.g. “BASE_CD_BACIA_XXX”), only match on `basin._id`.
+- If the question contains an internal code (e.g. “formacao_XXX” or “grupo_XXX” or “membro_XXX”), only match on `lithostratigraphic_unit._id`.
+- If the the question contains an internal code (e.g. “TEFR_CD_TIPO_EST_FISICA_ROCHA__XXX”), only match on `geological_structure._id`.
+- If the question ask for the name of a node or entity, return on . rdfs_label.
+- Only if it contains a human-readable label or name (e.g. “1-MD-1-AM”, "1RSO0001BA", "3JI-0004-BA", or “AMAZONAS”), match on `well.rdfs_label` or `basin.rdfs_label` or . rdfs_label.
+
+Examples: Here are a few examples of generated Cypher statements for particular questions:
+
+# Que unidades litoestratigráficas o poço 9-FZ-13-AM atravessa que são constituídas por MATERIAL do tipo silexito?
+MATCH (p:well)-[r1:crosses]->(f:lithostratigraphic_unit)-[r2:constituted_by]->(m:silexite)
+WHERE "9-FZ-13-AM" IN p.rdfs_label
+RETURN p,f,m, r1, r2
+
+# Em quais campos estão as unidades litoestratigráficas que apresentam ESTRUTURA GEOLÓGICA Estratificação Cruzada Sigmoidal?
+MATCH (f:field)<-[r1:located_in]-(w:well)-[r2:crosses]->(n:lithostratigraphic_unit)
+-[c:carrier_of]->(g:geological_structure)
+WHERE "Estratificação Cruzada Sigmoidal" IN g.rdfs_label
+RETURN f, r1, w, r2, n
+
+# Qual é o nome da formacao_187?
+MATCH (f:lithostratigraphic_unit {{_id: "formacao_187"}})
+RETURN f
+
+# Qual é a idade geologica de Fm. Rio de Contas?
+MATCH (f:lithostratigraphic_unit)-[r:has_age]->(p)
+WHERE "Fm. Rio de Contas" IN f.rdfs_label
+RETURN f, r, p
+
+#Em que bacia está localizado o campo MORRO DO BARRO?
+MATCH (f:field)-[r:located_in]->(b:basin)
+WHERE "MORRO DO BARRO" IN f.rdfs_label
+RETURN f, r, b
+
+#Qual é o nome de CAMP_CD_CAMPO_0131?
+MATCH (f:field {{_id: "CAMP_CD_CAMPO_0131"}})
+RETURN f
+
+#Em que bacia está localizado o poço 1-MD-1-AM?
+MATCH (w:well)-[r:located_in]->(b:basin)
+WHERE "1-MD-1-AM" IN w.rdfs_label
+RETURN w, r, b
+
+# Em que bacia está localizado o poço 1RSO0001BA?
+MATCH (w:well)-[r:located_in]->(b:basin)
+WHERE "1RSO0001BA" IN w.rdfs_label
+RETURN w, r, b
+
+# Qual é a unidade litoestratigráfica que faz parte de Formação Manacapuru?
+MATCH (f:lithostratigraphic_unit)-[r:part_of]->(p:lithostratigraphic_unit) 
+WHERE "Formação Manacapuru" IN f.rdfs_label
+RETURN f, r, p
+
+# Que unidades litoestratigráficas o poço 1BR0001PA atravessa?
+MATCH (w:well)-[r:crosses]->(f:lithostratigraphic_unit)
+WHERE "1BR0001PA" IN w.rdfs_label
+RETURN w, r, f
+
+#Que unidades litoestratigraficas o poço 3-BRSA-599DP-BAS atravessa?
+MATCH (w:well)-[r:crosses]->(f:lithostratigraphic_unit)
+WHERE "3-BRSA-599DP-BAS" IN w.rdfs_label
+RETURN w, r, f
+
+# Quais unidades litoestratigráficas atravessam o poco POCO_CD_POCO_023016?
+MATCH (w:well {{_id:"POCO_CD_POCO_023016"}})-[r:crosses]->(u:lithostratigraphic_unit)
+RETURN w, r, u
+
+# Quais formações estão constituídas pelo material chamado siltito?
+MATCH (f:lithostratigraphic_unit)-[r:constituted_by]->(m:siltstone)
+RETURN f, r, m
+
+# Quantos campos estao localizados nas bacias do grafo?
+MATCH (f:field)-[:located_in]->(b:basin)
+RETURN COUNT(DISTINCT f) AS numero_de_campos
+
+# Quantos poços da bacia AMAZONAS atravessam unidades litoestratigráficas que são constituídas por rochas do tipo filito?
+MATCH (b:basin)<-[:located_in]-(w:well)-[:crosses]->(u:lithostratigraphic_unit)-[:constituted_by]->(m:phyllite)
+WHERE "AMAZONAS" IN b.rdfs_label
+RETURN COUNT(DISTINCT w) AS numero_de_pocos
+
+# Qual a idade geológica das unidades litoestratigráficas constituídas por gás seco?
+MATCH (p:dry_gas)<-[r1:constituted_by]-(n:lithostratigraphic_unit)-[r:has_age]->(l)
+RETURN p, r1, n, r, l
+
+# Quantos poços estão localizados na bacia AMAZONAS?
+MATCH (w:well)-[:located_in]->(b:basin)
+WHERE "AMAZONAS" IN b.rdfs_label
+RETURN COUNT(DISTINCT w) AS numero_de_pocos
+
+# Quais campos estao localizados na bacia AMAZONAS?
+MATCH (f:field)-[r:located_in]->(b:basin)
+WHERE "AMAZONAS" IN b.rdfs_label
+RETURN f, r, b
+
+# Em quais campos atravessam as unidades litoestratigráficas que apresentam estrutura geológica TEFR_CD_TIPO_EST_FISICA_ROCHA_199?
+MATCH (f:field)<-[r1:located_in]-(w:well)-[r2:crosses]->(n:lithostratigraphic_unit)-[c:carrier_of]->(g:geological_structure)
+WHERE g._id CONTAINS "TEFR_CD_TIPO_EST_FISICA_ROCHA_199"
+RETURN f, r1, w, r2, n, c, g
+
+# O que é um(a) sandstone?
+MATCH (r:Class)
+WHERE ANY(label IN r.rdfs_label WHERE split(label,"@")[0] CONTAINS "sandstone")
+RETURN r
+
+# Descreva a unidade cronoestratigráfica Paibiano.
+MATCH (u:geological_time_interval)
+WHERE "Paibiano" IN u.rdfs_label
+RETURN u
+
+The question is:
+{question}

@@ -1,0 +1,22 @@
+18/08/2025
+✅ O que é um(a) mudstone?
+✅ Contexto obtenido:
+mudstone ; mudstone@pt ; mudstone@en: Mudstone is a matrix-supported muddy Carbonate Rock containing less than 10% grains (sand size or larger).@en Mudstone é uma Rocha Carbonática lamacenta suportada por matriz, contendo menos de 10% de grãos (tamanho de areia ou maiores).@pt
+📝 Respuesta del LLM:
+Mudstone é uma Rocha Carbonática lamacenta suportada por matriz, contendo menos de 10% de grãos (tamanho de areia ou maiores).
+
+✅ O que é um(a) arcose?
+✅ Contexto obtenido:
+Andar Pleistoceno Médio ; Pleistoceno Médio ; Idade Mesopleistoceno ; Mesopleistoceno: Andar Pleistoceno Médio Pleistoceno Médio Idade Mesopleistoceno Mesopleistoceno
+arcose@en ; arcósio ; arcóseo@pt ; arcóseo ; arcósio@pt: Arcósio (ou arcóseo) é um Arenito com mais de 25% de feldspato e quartzo como principais constituintes; também pode conter fragmentos líticos; feldspato alcalino domina o feldspato total; a maioria dos arcósios é derivada de granitos ou gnaisses.@pt Arcose is a Sandstone with feldspar more than 25% and quartz as major constituents; it can also contain lithic fragments; alkali-feldspar dominates the total feldspar; most arkoses are derived from granites or gneisses.@en
+📝 Respuesta del LLM:
+Arcósio (ou arcóseo) é um Arenito com mais de 25% de feldspato e quartzo como principais constituintes; também pode conter fragmentos líticos; feldspato alcalino domina o feldspato total; a maioria dos arcósios é derivada de granitos ou gnaisses.
+
+❌ O que é um(a) argilito?
+📝 Respuesta del LLM: Sem dados suficientes no contexto.
+
+O que é um(a) sandstone?
+✅ Contexto obtenido:
+psamito@pt ; psamito ; sandstone@en ; arenito ; arenito@pt: Arenito (ou psamito) é uma Rocha Siliciclástica com um tamanho médio de grão entre 0,063mm e 2mm.@pt Sandstone is a Siliciclastic Rock with a median grain size between 0.063mm and 2mm.@en
+📝 Respuesta del LLM:
+Arenito (ou psamito) é uma Rocha Siliciclástica com um tamanho médio de grão entre 0,063mm e 2mm.
