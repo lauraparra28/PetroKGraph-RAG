@@ -149,6 +149,9 @@ def format_with_synonyms(synonyms_list):
 
 def gen_questions(fields, basins, wells, formations, graph, random_sample=False):
     questions = []
+    aggregation_questions = []
+    def_questions = []
+    onehop_questions = []
     multihop_questions = []
     id_counter = 0 
 
@@ -169,7 +172,7 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
                 answer_text = [["Não há outros nomes."]]
                 context_text = f"O campo {main_name} não possui outros nomes conhecidos além de {main_name}."
 
-            questions.append({
+            aggregation_questions.append({
                     "id": id_counter,
                     "level": 0,
                     "question": f"Quais outros nomes possíveis para o campo {main_name}?",
@@ -203,7 +206,7 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
             if subanswers:
                 context_text = ", ".join(context_parts)
                 id_counter += 1
-                questions.append({
+                onehop_questions.append({
                     "id": id_counter,
                     "level": 1,
                     "question": f"Em que bacia está localizado o campo {field_name_principal}?",
@@ -247,7 +250,7 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
         count = data["count"]
 
         id_counter += 1
-        questions.append({
+        onehop_questions.append({
             "id": id_counter,
             "level": 2, # Nivel verificado 1-HOP
             "question": f"Quantos campos estão localizados na bacia {bacia_label} de URI {bacia_uri_id}?",
@@ -262,7 +265,7 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
         campos_joined = ", ".join(campos_list)
 
         id_counter += 1
-        questions.append({
+        onehop_questions.append({
             "id": id_counter,
             "level": 2, # Nivel verificado 1-HOP
             "question": f"Quais são os campos localizados na bacia {bacia_label} de URI {bacia_uri_id}?",
@@ -295,7 +298,7 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
                 answer_text = [["Não há outros nomes."]]
                 context_text = f"O poço {main_name} não possui outros nomes conhecidos além de {main_name}."
 
-            questions.append({
+            aggregation_questions.append({
                     "id": id_counter,
                     "level": 0,
                     "question": f"Quais outros nomes possíveis para o poço {main_name}?",
@@ -336,7 +339,7 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
 
                 context_text = ", ".join(basins_context_parts)
                 id_counter += 1
-                questions.append({
+                onehop_questions.append({
                     "id": id_counter,
                     "level": 1,
                     "question": f"Em que bacia está localizado o poço {well_name_principal}?",
@@ -370,7 +373,7 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
             if fields_subanswers:
                 context_text = ", ".join(fields_context_parts)
                 id_counter += 1
-                questions.append({
+                onehop_questions.append({
                     "id": id_counter,
                     "level": 2, # Nivel verificado 1-HOP
                     "question": f"Em que campo está localizado o poço {well_name_principal}?",
@@ -401,7 +404,7 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
             if subanswers:
                 context_text = ", ".join(context_parts)
                 id_counter += 1
-                questions.append({
+                onehop_questions.append({
                     "id": id_counter,
                     "level": 2, # Nivel verificado 1-HOP
                     "question": f"Que unidades litoestratigráficas o poço {well_name_principal} atravessa?",
@@ -435,7 +438,7 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
             if subanswers:
                 context_text = ", ".join(context_parts)
                 id_counter += 1
-                questions.append({
+                onehop_questions.append({
                     "id": id_counter,
                     "level": 2, # Nivel verificado 1-HOP
                     "question": f"Que estruturas geológicas são apresentadas por {formation_name_principal}?",
@@ -489,7 +492,7 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
         if subanswers:
             context_text = ", ".join(context_parts)
             id_counter += 1
-            questions.append({
+            onehop_questions.append({
                 "id": id_counter,
                 "level": 2,  # Nivel verificado 1-HOP
                 "question": f"Quais são os poços localizados no campo {field_label_principal}?",
@@ -539,7 +542,7 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
 
 
         id_counter += 1
-        questions.append({
+        onehop_questions.append({
             "id": id_counter,         
             "level": 2,  # Nivel verificado 1-HOP
             "question": f"Quantos poços estão localizados na bacia {bacia_label_principal}?",
@@ -621,8 +624,9 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
             if unit_labels:
                 subanswers = [unit_labels]
                 units_text = ", ".join(unit_labels)
-
+                id_counter += 1
                 multihop_questions.append({
+                    "id": id_counter,
                     "level": 3, # Nivel verificado MULTI-HOP
                     "question": (
                         f"Que unidades litoestratigráficas o poço {well_name_principal} atravessa "
@@ -635,16 +639,6 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
                     ),
                     "gold_cypher": (f"MATCH (w:well)-[:crosses]->(f:lithostratigraphic_unit)-[:constituted_by]->(m:NamedIndividual) WHERE '{well_name_principal}' IN w.rdfs_label AND '{lithology_label}' IN m.rdfs_label RETURN f.rdfs_label")
                 })                  
-
-    if random_sample:
-        random.seed(2025)
-        multihop_questions = random.sample(multihop_questions, min(343, len(multihop_questions)))
-
-    for q in multihop_questions:
-        id_counter += 1
-        q["id"] = id_counter
-        questions.append(q)
-    
 
     materials_to_formations = {}
     for fluid_class_uri_str in fluids_dict.keys():
@@ -693,7 +687,7 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
             if subanswers:
                 context_text = ", ".join(context_parts)
                 id_counter += 1
-                questions.append({
+                onehop_questions.append({
                     "id": id_counter,
                     "level": 2, # Nivel verificado 1-HOP
                     "question": (
@@ -753,7 +747,7 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
                 formations_str = ", ".join(combined_formations_context)
 
                 id_counter += 1
-                questions.append({
+                multihop_questions.append({
                     "id": id_counter,
                     "level": 3, # Nivel verificado MULTI-HOP
                     "question": (
@@ -787,7 +781,7 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
 
         if wells_set:
             id_counter += 1
-            questions.append({
+            multihop_questions.append({
                 "id": id_counter,
                 "level": 3, # Nivel verificado MULTI-HOP
                 "question": f"Quantos poços atravessam unidades litoestratigráficas constituídas por {fluid_name_formatted}?",
@@ -824,7 +818,7 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
 
             context_text = ", ".join(context_parts)
             id_counter += 1
-            questions.append({
+            multihop_questions.append({
                 "id": id_counter,
                 "level": 3, # Nivel verificado MULTI-HOP
                 "question": f"Em quais bacias estão as unidades litoestratigráficas constituídas por {fluid_name_formatted}?",
@@ -867,7 +861,7 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
 
             context_text = ", ".join(context_parts)
             id_counter += 1
-            questions.append({
+            multihop_questions.append({
                 "id": id_counter,
                 "level": 3, # Nivel verificado MULTI-HOP
                 "question": f"Em quais campos estão as unidades litoestratigráficas constituídas por {fluid_name_formatted}?",
@@ -888,7 +882,7 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
         if struct_set:
             context_text = ", ".join(struct_set)
             id_counter += 1
-            questions.append({
+            multihop_questions.append({
                 "id": id_counter,
                 "level": 3, # Nivel verificado MULTI-HOP
                 "question": f"Quais estruturas geológicas ocorrem nas unidades litoestratigráficas constituídas por {fluid_name_formatted}?",
@@ -947,7 +941,7 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
             fields_text = ", ".join(fields_list)
 
             id_counter += 1
-            questions.append({
+            multihop_questions.append({
                 "id": id_counter,
                 "level": 3, # Nivel verificado MULTI-HOP
                 "question": (
@@ -1000,7 +994,7 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
     for rock_uri, (rock_label, rock_definition) in rock_data.items():
 
         id_counter += 1
-        questions.append({
+        def_questions.append({
             "id": id_counter,
             "level": 4, #definition verified
             "question": f"O que é um(a) {rock_label}?",
@@ -1067,7 +1061,7 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
 
             if wells_count > 0:
                 id_counter += 1
-                questions.append({
+                multihop_questions.append({
                     "id": id_counter,
                     "level": 3, # Nivel verificado MULTI-HOP
                     "question": (
@@ -1080,8 +1074,7 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
                         f"com rochas do tipo {litologia}." ),
                     "gold_cypher": (f"MATCH (b:basin)<-[:located_in]-(w:well)-[:crosses]->(u:lithostratigraphic_unit)-[:constituted_by]->(m:NamedIndividual) WHERE '{basin_label}' IN b.rdfs_label AND '{litologia}' IN m.rdfs_label RETURN COUNT(DISTINCT w) AS numero_de_pocos")
                 })           
-
-
+    
     # ===============================================================
     # 11) Descreva a [UNIDADE CRONOESTRATIGRÁFICA]
     # ===============================================================
@@ -1117,7 +1110,7 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
     for unit, (label_pt, definition_pt) in unit_to_data.items():
 
         id_counter += 1
-        questions.append({
+        def_questions.append({
             "id": id_counter,
             "level": 4, # definition verified
             "question": f"Descreva a unidade cronoestratigráfica {label_pt}.",
@@ -1126,6 +1119,26 @@ def gen_questions(fields, basins, wells, formations, graph, random_sample=False)
             "gold_cypher": f"MATCH (u:geological_time_interval) WHERE '{label_pt}' IN u.rdfs_label WITH [x IN u.definition WHERE x ENDS WITH '@pt'] AS def_pt RETURN def_pt",
 
         })
+        
+    if random_sample:
+        random.seed(2025)
+        aggregation_questions = random.sample(aggregation_questions, min(400, len(aggregation_questions)))
+        onehop_questions = random.sample(onehop_questions, min(400, len(onehop_questions)))
+        multihop_questions = random.sample(multihop_questions, min(400, len(multihop_questions)))
+        def_questions = random.sample(def_questions, min(400, len(def_questions)))
+
+    for q in aggregation_questions:
+        questions.append(q)
+        
+    for q in onehop_questions:
+        questions.append(q)
+        
+    for q in multihop_questions:
+        questions.append(q)
+        
+    for q in def_questions:
+        questions.append(q)
+        
 
     return questions
 
