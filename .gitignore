@@ -1,4 +1,3 @@
 Dataset/data
 neo4j/
 *.conllu
-*.json
