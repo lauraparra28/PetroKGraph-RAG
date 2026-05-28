@@ -20,7 +20,7 @@ def load_prompts():
 
 def load_dataset():
     datasets = {}
-    dataset_dir = os.path.join(parent_dir, 'KG data')
+    dataset_dir = os.path.join(parent_dir, 'data')
     for filename in os.listdir(dataset_dir):
         if filename.endswith('.json'):
             with open(os.path.join(dataset_dir, filename), 'r', encoding='utf-8') as file:

@@ -1173,3 +1173,268 @@
 2026-05-21 02:23:01.456+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] [neo4j/55ee1c6b] Checkpoint triggered by "Scheduled checkpoint for every 15 minutes threshold" @ txId: 235 checkpoint started...
 2026-05-21 02:23:01.994+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] [neo4j/55ee1c6b] Checkpoint triggered by "Scheduled checkpoint for every 15 minutes threshold" @ txId: 235 checkpoint completed in 538ms. Checkpoint flushed 4084 pages (6% of total available pages), in 1459 IOs. Checkpoint performed with IO limit: 600, paused in total 4 times( 246 millis).
 2026-05-21 02:23:01.995+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] [neo4j/55ee1c6b] No log version pruned. The strategy used was '2 days 2147483648 size'. 
+2026-05-21 03:02:02.445+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=340, gcTime=0, gcCount=0}
+2026-05-21 03:02:53.631+0000 INFO  [o.n.c.i.c.CypherQueryCaches] [neo4j/55ee1c6b] Discarded stale query from the query cache after 3065 seconds. Reason: NodesAllCardinality changed from 13672.0 to 36962.0, which is a divergence of 0.6301065959634219 which is greater than threshold 0.4193538534562659. Query id: 635.
+2026-05-21 03:02:53.785+0000 INFO  [o.n.c.i.c.CypherQueryCaches] [neo4j/55ee1c6b] Discarded stale query from the query cache after 3065 seconds. Reason: CardinalityByLabelsAndRelationshipType(None,None,None) changed from 67642.0 to 221284.0, which is a divergence of 0.6943204208166881 which is greater than threshold 0.4193485896608292. Query id: 636.
+2026-05-21 03:03:01.961+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] [neo4j/55ee1c6b] Checkpoint triggered by "Scheduled checkpoint for every 15 minutes threshold" @ txId: 238 checkpoint started...
+2026-05-21 03:03:02.091+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] [neo4j/55ee1c6b] Checkpoint triggered by "Scheduled checkpoint for every 15 minutes threshold" @ txId: 238 checkpoint completed in 130ms. Checkpoint flushed 532 pages (0% of total available pages), in 109 IOs. Checkpoint performed with IO limit: 600, paused in total 1 times( 35 millis).
+2026-05-21 03:03:02.091+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] [neo4j/55ee1c6b] No log version pruned. The strategy used was '2 days 2147483648 size'. 
+2026-05-21 03:33:37.060+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [neo4j/55ee1c6b] Index population started: [Index( id=5, name='document_id', type='RANGE', schema=(:Document {id}), indexProvider='range-1.0' )]
+2026-05-21 03:33:37.084+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [neo4j/55ee1c6b] Index creation finished for index [Index( id=5, name='document_id', type='RANGE', schema=(:Document {id}), indexProvider='range-1.0' )].
+2026-05-21 03:33:37.098+0000 INFO  [o.n.k.i.a.i.IndexingService] [neo4j/55ee1c6b] Constraint Index( id=5, name='document_id', type='RANGE', schema=(:Label[166] {PropertyKey[36]}), indexProvider='range-1.0' ) is ONLINE.
+2026-05-21 03:33:37.134+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [neo4j/55ee1c6b] Index population started: [Index( id=7, name='sentence_id', type='RANGE', schema=(:Sentence {id}), indexProvider='range-1.0' )]
+2026-05-21 03:33:37.156+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [neo4j/55ee1c6b] Index creation finished for index [Index( id=7, name='sentence_id', type='RANGE', schema=(:Sentence {id}), indexProvider='range-1.0' )].
+2026-05-21 03:33:37.165+0000 INFO  [o.n.k.i.a.i.IndexingService] [neo4j/55ee1c6b] Constraint Index( id=7, name='sentence_id', type='RANGE', schema=(:Label[167] {PropertyKey[36]}), indexProvider='range-1.0' ) is ONLINE.
+2026-05-21 03:33:37.207+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [neo4j/55ee1c6b] Index population started: [Index( id=9, name='textchunk_id', type='RANGE', schema=(:TextChunk {id}), indexProvider='range-1.0' )]
+2026-05-21 03:33:37.224+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [neo4j/55ee1c6b] Index creation finished for index [Index( id=9, name='textchunk_id', type='RANGE', schema=(:TextChunk {id}), indexProvider='range-1.0' )].
+2026-05-21 03:33:37.235+0000 INFO  [o.n.k.i.a.i.IndexingService] [neo4j/55ee1c6b] Constraint Index( id=9, name='textchunk_id', type='RANGE', schema=(:Label[168] {PropertyKey[36]}), indexProvider='range-1.0' ) is ONLINE.
+2026-05-21 03:33:37.325+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [neo4j/55ee1c6b] Index population started: [Index( id=11, name='kgentity_local_id', type='RANGE', schema=(:KGEntity {local_id}), indexProvider='range-1.0' )]
+2026-05-21 03:33:37.870+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [neo4j/55ee1c6b] Index creation finished for index [Index( id=11, name='kgentity_local_id', type='RANGE', schema=(:KGEntity {local_id}), indexProvider='range-1.0' )].
+2026-05-21 03:33:42.072+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] [neo4j/55ee1c6b] Checkpoint triggered by "Scheduled checkpoint for every 15 minutes threshold" @ txId: 249 checkpoint started...
+2026-05-21 03:33:42.146+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] [neo4j/55ee1c6b] Checkpoint triggered by "Scheduled checkpoint for every 15 minutes threshold" @ txId: 249 checkpoint completed in 73ms. Checkpoint flushed 40 pages (0% of total available pages), in 39 IOs. Checkpoint performed with IO limit: 600, paused in total 0 times( 0 millis).
+2026-05-21 03:33:42.146+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] [neo4j/55ee1c6b] No log version pruned. The strategy used was '2 days 2147483648 size'. 
+2026-05-21 03:48:42.134+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] [neo4j/55ee1c6b] Checkpoint triggered by "Scheduled checkpoint for every 15 minutes threshold" @ txId: 294 checkpoint started...
+2026-05-21 03:48:42.771+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] [neo4j/55ee1c6b] Checkpoint triggered by "Scheduled checkpoint for every 15 minutes threshold" @ txId: 294 checkpoint completed in 636ms. Checkpoint flushed 1723 pages (2% of total available pages), in 819 IOs. Checkpoint performed with IO limit: 600, paused in total 6 times( 400 millis).
+2026-05-21 03:48:42.772+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] [neo4j/55ee1c6b] No log version pruned. The strategy used was '2 days 2147483648 size'. 
+2026-05-21 03:49:21.753+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [neo4j/55ee1c6b] Index population started: [Index( id=12, name='textchunk_document_id', type='RANGE', schema=(:TextChunk {document_id}), indexProvider='range-1.0' )]
+2026-05-21 03:49:21.765+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [neo4j/55ee1c6b] Index population started: [Index( id=13, name='textchunk_dataset_split', type='RANGE', schema=(:TextChunk {dataset_split}), indexProvider='range-1.0' )]
+2026-05-21 03:49:21.779+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [neo4j/55ee1c6b] Index creation finished for index [Index( id=12, name='textchunk_document_id', type='RANGE', schema=(:TextChunk {document_id}), indexProvider='range-1.0' )].
+2026-05-21 03:49:21.786+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [neo4j/55ee1c6b] Index creation finished for index [Index( id=13, name='textchunk_dataset_split', type='RANGE', schema=(:TextChunk {dataset_split}), indexProvider='range-1.0' )].
+2026-05-21 04:03:42.758+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] [neo4j/55ee1c6b] Checkpoint triggered by "Scheduled checkpoint for every 15 minutes threshold" @ txId: 321 checkpoint started...
+2026-05-21 04:03:43.583+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] [neo4j/55ee1c6b] Checkpoint triggered by "Scheduled checkpoint for every 15 minutes threshold" @ txId: 321 checkpoint completed in 824ms. Checkpoint flushed 1586 pages (2% of total available pages), in 730 IOs. Checkpoint performed with IO limit: 600, paused in total 8 times( 598 millis).
+2026-05-21 04:03:43.583+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] [neo4j/55ee1c6b] No log version pruned. The strategy used was '2 days 2147483648 size'. 
+2026-05-21 04:14:09.722+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [neo4j/55ee1c6b] Index population started: [Index( id=14, name='textchunk_embedding', type='VECTOR', schema=(:TextChunk {embedding}), indexProvider='vector-2.0' )]
+2026-05-21 04:14:10.188+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] [neo4j/55ee1c6b] Index creation finished for index [Index( id=14, name='textchunk_embedding', type='VECTOR', schema=(:TextChunk {embedding}), indexProvider='vector-2.0' )].
+2026-05-21 04:14:54.067+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=224, gcTime=0, gcCount=0}
+2026-05-21 04:18:43.586+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] [neo4j/55ee1c6b] Checkpoint triggered by "Scheduled checkpoint for every 15 minutes threshold" @ txId: 346 checkpoint started...
+2026-05-21 04:18:44.159+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] [neo4j/55ee1c6b] Checkpoint triggered by "Scheduled checkpoint for every 15 minutes threshold" @ txId: 346 checkpoint completed in 572ms. Checkpoint flushed 2373 pages (3% of total available pages), in 985 IOs. Checkpoint performed with IO limit: 600, paused in total 3 times( 212 millis).
+2026-05-21 04:18:44.159+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] [neo4j/55ee1c6b] No log version pruned. The strategy used was '2 days 2147483648 size'. 
+2026-05-21 04:22:07.048+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=287, gcTime=0, gcCount=0}
+2026-05-21 15:58:45.327+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=231, gcTime=0, gcCount=0}
+2026-05-21 20:15:49.809+0000 ERROR [o.n.b.p.c.c.a.e.ErrorAccountant] Increase in network aborts detected (more than 2 network related connection aborts over a period of 600000 ms) - This may indicate an issue with the network environment or an overload condition
+2026-05-21 22:00:11.099+0000 INFO  [o.n.b.p.c.c.a.e.ErrorAccountant] Network abort rate has normalized
+2026-05-21 23:19:16.533+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=348, gcTime=0, gcCount=0}
+2026-05-21 23:59:48.049+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=718, gcTime=0, gcCount=0}
+2026-05-22 17:24:24.154+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=667, gcTime=0, gcCount=0}
+2026-05-23 22:06:57.428+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=248, gcTime=0, gcCount=0}
+2026-05-23 22:06:57.654+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=767, gcTime=0, gcCount=0}
+2026-05-24 19:28:53.645+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=380, gcTime=0, gcCount=0}
+2026-05-25 02:01:22.086+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=275, gcTime=0, gcCount=0}
+2026-05-25 02:02:10.085+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=252, gcTime=0, gcCount=0}
+2026-05-25 02:39:53.485+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=1010, gcTime=0, gcCount=0}
+2026-05-25 03:17:12.448+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=361, gcTime=0, gcCount=0}
+2026-05-25 03:17:14.073+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=1442, gcTime=0, gcCount=0}
+2026-05-25 14:52:19.380+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=266, gcTime=0, gcCount=0}
+2026-05-25 14:55:26.752+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=783, gcTime=0, gcCount=0}
+2026-05-25 15:52:39.456+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=239, gcTime=0, gcCount=0}
+2026-05-25 18:43:16.773+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=295, gcTime=378, gcCount=1}
+2026-05-25 18:43:56.831+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=362, gcTime=438, gcCount=1}
+2026-05-25 18:53:18.292+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=454, gcTime=0, gcCount=0}
+2026-05-25 20:11:22.226+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=3471, gcTime=0, gcCount=0}
+2026-05-25 20:11:23.362+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=936, gcTime=0, gcCount=0}
+2026-05-25 20:11:23.368+0000 WARN  [a.c.ClusterHeartbeat] Cluster Node [akka://cc-discovery-actor-system@2ab40b722eec:5000] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [3612] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, CPU overload, or GC.
+2026-05-25 22:53:01.705+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [neo4j.BoltWorker-11 [bolt-236 - /172.20.0.1:41454]] Loading :: Start
+2026-05-25 22:53:01.741+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [neo4j.BoltWorker-11 [bolt-236 - /172.20.0.1:41454]] Loading :: Nodes :: Start
+2026-05-25 22:53:01.742+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [neo4j.BoltWorker-11 [bolt-236 - /172.20.0.1:41454]] Loading :: Nodes :: Store Scan :: Start
+2026-05-25 22:53:02.325+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [node-store-scan-2] Loading :: Nodes :: Store Scan 65%
+2026-05-25 22:53:02.348+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [neo4j.BoltWorker-11 [bolt-236 - /172.20.0.1:41454]] Loading :: Nodes :: Store Scan 100%
+2026-05-25 22:53:02.348+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [neo4j.BoltWorker-11 [bolt-236 - /172.20.0.1:41454]] Loading :: Nodes :: Store Scan :: Finished
+2026-05-25 22:53:02.393+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [neo4j.BoltWorker-11 [bolt-236 - /172.20.0.1:41454]] Loading :: Nodes :: Finished
+2026-05-25 22:53:02.396+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [neo4j.BoltWorker-11 [bolt-236 - /172.20.0.1:41454]] Loading :: Relationships :: Start
+2026-05-25 22:53:02.399+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [neo4j.BoltWorker-11 [bolt-236 - /172.20.0.1:41454]] Loading :: Relationships :: Store Scan :: Start
+2026-05-25 22:53:02.536+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [relationship-store-scan-2] Loading :: Relationships :: Store Scan 1%
+2026-05-25 22:53:02.537+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [relationship-store-scan-0] Loading :: Relationships :: Store Scan 3%
+2026-05-25 22:53:02.541+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [relationship-store-scan-1] Loading :: Relationships :: Store Scan 4%
+2026-05-25 22:53:02.543+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [relationship-store-scan-3] Loading :: Relationships :: Store Scan 6%
+2026-05-25 22:53:02.564+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [relationship-store-scan-2] Loading :: Relationships :: Store Scan 7%
+2026-05-25 22:53:02.566+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [relationship-store-scan-0] Loading :: Relationships :: Store Scan 9%
+2026-05-25 22:53:02.571+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [relationship-store-scan-1] Loading :: Relationships :: Store Scan 10%
+2026-05-25 22:53:02.571+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [relationship-store-scan-3] Loading :: Relationships :: Store Scan 12%
+2026-05-25 22:53:02.590+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [relationship-store-scan-1] Loading :: Relationships :: Store Scan 14%
+2026-05-25 22:53:02.590+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [relationship-store-scan-0] Loading :: Relationships :: Store Scan 15%
+2026-05-25 22:53:02.591+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [relationship-store-scan-2] Loading :: Relationships :: Store Scan 17%
+2026-05-25 22:53:02.592+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [relationship-store-scan-3] Loading :: Relationships :: Store Scan 18%
+2026-05-25 22:53:02.615+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [relationship-store-scan-1] Loading :: Relationships :: Store Scan 20%
+2026-05-25 22:53:02.622+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [relationship-store-scan-0] Loading :: Relationships :: Store Scan 21%
+2026-05-25 22:53:02.625+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [relationship-store-scan-3] Loading :: Relationships :: Store Scan 23%
+2026-05-25 22:53:02.628+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [relationship-store-scan-2] Loading :: Relationships :: Store Scan 25%
+2026-05-25 22:53:02.646+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [relationship-store-scan-1] Loading :: Relationships :: Store Scan 26%
+2026-05-25 22:53:02.650+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [relationship-store-scan-0] Loading :: Relationships :: Store Scan 28%
+2026-05-25 22:53:02.651+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [relationship-store-scan-3] Loading :: Relationships :: Store Scan 29%
+2026-05-25 22:53:02.652+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [relationship-store-scan-2] Loading :: Relationships :: Store Scan 31%
+2026-05-25 22:53:02.663+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [relationship-store-scan-1] Loading :: Relationships :: Store Scan 33%
+2026-05-25 22:53:02.747+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [neo4j.BoltWorker-11 [bolt-236 - /172.20.0.1:41454]] Loading :: Relationships :: Store Scan 100%
+2026-05-25 22:53:02.747+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [neo4j.BoltWorker-11 [bolt-236 - /172.20.0.1:41454]] Loading :: Relationships :: Store Scan :: Finished
+2026-05-25 22:53:04.477+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [neo4j.BoltWorker-11 [bolt-236 - /172.20.0.1:41454]] Loading :: Relationships :: Finished
+2026-05-25 22:53:04.488+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [neo4j.BoltWorker-11 [bolt-236 - /172.20.0.1:41454]] Loading :: Finished
+2026-05-25 22:53:04.731+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [neo4j.BoltWorker-11 [bolt-236 - /172.20.0.1:41454]] Node2Vec :: Start
+2026-05-25 22:53:04.803+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [neo4j.BoltWorker-11 [bolt-236 - /172.20.0.1:41454]] Node2Vec :: RandomWalk :: Start
+2026-05-25 22:53:04.808+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [neo4j.BoltWorker-11 [bolt-236 - /172.20.0.1:41454]] Node2Vec :: RandomWalk :: create walks :: Start
+2026-05-25 22:53:04.842+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-3] Node2Vec :: RandomWalk :: create walks 1%
+2026-05-25 22:53:04.847+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-3] Node2Vec :: RandomWalk :: create walks 2%
+2026-05-25 22:53:04.856+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-1] Node2Vec :: RandomWalk :: create walks 3%
+2026-05-25 22:53:04.858+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-2] Node2Vec :: RandomWalk :: create walks 4%
+2026-05-25 22:53:04.862+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-2] Node2Vec :: RandomWalk :: create walks 5%
+2026-05-25 22:53:04.864+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-4] Node2Vec :: RandomWalk :: create walks 6%
+2026-05-25 22:53:04.868+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-1] Node2Vec :: RandomWalk :: create walks 7%
+2026-05-25 22:53:04.873+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-4] Node2Vec :: RandomWalk :: create walks 8%
+2026-05-25 22:53:04.878+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-3] Node2Vec :: RandomWalk :: create walks 9%
+2026-05-25 22:53:04.879+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-2] Node2Vec :: RandomWalk :: create walks 10%
+2026-05-25 22:53:04.883+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-1] Node2Vec :: RandomWalk :: create walks 11%
+2026-05-25 22:53:04.887+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-1] Node2Vec :: RandomWalk :: create walks 12%
+2026-05-25 22:53:04.889+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-1] Node2Vec :: RandomWalk :: create walks 13%
+2026-05-25 22:53:04.890+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-1] Node2Vec :: RandomWalk :: create walks 14%
+2026-05-25 22:53:04.894+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-4] Node2Vec :: RandomWalk :: create walks 15%
+2026-05-25 22:53:04.894+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-2] Node2Vec :: RandomWalk :: create walks 16%
+2026-05-25 22:53:04.895+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-2] Node2Vec :: RandomWalk :: create walks 17%
+2026-05-25 22:53:04.899+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-3] Node2Vec :: RandomWalk :: create walks 18%
+2026-05-25 22:53:04.913+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-4] Node2Vec :: RandomWalk :: create walks 19%
+2026-05-25 22:53:04.917+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-3] Node2Vec :: RandomWalk :: create walks 20%
+2026-05-25 22:53:04.922+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-2] Node2Vec :: RandomWalk :: create walks 21%
+2026-05-25 22:53:04.929+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-2] Node2Vec :: RandomWalk :: create walks 22%
+2026-05-25 22:53:04.935+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-4] Node2Vec :: RandomWalk :: create walks 23%
+2026-05-25 22:53:04.943+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-2] Node2Vec :: RandomWalk :: create walks 25%
+2026-05-25 22:53:04.950+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-1] Node2Vec :: RandomWalk :: create walks 26%
+2026-05-25 22:53:04.956+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-4] Node2Vec :: RandomWalk :: create walks 27%
+2026-05-25 22:53:04.957+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-3] Node2Vec :: RandomWalk :: create walks 28%
+2026-05-25 22:53:04.961+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-2] Node2Vec :: RandomWalk :: create walks 29%
+2026-05-25 22:53:04.966+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-4] Node2Vec :: RandomWalk :: create walks 30%
+2026-05-25 22:53:04.967+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-3] Node2Vec :: RandomWalk :: create walks 31%
+2026-05-25 22:53:04.971+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-3] Node2Vec :: RandomWalk :: create walks 32%
+2026-05-25 22:53:04.976+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-2] Node2Vec :: RandomWalk :: create walks 33%
+2026-05-25 22:53:04.979+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-2] Node2Vec :: RandomWalk :: create walks 34%
+2026-05-25 22:53:04.981+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-4] Node2Vec :: RandomWalk :: create walks 35%
+2026-05-25 22:53:04.984+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-1] Node2Vec :: RandomWalk :: create walks 36%
+2026-05-25 22:53:04.985+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-3] Node2Vec :: RandomWalk :: create walks 37%
+2026-05-25 22:53:04.988+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-3] Node2Vec :: RandomWalk :: create walks 38%
+2026-05-25 22:53:04.991+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-2] Node2Vec :: RandomWalk :: create walks 39%
+2026-05-25 22:53:04.993+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-2] Node2Vec :: RandomWalk :: create walks 40%
+2026-05-25 22:53:04.995+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-1] Node2Vec :: RandomWalk :: create walks 41%
+2026-05-25 22:53:05.000+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-3] Node2Vec :: RandomWalk :: create walks 42%
+2026-05-25 22:53:05.001+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-4] Node2Vec :: RandomWalk :: create walks 43%
+2026-05-25 22:53:05.004+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-1] Node2Vec :: RandomWalk :: create walks 44%
+2026-05-25 22:53:05.008+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-4] Node2Vec :: RandomWalk :: create walks 45%
+2026-05-25 22:53:05.011+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-4] Node2Vec :: RandomWalk :: create walks 46%
+2026-05-25 22:53:05.012+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-3] Node2Vec :: RandomWalk :: create walks 47%
+2026-05-25 22:53:05.015+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-4] Node2Vec :: RandomWalk :: create walks 48%
+2026-05-25 22:53:05.019+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-2] Node2Vec :: RandomWalk :: create walks 49%
+2026-05-25 22:53:05.021+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-1] Node2Vec :: RandomWalk :: create walks 50%
+2026-05-25 22:53:05.024+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-3] Node2Vec :: RandomWalk :: create walks 51%
+2026-05-25 22:53:05.028+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-3] Node2Vec :: RandomWalk :: create walks 52%
+2026-05-25 22:53:05.029+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-1] Node2Vec :: RandomWalk :: create walks 53%
+2026-05-25 22:53:05.032+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-4] Node2Vec :: RandomWalk :: create walks 54%
+2026-05-25 22:53:05.035+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-2] Node2Vec :: RandomWalk :: create walks 55%
+2026-05-25 22:53:05.038+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-1] Node2Vec :: RandomWalk :: create walks 56%
+2026-05-25 22:53:05.040+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-3] Node2Vec :: RandomWalk :: create walks 57%
+2026-05-25 22:53:05.041+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-4] Node2Vec :: RandomWalk :: create walks 58%
+2026-05-25 22:53:05.044+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-2] Node2Vec :: RandomWalk :: create walks 59%
+2026-05-25 22:53:05.045+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-4] Node2Vec :: RandomWalk :: create walks 60%
+2026-05-25 22:53:05.048+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-4] Node2Vec :: RandomWalk :: create walks 61%
+2026-05-25 22:53:05.049+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-2] Node2Vec :: RandomWalk :: create walks 62%
+2026-05-25 22:53:05.051+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-4] Node2Vec :: RandomWalk :: create walks 63%
+2026-05-25 22:53:05.053+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-1] Node2Vec :: RandomWalk :: create walks 64%
+2026-05-25 22:53:05.056+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-3] Node2Vec :: RandomWalk :: create walks 66%
+2026-05-25 22:53:05.059+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-4] Node2Vec :: RandomWalk :: create walks 67%
+2026-05-25 22:53:05.061+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-1] Node2Vec :: RandomWalk :: create walks 68%
+2026-05-25 22:53:05.062+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-2] Node2Vec :: RandomWalk :: create walks 69%
+2026-05-25 22:53:05.065+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-2] Node2Vec :: RandomWalk :: create walks 70%
+2026-05-25 22:53:05.066+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-3] Node2Vec :: RandomWalk :: create walks 71%
+2026-05-25 22:53:05.069+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-3] Node2Vec :: RandomWalk :: create walks 72%
+2026-05-25 22:53:05.071+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-2] Node2Vec :: RandomWalk :: create walks 73%
+2026-05-25 22:53:05.074+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-1] Node2Vec :: RandomWalk :: create walks 74%
+2026-05-25 22:53:05.077+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-4] Node2Vec :: RandomWalk :: create walks 75%
+2026-05-25 22:53:05.080+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-3] Node2Vec :: RandomWalk :: create walks 76%
+2026-05-25 22:53:05.082+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-2] Node2Vec :: RandomWalk :: create walks 77%
+2026-05-25 22:53:05.086+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-3] Node2Vec :: RandomWalk :: create walks 78%
+2026-05-25 22:53:05.087+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-1] Node2Vec :: RandomWalk :: create walks 79%
+2026-05-25 22:53:05.090+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-2] Node2Vec :: RandomWalk :: create walks 80%
+2026-05-25 22:53:05.094+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-1] Node2Vec :: RandomWalk :: create walks 81%
+2026-05-25 22:53:05.095+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-4] Node2Vec :: RandomWalk :: create walks 82%
+2026-05-25 22:53:05.100+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-1] Node2Vec :: RandomWalk :: create walks 83%
+2026-05-25 22:53:05.101+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-2] Node2Vec :: RandomWalk :: create walks 84%
+2026-05-25 22:53:05.103+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-3] Node2Vec :: RandomWalk :: create walks 85%
+2026-05-25 22:53:05.105+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-2] Node2Vec :: RandomWalk :: create walks 86%
+2026-05-25 22:53:05.108+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-1] Node2Vec :: RandomWalk :: create walks 87%
+2026-05-25 22:53:05.111+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-4] Node2Vec :: RandomWalk :: create walks 88%
+2026-05-25 22:53:05.112+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-2] Node2Vec :: RandomWalk :: create walks 89%
+2026-05-25 22:53:05.114+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-1] Node2Vec :: RandomWalk :: create walks 90%
+2026-05-25 22:53:05.115+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-4] Node2Vec :: RandomWalk :: create walks 91%
+2026-05-25 22:53:05.119+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-3] Node2Vec :: RandomWalk :: create walks 92%
+2026-05-25 22:53:05.122+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-2] Node2Vec :: RandomWalk :: create walks 93%
+2026-05-25 22:53:05.125+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-1] Node2Vec :: RandomWalk :: create walks 94%
+2026-05-25 22:53:05.125+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-2] Node2Vec :: RandomWalk :: create walks 95%
+2026-05-25 22:53:05.127+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-4] Node2Vec :: RandomWalk :: create walks 96%
+2026-05-25 22:53:05.128+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-1] Node2Vec :: RandomWalk :: create walks 97%
+2026-05-25 22:53:05.130+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-2] Node2Vec :: RandomWalk :: create walks 98%
+2026-05-25 22:53:05.131+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-3] Node2Vec :: RandomWalk :: create walks 99%
+2026-05-25 22:53:05.139+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [neo4j.BoltWorker-11 [bolt-236 - /172.20.0.1:41454]] Node2Vec :: RandomWalk :: create walks 100%
+2026-05-25 22:53:05.139+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [neo4j.BoltWorker-11 [bolt-236 - /172.20.0.1:41454]] Node2Vec :: RandomWalk :: create walks :: Finished
+2026-05-25 22:53:05.139+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [neo4j.BoltWorker-11 [bolt-236 - /172.20.0.1:41454]] Node2Vec :: RandomWalk :: Finished
+2026-05-25 22:53:05.761+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [neo4j.BoltWorker-11 [bolt-236 - /172.20.0.1:41454]] Node2Vec :: train :: Start
+2026-05-25 22:53:05.764+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [neo4j.BoltWorker-11 [bolt-236 - /172.20.0.1:41454]] Node2Vec :: train :: iteration 1 of 1 :: Start
+2026-05-25 22:53:05.818+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-1] Node2Vec :: train :: iteration 1 of 1 0%
+2026-05-25 22:53:05.846+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-1] Node2Vec :: train :: iteration 1 of 1 1%
+2026-05-25 22:53:05.868+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-1] Node2Vec :: train :: iteration 1 of 1 2%
+2026-05-25 22:53:05.889+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-1] Node2Vec :: train :: iteration 1 of 1 3%
+2026-05-25 22:53:05.910+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-1] Node2Vec :: train :: iteration 1 of 1 4%
+2026-05-25 22:53:05.931+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-1] Node2Vec :: train :: iteration 1 of 1 5%
+2026-05-25 22:53:05.951+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-1] Node2Vec :: train :: iteration 1 of 1 6%
+2026-05-25 22:53:05.972+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [gds-1] Node2Vec :: train :: iteration 1 of 1 7%
+2026-05-25 22:53:05.976+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [neo4j.BoltWorker-11 [bolt-236 - /172.20.0.1:41454]] Node2Vec :: train :: iteration 1 of 1 :: Loss 92321.4069
+2026-05-25 22:53:05.976+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [neo4j.BoltWorker-11 [bolt-236 - /172.20.0.1:41454]] Node2Vec :: train :: iteration 1 of 1 100%
+2026-05-25 22:53:05.976+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [neo4j.BoltWorker-11 [bolt-236 - /172.20.0.1:41454]] Node2Vec :: train :: iteration 1 of 1 :: Finished
+2026-05-25 22:53:05.976+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [neo4j.BoltWorker-11 [bolt-236 - /172.20.0.1:41454]] Node2Vec :: train :: Finished
+2026-05-25 22:53:05.978+0000 INFO  [c.n.g.e.GraphDataScienceExtension] [neo4j.BoltWorker-11 [bolt-236 - /172.20.0.1:41454]] Node2Vec :: Finished
+2026-05-25 22:53:06.735+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=604, gcTime=626, gcCount=1}
+2026-05-25 22:53:07.565+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=425, gcTime=7, gcCount=1}
+2026-05-25 22:53:09.641+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=205, gcTime=303, gcCount=3}
+2026-05-25 22:53:10.888+0000 INFO  [o.n.k.d.Database] [neo4j/55ee1c6b] Rotated to transaction log [/data/transactions/neo4j/neostore.transaction.db.1] version=0, last transaction in previous log=347, rotation took 65 millis.
+2026-05-25 22:53:13.654+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] [neo4j/55ee1c6b] Checkpoint triggered by "Scheduled checkpoint for every 15 minutes threshold" @ txId: 347 checkpoint started...
+2026-05-25 22:53:14.617+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] [neo4j/55ee1c6b] Checkpoint triggered by "Scheduled checkpoint for every 15 minutes threshold" @ txId: 347 checkpoint completed in 961ms. Checkpoint flushed 20645 pages (31% of total available pages), in 1065 IOs. Checkpoint performed with IO limit: 600, paused in total 7 times( 410 millis).
+2026-05-25 22:53:14.617+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] [neo4j/55ee1c6b] No log version pruned. The strategy used was '2 days 2147483648 size'. 
+2026-05-25 22:56:03.488+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=731, gcTime=0, gcCount=0}
+2026-05-25 23:16:02.340+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=477, gcTime=0, gcCount=0}
+2026-05-25 23:35:52.540+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=709, gcTime=0, gcCount=0}
+2026-05-26 01:30:21.366+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=280, gcTime=0, gcCount=0}
+2026-05-26 02:43:12.630+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=683, gcTime=0, gcCount=0}
+2026-05-26 06:28:22.828+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=448, gcTime=0, gcCount=0}
+2026-05-26 06:28:23.262+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=235, gcTime=0, gcCount=0}
+2026-05-26 15:50:53.590+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=727, gcTime=0, gcCount=0}
+2026-05-26 15:50:53.866+0000 ERROR [o.n.b.p.c.c.a.e.ErrorAccountant] Increase in network aborts detected (more than 2 network related connection aborts over a period of 600000 ms) - This may indicate an issue with the network environment or an overload condition
+2026-05-26 17:08:59.709+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=253, gcTime=0, gcCount=0}
+2026-05-26 19:50:58.109+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=559, gcTime=13, gcCount=1}
+2026-05-26 21:31:59.356+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=275, gcTime=0, gcCount=0}
+2026-05-27 14:37:45.739+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=742, gcTime=0, gcCount=0}
+2026-05-27 14:37:46.973+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=1058, gcTime=0, gcCount=0}
+2026-05-27 14:37:48.134+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=960, gcTime=0, gcCount=0}
+2026-05-27 14:37:48.956+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=244, gcTime=0, gcCount=0}
+2026-05-27 14:37:49.543+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=386, gcTime=0, gcCount=0}
+2026-05-27 14:53:44.527+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=289, gcTime=0, gcCount=0}
+2026-05-27 14:53:46.907+0000 WARN  [a.c.ClusterHeartbeat] Cluster Node [akka://cc-discovery-actor-system@2ab40b722eec:5000] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [2230] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, CPU overload, or GC.
+2026-05-27 14:53:46.987+0000 WARN  [a.c.ClusterHeartbeat] Cluster Node [akka://cc-discovery-actor-system@2ab40b722eec:5000] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [4130] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, CPU overload, or GC.
+2026-05-27 16:25:59.454+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=295, gcTime=0, gcCount=0}
+2026-05-27 17:17:23.688+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=245, gcTime=0, gcCount=0}
+2026-05-27 17:57:07.676+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=233, gcTime=0, gcCount=0}
+2026-05-27 17:57:11.657+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=336, gcTime=0, gcCount=0}
+2026-05-27 18:48:01.749+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=240, gcTime=329, gcCount=1}
+2026-05-27 18:48:03.062+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=303, gcTime=0, gcCount=0}
+2026-05-27 19:03:33.578+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=223, gcTime=0, gcCount=0}
+2026-05-27 19:13:05.029+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=257, gcTime=273, gcCount=1}
+2026-05-27 19:38:03.802+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=365, gcTime=0, gcCount=0}
+2026-05-27 20:00:56.125+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=431, gcTime=0, gcCount=0}
+2026-05-27 20:40:17.595+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=802, gcTime=0, gcCount=0}
+2026-05-27 20:40:17.885+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=266, gcTime=0, gcCount=0}
+2026-05-27 21:57:12.651+0000 INFO  [o.n.b.p.c.c.a.e.ErrorAccountant] Network abort rate has normalized
+2026-05-27 22:40:52.702+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=277, gcTime=0, gcCount=0}
+2026-05-27 22:58:25.599+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=1445, gcTime=1479, gcCount=1}
+2026-05-27 22:58:36.651+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=3422, gcTime=0, gcCount=0}
+2026-05-27 22:58:36.722+0000 WARN  [a.c.ClusterHeartbeat] Cluster Node [akka://cc-discovery-actor-system@2ab40b722eec:5000] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [3946] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, CPU overload, or GC.
+2026-05-27 23:26:25.258+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=444, gcTime=0, gcCount=0}
+2026-05-28 15:57:03.618+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=290, gcTime=0, gcCount=0}
+2026-05-28 15:57:06.940+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=741, gcTime=0, gcCount=0}
+2026-05-28 15:57:08.039+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=281, gcTime=0, gcCount=0}
+2026-05-28 15:57:36.367+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=342, gcTime=0, gcCount=0}
+2026-05-28 15:57:52.012+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=205, gcTime=0, gcCount=0}
+2026-05-28 16:47:37.468+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=457, gcTime=0, gcCount=0}
+2026-05-28 20:15:58.133+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=1247, gcTime=0, gcCount=0}
+2026-05-28 20:15:58.823+0000 WARN  [o.n.k.i.c.VmPauseMonitorComponent] Detected VM stop-the-world pause: {pauseTime=490, gcTime=0, gcCount=0}

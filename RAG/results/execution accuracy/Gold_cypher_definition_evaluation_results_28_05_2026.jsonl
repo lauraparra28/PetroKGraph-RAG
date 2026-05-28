@@ -1,0 +1,420 @@
+{
+    "id": 1314097,
+    "question": "Descreva a unidade cronoestratigráfica Cisuraliano.",
+    "gold": [
+        "o cisuraliano e uma epoca geocronologica que tem inicio na base do permiano tendo portanto um limite mais antigo de aproximadamente 2989 015 milhoes de anos atras e tem fim na base do guadalupiano tendo portanto um limite mais recente de aproximadamente 27295 011 milhoes de anos atras a epoca cisuraliana e um intervalo dentro do e inicia o permiano que contem o artinskiano e o sakmariano e e finalizada pelo kunguriano o cisuraliano encontra o guadalupiano e o roadiano e e encontrada pelo carbonifero o gzheliano o pensilvaniano e o pensilvaniano superior o cisuraliano e iniciado pelo asseliano"
+    ],
+    "pred": "o cisuraliano e uma epoca geocronologica que tem inicio na base do permiano estabelecendo portanto um limite mais antigo de aproximadamente 2989 015 milhoes de anos atras seu termino ocorre na base do guadalupiano com um limite mais recente de aproximadamente 27295 011 milhoes de anos atras esta epoca e um intervalo dentro do permiano que contem as etapas do artinskiano e do sakmariano sendo finalizada pelo kunguriano o cisuraliano se encontra entre o guadalupiano e o roadiano e e precedido pelo carbonifero incluindo o gzheliano o pensilvaniano e o pensilvaniano superior a sua iniciacao e marcada pelo asseliano",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.75,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8381122814545092
+    }
+}
+{
+    "id": 1314079,
+    "question": "Descreva a unidade cronoestratigráfica Ordoviciano.",
+    "gold": [
+        "o ordoviciano e um periodo geocronologico que tem inicio com um limite mais antigo de aproximadamente 4854 milhoes de anos atras e tem fim com um limite mais recente de aproximadamente 4438 milhoes de anos atras"
+    ],
+    "pred": "o ordoviciano e um periodo geocronologico que tem inicio com um limite mais antigo de aproximadamente 4854 milhoes de anos atras e tem fim com um limite mais recente de aproximadamente 4438 milhoes de anos atras",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8410796779756544
+    }
+}
+{
+    "id": 1314180,
+    "question": "Descreva a unidade cronoestratigráfica Hetangiano.",
+    "gold": [
+        "o hettangiano e uma idade geocronologica que tem inicio na base do jurassico tendo portanto um limite mais antigo de aproximadamente 2013 02 milhoes de anos atras e tem fim na base do sinemuriano tendo portanto um limite mais recente de aproximadamente 1993 03 milhoes de anos atras a idade hettangiana e um intervalo dentro do e inicia o jurassico inferior que encontra o sinemuriano e e encontrada pelo rhaetiano o triassico e o triassico superior"
+    ],
+    "pred": "o hettangiano e uma idade geocronologica que tem inicio na base do jurassico apresentando portanto um limite mais antigo de aproximadamente 2013 02 milhoes de anos atras seu termino ocorre na base do sinemuriano estabelecendo um limite mais recente de aproximadamente 1993 03 milhoes de anos atras a idade hettangiana e um intervalo dentro do jurassico inferior que encontra o sinemuriano e e encontrada pelo rhaetiano o triassico e o triassico superior",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.7,
+        "context_recall": 0.6666666666666666,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8273802888190764
+    }
+}
+{
+    "id": 1314141,
+    "question": "Descreva a unidade cronoestratigráfica Asseliano.",
+    "gold": [
+        "o asseliano e uma idade geocronologica que tem inicio na base do permiano tendo portanto um limite mais antigo de aproximadamente 2989 015 milhoes de anos atras e tem fim na base do sakmariano tendo portanto um limite mais recente de aproximadamente 2950 018 milhoes de anos atras a idade asseliana e um intervalo dentro do e inicia o cisuraliano que encontra o sakmariano e e encontrada pelo carbonifero o gzheliano o pensilvaniano e o pensilvaniano superior"
+    ],
+    "pred": "o asseliano e uma idade geocronologica que tem inicio na base do permiano apresentando portanto um limite mais antigo de aproximadamente 2989 015 milhoes de anos atras seu termino ocorre na base do sakmariano estabelecendo um limite mais recente de aproximadamente 2950 018 milhoes de anos atras a idade asseliana e um intervalo dentro do cisuraliano que encontra o sakmariano e e encontrada pelo carbonifero pelo gzheliano pelo pensilvaniano e pelo pensilvaniano superior",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.8181818181818182,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8229616311889302
+    }
+}
+{
+    "id": 1314143,
+    "question": "Descreva a unidade cronoestratigráfica Barremiano.",
+    "gold": [
+        "o barremiano e uma idade geocronologica que tem inicio na base do barremiano tendo portanto um limite mais antigo de aproximadamente 1294 milhoes de anos atras e tem fim na base do aptiano tendo portanto um limite mais recente de aproximadamente 1250 milhoes de anos atras a idade barremiana e um intervalo durante e um intervalo dentro do cretaceo inferior que encontra o aptiano e e encontrada pelo hauteriviano"
+    ],
+    "pred": "o barremiano e uma idade geocronologica que tem inicio na base do barremiano estabelecendo portanto um limite mais antigo de aproximadamente 1294 milhoes de anos atras seu termino ocorre na base do aptiano o que define um limite mais recente de aproximadamente 1250 milhoes de anos atras a idade barremiana e um intervalo que se insere durante o cretaceo inferior encontrando o aptiano e sendo encontrada pelo hauteriviano",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.75,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.830070090097004
+    }
+}
+{
+    "id": 1314067,
+    "question": "Descreva a unidade cronoestratigráfica Era Paleozoico.",
+    "gold": [
+        "o paleozoico e uma era geocronologica que tem inicio na base do fanerozoico tendo portanto um limite mais antigo de aproximadamente 541 milhoes de anos atras e tem fim na base do mesozoico tendo um limite mais recente de aproximadamente 251902 milhoes de anos atras a era do paleozoico e um intervalo interior ao fanerozoico que contem o carbonifero devoniano ordoviciano e siluriano encontra o induano triassico inferior mesozoico e triassico e e encontrado pelo ediacarano neoproterozoico precambriano e proterozoico o paleozoico e finalizado pelo permiano iniciado pelo cambriano e o fanerozoico iniciase com o paleozoico"
+    ],
+    "pred": "o paleozoico e uma era geocronologica que tem inicio na base do fanerozoico tendo portanto um limite mais antigo de aproximadamente 541 milhoes de anos atras e tem fim na base do mesozoico tendo um limite mais recente de aproximadamente 251902 milhoes de anos atras a era do paleozoico e um intervalo interior ao fanerozoico que contem o carbonifero devoniano ordoviciano e siluriano encontra o induano triassico inferior mesozoico e triassico e e encontrado pelo ediacarano neoproterozoico precambriano e proterozoico o paleozoico e finalizado pelo permiano iniciado pelo cambriano e o fanerozoico iniciase com o paleozoico",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 1.0,
+        "context_recall": 0.7142857142857143,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.85039461574403
+    }
+}
+{
+    "id": 1312922,
+    "question": "O que é um(a) quartzolito?",
+    "gold": [
+        "quartzolito e uma rocha plutonica na qual o conteudo de quartzo e superior a 90 dos minerais felsicos"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 0,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 0.0,
+        "context_precision": 0.0,
+        "answer_relevancy": 0.0
+    }
+}
+{
+    "id": 1314121,
+    "question": "Descreva a unidade cronoestratigráfica Paleocene.",
+    "gold": [
+        "o paleoceno e uma epoca geocronologica que tem inicio na base do cenozoico tendo portanto um limite mais antigo de aproximadamente 660 milhoes de anos atras e tem fim na base do eoceno tendo um limite mais recente de aproximadamente 56 milhoes de anos atras a epoca do paleoceno e um intervalo interior ao paleogeno que contem o selandiano encontra o eoceno e o ipresiano e e encontrado pelo cretaceo maastrichtiano mesozoico e cretaceo superior o paleoceno e finalizado pelo thanetiano iniciado pelo daniano e o paleogeno iniciase com o paleoceno"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 0.0,
+        "context_precision": 0.0,
+        "answer_relevancy": 0.0
+    }
+}
+{
+    "id": 1312932,
+    "question": "O que é um(a) silcrete?",
+    "gold": [
+        "silcrete e uma rocha sedimentar endurecida resiste ao desmoronamento ou pulverizacao que se apresenta como crosta dura do solo formada quando o solo superficial areia e cascalho sao cimentados por silica dissolvida"
+    ],
+    "pred": "silcrete e uma rocha sedimentar endurecida que resiste ao desmoronamento ou pulverizacao ela se apresenta como uma crosta dura do solo formada quando o solo superficial areia e cascalho sao cimentados por silica dissolvida",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9481494105035004
+    }
+}
+{
+    "id": 1314115,
+    "question": "Descreva a unidade cronoestratigráfica Mississippiano Médio.",
+    "gold": [
+        "o mississipiano medio e uma epoca geocronologica que tem inicio na base do mississipiano medio tendo portanto um limite mais antigo de aproximadamente 3467 milhoes de anos atras e tem fim na base do mississipiano superior tendo um limite mais recente de aproximadamente 3309 milhoes de anos atras a epoca do mississipiano medio e um intervalo interior ao mississipiano que encontra o serpukhoviano e o mississipiano superior e e encontrado pelo mississipiano inferior e o tournaisiano"
+    ],
+    "pred": "o mississipiano medio e uma epoca geocronologica que tem inicio na base do mississipiano medio apresentando portanto um limite mais antigo de aproximadamente 3467 milhoes de anos atras seu termino ocorre na base do mississipiano superior estabelecendo um limite mais recente de aproximadamente 3309 milhoes de anos atras esta epoca e um intervalo interior ao mississipiano que se encontra entre o serpukhoviano e o mississipiano superior sendo delimitado pelo mississipiano inferior e o tournaisiano",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.75,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8393352923835589
+    }
+}
+{
+    "id": 1314227,
+    "question": "Descreva a unidade cronoestratigráfica Idade Pleistoceno Superior.",
+    "gold": [
+        "o pleistoceno superior e uma idade geocronologica que se estende de aproximadamente 0126 milhoes de anos atras ate cerca de 00117 milhoes de anos atras comeca na base do pleistoceno superior e termina na base do holoceno esta idade faz parte do periodo pleistoceno e concluise com o periodo holoceno tambem inclui o intervalo do pleistoceno medio"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 0.0,
+        "context_precision": 0.0,
+        "answer_relevancy": 0.0
+    }
+}
+{
+    "id": 1314007,
+    "question": "Descreva a unidade cronoestratigráfica Chatauquano.",
+    "gold": [
+        "a idade chatauquana e uma idade da america do norte que termina com a base do carbonifero a idade chatauquana encontra a idade kinderhookiana"
+    ],
+    "pred": "a idade chatauquana e uma unidade cronoestratigrafica da america do norte que se caracteriza por terminar com a base do carbonifero esta idade e contemporanea a idade kinderhookiana estabelecendo uma relacao temporal entre essas duas unidades",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.820131342623457
+    }
+}
+{
+    "id": 1314075,
+    "question": "Descreva a unidade cronoestratigráfica Período Sideriano.",
+    "gold": [
+        "o sideriano e um periodo geocronologico que tem um limite mais antigo de aproximadamente 2500 milhoes de anos e um limite mais jovem de aproximadamente 2300 milhoes de anos comeca na base proterozoica e termina na base rhyaciana o sideriano faz parte da era paleoproterozoica e encontra a rhyaciana e precedido pelos periodos arqueano e neoarqueano"
+    ],
+    "pred": "o sideriano e um periodo geocronologico que se estende de aproximadamente 2500 milhoes de anos a aproximadamente 2300 milhoes de anos este periodo iniciase na base proterozoica e termina na base rhyaciana o sideriano e parte da era paleoproterozoica e encontrase situado entre os periodos arqueano e neoarqueano sendo precedido por estes",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8602122858632623
+    }
+}
+{
+    "id": 1314202,
+    "question": "Descreva a unidade cronoestratigráfica Idade Oxfordiana.",
+    "gold": [
+        "o oxfordiano e uma idade geocronologica que tem inicio na base do jurassico superior tendo portanto um limite mais antigo de aproximadamente 1635 milhoes de anos atras e tem fim na base do kimmeridgiano tendo um limite mais recente de aproximadamente 1573 milhoes de anos atras a idade do oxfordiano e um intervalo interior ao jurassico superior que encontra o kimmeridgiano e e encontrado pelo caloviano e o jurassico medio o jurassico superior iniciase com o oxfordiano"
+    ],
+    "pred": "a idade oxfordiana e uma unidade cronoestratigrafica que se inicia na base do jurassico superior com um limite mais antigo de aproximadamente 1635 milhoes de anos atras e se encerra na base do kimmeridgiano apresentando um limite mais recente de cerca de 1573 milhoes de anos atras esta idade representa um intervalo interior ao jurassico superior que e delimitado pelo kimmeridgiano e e encontrado pelo caloviano e pelo jurassico medio o jurassico superior tem seu inicio marcado pelo oxfordiano",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.7,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8694739343382523
+    }
+}
+{
+    "id": 1314100,
+    "question": "Descreva a unidade cronoestratigráfica Guadalupiano.",
+    "gold": [
+        "o guadalupiano e uma epoca geocronologica que tem inicio na base do guadalupiano tendo portanto um limite mais antigo de aproximadamente 27295 011 milhoes de anos atras e tem fim na base do lopingiano tendo portanto um limite mais recente de aproximadamente 2591 05 milhoes de anos atras a epoca guadalupiana e um intervalo dentro do e durante o permiano que contem o wordiano e e finalizada pelo capitaniano o guadalupiano encontra o lopingiano e o wuchiapingiano e e encontrada pelo cisuraliano e o kunguriano o guadalupiano e iniciado pelo roadiano"
+    ],
+    "pred": "o guadalupiano e uma epoca geocronologica que tem inicio na base do guadalupiano com um limite mais antigo de aproximadamente 27295 011 milhoes de anos atras e termina na base do lopingiano com um limite mais recente de aproximadamente 2591 05 milhoes de anos atras esta epoca e um intervalo dentro do permiano que contem o wordiano e e finalizada pelo capitaniano o guadalupiano se encontra entre o lopingiano e o wuchiapingiano sendo encontrado pelo cisuraliano e o kunguriano o guadalupiano e iniciado pelo roadiano",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8295803064548433
+    }
+}
+{
+    "id": 1314042,
+    "question": "Descreva a unidade cronoestratigráfica Arnsbergiano.",
+    "gold": [
+        "o arnsbergiano e uma subidade da europa ocidental que e um intervalo durante e dentro da idade namuriana o arnsbergiano encontra o chokieriano e e encontrado pelo pendleiano"
+    ],
+    "pred": "o arnsbergiano e uma subidade da europa ocidental que se caracteriza por ser um intervalo durante e dentro da idade namuriana esta unidade cronoestratigrafica e situada entre o chokieriano que a precede e o pendleiano que a sucede assim o arnsbergiano desempenha um papel importante na compreensao da sequencia estratigrafica e das mudancas geologicas ocorridas durante a idade namuriana na regiao da europa ocidental",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.6,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8414915822694603
+    }
+}
+{
+    "id": 1314198,
+    "question": "Descreva a unidade cronoestratigráfica Idade Moscoviana.",
+    "gold": [
+        "o moscoviano e uma idade geocronologica que tem inicio na base do pensilvaniano medio tendo portanto um limite mais antigo de aproximadamente 3152 milhoes de anos atras e tem fim na base do pensilvaniano superior tendo um limite mais recente de aproximadamente 307 milhoes de anos atras a idade do moscoviano e um intervalo interior ao pensilvaniano medio que encontra o kasimoviano e o pensilvaniano superior e e encontrado pelo bashkiriano e o pensilvaniano inferior"
+    ],
+    "pred": "a idade moscoviana e uma unidade cronoestratigrafica que se caracteriza por ter inicio na base do pensilvaniano medio estabelecendo um limite mais antigo de aproximadamente 3152 milhoes de anos atras seu termino ocorre na base do pensilvaniano superior com um limite mais recente de cerca de 307 milhoes de anos atras essa idade e um intervalo que se insere dentro do pensilvaniano medio sendo contemporanea ao kasimoviano e ao pensilvaniano superior e e precedida pelo bashkiriano e pelo pensilvaniano inferior",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.9,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8636647220356787
+    }
+}
+{
+    "id": 1312956,
+    "question": "O que é um(a) tufito?",
+    "gold": [
+        "tufito e uma rocha piroclastica consistindo de uma mistura de material piroclastico e clastico normal epiclastico mas com material piroclastico compondo 25 a 75 do total em volume pode ser ainda classificada de acordo com o tamanho medio dos clastos"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 0,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 0.0,
+        "context_precision": 0.0,
+        "answer_relevancy": 0.0
+    }
+}
+{
+    "id": 1314301,
+    "question": "Descreva a unidade cronoestratigráfica Frasniano Superior.",
+    "gold": [
+        "o frasniano superior e uma subidade geocronologica que e um intervalo dentro e termina o frasniano o frasniano superior e encontrado pelo frasniano medio"
+    ],
+    "pred": "o frasniano superior e uma subunidade geocronologica que representa um intervalo dentro do frasniano sendo caracterizado por ocorrer apos o frasniano medio essa unidade e importante para a compreensao da escala de tempo geologico pois delimita um periodo especifico na historia da terra",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.6,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8549756292421421
+    }
+}
+{
+    "id": 1314289,
+    "question": "Descreva a unidade cronoestratigráfica Aaleniano Superior.",
+    "gold": [
+        "o aaleniano superior e uma subidade geocronologica que e um intervalo dentro e termina o aaleniano o aaleniano superior e encontrado pelo aaleniano medio"
+    ],
+    "pred": "o aaleniano superior e uma subunidade geocronologica que representa um intervalo dentro do aaleniano sendo caracterizado por sua posicao temporal que termina o aaleniano esta unidade e encontrada pelo aaleniano medio indicando uma sequencia estratigrafica que permite a identificacao e a correlacao de eventos geologicos e paleontologicos dentro desse periodo",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.4444444444444444,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8625648557317623
+    }
+}
+{
+    "id": 1312937,
+    "question": "O que é um(a) escarnito?",
+    "gold": [
+        "tactito tambem conhecida por skarn ou escarnito e uma rocha metasomatica formada no contato entre uma rocha silicatada ou fusao magmatica e uma rocha carbonatica"
+    ],
+    "pred": "escarnito tambem conhecido como skarn e uma rocha metasomatica que se forma no contato entre uma rocha silicatada ou fusao magmatica e uma rocha carbonatica",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8969577568963305
+    }
+}
+{
+    "id": 1312902,
+    "question": "O que é um(a) parabrecha?",
+    "gold": [
+        "parabrecha e uma brecha que tem arcabouco suportado pela matriz"
+    ],
+    "pred": "parabrecha e uma brecha que tem arcabouco suportado pela matriz",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9801330115626211
+    }
+}
+{
+    "id": 1312894,
+    "question": "O que é um(a) monzonito?",
+    "gold": [
+        "monzonito e uma rocha plutonica composta por quantidades aproximadamente iguais de plagioclasio e feldspato alcalino com anfibolio eou piroxenio menores"
+    ],
+    "pred": "monzonito e uma rocha plutonica composta por quantidades aproximadamente iguais de plagioclasio e feldspato alcalino com anfibolio eou piroxenio menores",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9785639001674439
+    }
+}
+{
+    "id": 1314128,
+    "question": "Descreva a unidade cronoestratigráfica Jurássico Superior.",
+    "gold": [
+        "o jurassico superior e uma epoca geocronologica que vai de aproximadamente 1635 milhoes de anos atras ate 1450 milhoes de anos atras comeca na base do jurassico superior e termina na base do cretaceo esta epoca inclui o intervalo kimmeridgiano e termina dentro do periodo jurassico ela se encontra com os periodos berriasiano e cretaceo bem como com o cretaceo inferior o jurassico superior e caracterizado por sua conexao com o intervalo oxfordiano e e precedido pelos intervalos calloviano e jurassico medio"
+    ],
+    "pred": "o jurassico superior e uma epoca geocronologica que se estende de aproximadamente 1635 milhoes de anos atras ate 1450 milhoes de anos atras esta epoca tem seu inicio na base do jurassico superior e se encerra na base do cretaceo o jurassico superior abrange o intervalo kimmeridgiano e termina dentro do periodo jurassico alem disso ele se relaciona com os periodos berriasiano e cretaceo assim como com o cretaceo inferior e importante destacar que o jurassico superior e caracterizado por sua conexao com o intervalo oxfordiano e e precedido pelos intervalos calloviano e jurassico medio",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8478961258615966
+    }
+}
+{
+    "id": 1312863,
+    "question": "O que é um(a) lapili tufo?",
+    "gold": [
+        "lapili tufo e uma rocha piroclastica consistindo de menos de 25 de bombasblocos e mais de 75 de lapilli e cinzas"
+    ],
+    "pred": "lapili tufo e uma rocha piroclastica consistindo de menos de 25 de bombasblocos e mais de 75 de lapilli e cinzas",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9756393913889561
+    }
+}
+{
+    "id": 1314193,
+    "question": "Descreva a unidade cronoestratigráfica Idade Lutetiana.",
+    "gold": [
+        "o lutetiano ou mesoeoceno e uma idade geocronologica que tem inicio na base do lutetiano tendo portanto um limite mais antigo de aproximadamente 478 milhoes de anos atras e tem fim na base do bartoniano tendo portanto um limite mais recente de aproximadamente 412 milhoes de anos atras a idade lutetiana e um intervalo dentro do e durante o eoceno que encontra o bartoniano e e encontrada pelo ypresiano"
+    ],
+    "pred": "a idade lutetiana tambem conhecida como mesoeoceno e uma unidade cronoestratigrafica que se caracteriza por ter inicio na base do lutetiano o que estabelece um limite mais antigo de aproximadamente 478 milhoes de anos atras o termino dessa idade ocorre na base do bartoniano definindo um limite mais recente de aproximadamente 412 milhoes de anos atras assim a idade lutetiana representa um intervalo que se insere dentro do eoceno situandose entre o ypresiano e o bartoniano",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.625,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8351417240131566
+    }
+}
+{
+    "id": 1312792,
+    "question": "O que é um(a) autobrecha?",
+    "gold": [
+        "autobrecha e uma rocha vulcanoclastica primaria gerada pela fragmentacao nao explosiva in situ de lava ou magma"
+    ],
+    "pred": "autobrecha e uma rocha vulcanoclastica primaria gerada pela fragmentacao nao explosiva in situ de lava ou magma",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9601921712412209
+    }
+}
+{
+    "id": 1314119,
+    "question": "Descreva a unidade cronoestratigráfica Mioceno.",
+    "gold": [
+        "o mioceno e uma epoca geocronologica que tem inicio na base do neogeno tendo portanto um limite mais antigo de aproximadamente 2303 milhoes de anos atras e tem fim na base do plioceno tendo um limite mais recente de aproximadamente 5333 milhoes de anos atras a epoca do mioceno e um intervalo interior ao neogeno que contem o burdigaliano langhiano serravaliano e tortoniano encontra o plioceno e o zancliano e e encontrado pelo chattiano oligoceno e paleogeno o mioceno e finalizado pelo messiniano iniciado pelo aquitaniano e o neogeno iniciase com o mioceno"
+    ],
+    "pred": "o mioceno e uma epoca geocronologica que tem inicio na base do neogeno tendo portanto um limite mais antigo de aproximadamente 2303 milhoes de anos atras e tem fim na base do plioceno tendo um limite mais recente de aproximadamente 5333 milhoes de anos atras a epoca do mioceno e um intervalo interior ao neogeno que contem o burdigaliano langhiano serravaliano e tortoniano encontra o plioceno e o zancliano e e encontrado pelo chattiano oligoceno e paleogeno o mioceno e finalizado pelo messiniano iniciado pelo aquitaniano e o neogeno iniciase com o mioceno",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.8333333333333334,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8358886347184039
+    }
+}

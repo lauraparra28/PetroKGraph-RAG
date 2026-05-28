@@ -196,7 +196,7 @@ def main():
     print(f"⚙️  RAGAS habilitado: {args.ragas}")
 
     # Dataset
-    dataset = bu.load_dataset()[f"MiniKGraph_dataset_gold_cypher_{args.tag}.json"]
+    dataset = bu.load_dataset()[f"PetroKGraph_dataset_gold_cypher_{args.tag}_400.json"]
     print("✅ Dataset cargado")
 
     # Acumuladores

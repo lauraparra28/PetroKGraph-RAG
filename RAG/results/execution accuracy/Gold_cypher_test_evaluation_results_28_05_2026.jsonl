@@ -1,0 +1,3188 @@
+{
+    "id": 66856,
+    "question": "Que unidades litoestratigráficas o poço 7-RO-65-SE atravessa?",
+    "gold": [
+        "embasamento",
+        "fm barreiras",
+        "fm muribeca",
+        "fm riachuelo",
+        "formacao barreiras",
+        "formacao muribeca",
+        "formacao riachuelo",
+        "mb angico",
+        "mb carmopolis",
+        "mb ibura",
+        "membro angico",
+        "membro carmopolis",
+        "membro ibura"
+    ],
+    "pred": "o poco 7ro65se atravessa as seguintes unidades litoestratigraficas 1 formacao riachuelo fm riachuelo 2 membro angico mb angico 3 membro carmopolis mb carmopolis 4 formacao muribeca fm muribeca 5 membro ibura mb ibura 6 embasamento 7 formacao barreiras fm barreiras",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9594627833248169
+    }
+}
+{
+    "id": 98121,
+    "question": "Que unidades litoestratigráficas o poço 7-I-6-BA atravessa?",
+    "gold": [
+        "fm candeias",
+        "fm itaparica",
+        "fm sergi",
+        "formacao candeias",
+        "formacao itaparica",
+        "formacao sergi"
+    ],
+    "pred": "o poco 7i6ba atravessa as seguintes unidades litoestratigraficas 1 formacao itaparica fm itaparica 2 formacao candeias fm candeias 3 formacao sergi fm sergi",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9526261154776661
+    }
+}
+{
+    "id": 59357,
+    "question": "Em que bacia está localizado o poço 7-CAM-347-RN?",
+    "gold": [
+        "bacia de potiguar",
+        "potiguar",
+        "potiguar mar",
+        "potiguar terra"
+    ],
+    "pred": "o poco 7cam347rn esta localizado na bacia de potiguar que tambem e conhecida pelos nomes potiguar mar e potiguar terra",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8187510920291627
+    }
+}
+{
+    "id": 108091,
+    "question": "Em que bacia está localizado o poço 5-SA-2-MA?",
+    "gold": [
+        "bacia de barreirinhas",
+        "barreirinhas",
+        "barreirinhas mar",
+        "barreirinhas terra"
+    ],
+    "pred": "o poco 5sa2ma esta localizado na bacia de barreirinhas que tambem e conhecida pelos nomes barreirinhas barreirinhas mar e barreirinhas terra",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8192659111531656
+    }
+}
+{
+    "id": 63585,
+    "question": "Em que bacia está localizado o poço 7-BA-42-BA?",
+    "gold": [
+        "bacia de reconcavo",
+        "reconcavo",
+        "reconcavo mar",
+        "reconcavo terra"
+    ],
+    "pred": "o poco 7ba42ba esta localizado na bacia de reconcavo que tambem e conhecida pelos nomes reconcavo mar reconcavo terra e simplesmente reconcavo",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8526045813821822
+    }
+}
+{
+    "id": 24234,
+    "question": "Que unidades litoestratigráficas o poço 7-JA-36-BA atravessa?",
+    "gold": [
+        "fm agua grande",
+        "fm candeias",
+        "fm itaparica",
+        "fm maracangalha",
+        "fm pojuca",
+        "formacao agua grande",
+        "formacao candeias",
+        "formacao itaparica",
+        "formacao maracangalha",
+        "formacao pojuca",
+        "gr ilhas",
+        "gr santo amaro",
+        "grupo ilhas",
+        "grupo santo amaro",
+        "mb caruacu",
+        "mb gomo",
+        "mb taua",
+        "membro caruacu",
+        "membro gomo",
+        "membro taua"
+    ],
+    "pred": "o poco 7ja36ba atravessa as seguintes unidades litoestratigraficas 1 formacao maracangalha fm maracangalha 2 grupo ilhas gr ilhas 3 membro caruacu mb caruacu 4 membro taua mb taua 5 formacao agua grande fm agua grande 6 formacao candeias fm candeias 7 formacao itaparica fm itaparica 8 grupo santo amaro gr santo amaro 9 formacao pojuca fm pojuca 10 membro gomo mb gomo",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9517293618838313
+    }
+}
+{
+    "id": 24656,
+    "question": "Que unidades litoestratigráficas o poço 7-FZB-183-CE atravessa?",
+    "gold": [
+        "embasamento",
+        "fm acu",
+        "fm barreiras",
+        "fm jandaira",
+        "formacao acu",
+        "formacao barreiras",
+        "formacao jandaira"
+    ],
+    "pred": "o poco 7fzb183ce atravessa as seguintes unidades litoestratigraficas 1 formacao jandaira tambem conhecida como fm jandaira 2 embasamento 3 formacao acu tambem referida como fm acu 4 formacao barreiras tambem chamada de fm barreiras",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9524054694866498
+    }
+}
+{
+    "id": 27603,
+    "question": "Em que campo está localizado o poço 7-CAM-1424-RN?",
+    "gold": [
+        "canto do amaro"
+    ],
+    "pred": "o poco 7cam1424rn esta localizado no campo denominado canto do amaro",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8960973411313534
+    }
+}
+{
+    "id": 110237,
+    "question": "Que unidades litoestratigráficas o poço 8-AP-226D-RN atravessa?",
+    "gold": [
+        "fm acu",
+        "fm jandaira",
+        "formacao acu",
+        "formacao jandaira"
+    ],
+    "pred": "o poco 8ap226drn atravessa as seguintes unidades litoestratigraficas 1 formacao acu fm acu 2 formacao jandaira fm jandaira",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9525647809518062
+    }
+}
+{
+    "id": 42150,
+    "question": "Que unidades litoestratigráficas o poço 7-CP-1248-SE atravessa?",
+    "gold": [
+        "fm muribeca",
+        "fm riachuelo",
+        "fm rio pitanga",
+        "formacao muribeca",
+        "formacao riachuelo",
+        "formacao rio pitanga",
+        "mb carmopolis",
+        "mb ibura",
+        "mb maruim",
+        "mb oiteirinhos",
+        "mb taquari",
+        "membro carmopolis",
+        "membro ibura",
+        "membro maruim",
+        "membro oiteirinhos",
+        "membro taquari"
+    ],
+    "pred": "o poco 7cp1248se atravessa as seguintes unidades litoestratigraficas 1 membro ibura mb ibura 2 membro taquari mb taquari 3 formacao riachuelo fm riachuelo 4 formacao muribeca fm muribeca 5 formacao rio pitanga fm rio pitanga 6 membro carmopolis mb carmopolis 7 membro oiteirinhos mb oiteirinhos 8 membro maruim mb maruim",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9504790703445041
+    }
+}
+{
+    "id": 34575,
+    "question": "Em que bacia está localizado o poço 7-FCN-15-ES?",
+    "gold": [
+        "bacia de espirito santo",
+        "espirito santo",
+        "espirito santo mar",
+        "espirito santo terra"
+    ],
+    "pred": "o poco 7fcn15es esta localizado na bacia de espirito santo que e tambem conhecida pelos nomes espirito santo mar e espirito santo terra",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8201729143642317
+    }
+}
+{
+    "id": 8808,
+    "question": "Que unidades litoestratigráficas o poço 9-ESP-7D-RJS atravessa?",
+    "gold": [
+        "fm carapebus",
+        "fm ubatuba",
+        "formacao carapebus",
+        "formacao ubatuba",
+        "mb geriba",
+        "mb tamoios",
+        "membro geriba",
+        "membro tamoios"
+    ],
+    "pred": "o poco 9esp7drjs atravessa as seguintes unidades litoestratigraficas 1 membro geriba tambem conhecido como mb geriba 2 formacao carapebus designada como fm carapebus 3 membro tamoios referido como mb tamoios 4 formacao ubatuba identificada como fm ubatuba",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.8,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9500173237770722
+    }
+}
+{
+    "id": 60507,
+    "question": "Em que bacia está localizado o poço 7-LOR-44HP-RN?",
+    "gold": [
+        "bacia de potiguar",
+        "potiguar",
+        "potiguar mar",
+        "potiguar terra"
+    ],
+    "pred": "o poco 7lor44hprn esta localizado na bacia de potiguar que tambem e conhecida pelos nomes potiguar mar e potiguar terra",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8292124364042817
+    }
+}
+{
+    "id": 54260,
+    "question": "Em que bacia está localizado o poço 1-GO-2-RN?",
+    "gold": [
+        "bacia de potiguar",
+        "potiguar",
+        "potiguar mar",
+        "potiguar terra"
+    ],
+    "pred": "o poco 1go2rn esta localizado na bacia de potiguar que tambem e conhecida pelos nomes potiguar mar e potiguar terra",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8717213476698854
+    }
+}
+{
+    "id": 24917,
+    "question": "Que unidades litoestratigráficas o poço 7-DJ-334-BA atravessa?",
+    "gold": [
+        "fm agua grande",
+        "fm candeias",
+        "fm itaparica",
+        "fm sergi",
+        "formacao agua grande",
+        "formacao candeias",
+        "formacao itaparica",
+        "formacao sergi",
+        "gr brotas",
+        "gr santo amaro",
+        "grupo brotas",
+        "grupo santo amaro"
+    ],
+    "pred": "o poco 7dj334ba atravessa as seguintes unidades litoestratigraficas 1 formacao sergi fm sergi 2 grupo santo amaro gr santo amaro 3 grupo brotas gr brotas 4 formacao agua grande fm agua grande 5 formacao candeias fm candeias 6 formacao itaparica fm itaparica",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9538403193175985
+    }
+}
+{
+    "id": 101446,
+    "question": "Em que campo está localizado o poço 7-FZB-679-CE?",
+    "gold": [
+        "fazenda belem pot",
+        "fzbelem pot"
+    ],
+    "pred": "o poco 7fzb679ce esta localizado no campo fzbelem pot tambem conhecido como fazenda belem pot",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8345625214991323
+    }
+}
+{
+    "id": 96566,
+    "question": "Que unidades litoestratigráficas o poço 7-MAG-20-RN atravessa?",
+    "gold": [
+        "fm acu",
+        "fm jandaira",
+        "formacao acu",
+        "formacao jandaira"
+    ],
+    "pred": "o poco 7mag20rn atravessa as seguintes unidades litoestratigraficas 1 formacao acu fm acu 2 formacao jandaira fm jandaira",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.6666666666666666,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9526776578719551
+    }
+}
+{
+    "id": 36749,
+    "question": "Em que bacia está localizado o poço 7-CRP-30D-RJS?",
+    "gold": [
+        "bacia de campos",
+        "bc",
+        "campos",
+        "campos mar",
+        "campos terra"
+    ],
+    "pred": "o poco 7crp30drjs esta localizado na bacia de campos que tambem e conhecida pelos nomes bc campos terra campos mar e simplesmente campos",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8911047638517907
+    }
+}
+{
+    "id": 85363,
+    "question": "Em que bacia está localizado o poço 1-MA-1-PI?",
+    "gold": [
+        "bacia de parnaiba",
+        "parnaiba"
+    ],
+    "pred": "o poco 1ma1pi esta localizado na bacia de parnaiba que tambem e conhecida pelo nome de parnaiba",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.808406352598246
+    }
+}
+{
+    "id": 90868,
+    "question": "Em que bacia está localizado o poço 7-MLS-225D-RJS?",
+    "gold": [
+        "bacia de campos",
+        "bc",
+        "campos",
+        "campos mar",
+        "campos terra"
+    ],
+    "pred": "o poco 7mls225drjs esta localizado na bacia de campos que tambem e conhecida pelos nomes bc campos terra campos mar e simplesmente campos",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.891190809804761
+    }
+}
+{
+    "id": 74255,
+    "question": "Em que campo está localizado o poço 4-ESS-149?",
+    "gold": [
+        "cachalote"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.0
+    }
+}
+{
+    "id": 83656,
+    "question": "Em que campo está localizado o poço 8-CR-15D-CES?",
+    "gold": [
+        "curima"
+    ],
+    "pred": "o poco 8cr15dces esta localizado no campo denominado curima que tambem e conhecido pelo nome curima",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.0,
+        "answer_relevancy": 0.8741627893303295
+    }
+}
+{
+    "id": 109785,
+    "question": "Que unidades litoestratigráficas o poço 7-ET-634-RN atravessa?",
+    "gold": [
+        "fm acu",
+        "fm jandaira",
+        "formacao acu",
+        "formacao jandaira"
+    ],
+    "pred": "o poco 7et634rn atravessa as seguintes unidades litoestratigraficas 1 formacao acu fm acu 2 formacao jandaira fm jandaira",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.6666666666666666,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9473489675318706
+    }
+}
+{
+    "id": 114362,
+    "question": "Em que bacia está localizado o poço 9-PSB-10-MG?",
+    "gold": [
+        "bacia de sao francisco",
+        "sao francisco"
+    ],
+    "pred": "o poco 9psb10mg esta localizado na bacia de sao francisco",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8933846416794736
+    }
+}
+{
+    "id": 21033,
+    "question": "Em que campo está localizado o poço 8-PPT-5A-RJS?",
+    "gold": [
+        "papaterra"
+    ],
+    "pred": "o poco 8ppt5arjs esta localizado no campo denominado papaterra",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8211429361971353
+    }
+}
+{
+    "id": 71096,
+    "question": "Em que campo está localizado o poço 7-CP-220D-SE?",
+    "gold": [
+        "carmopolis",
+        "carmopolis noroeste",
+        "carmopolis nw",
+        "carmopolis sudoeste",
+        "carmopolis sw"
+    ],
+    "pred": "o poco 7cp220dse esta localizado no campo de carmopolis este campo e tambem conhecido por outros nomes como carmopolis noroeste carmopolis sudoeste e carmopolis sw",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.6666666666666666,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8524968919724293
+    }
+}
+{
+    "id": 57656,
+    "question": "Que unidades litoestratigráficas o poço 7-RPJ-4-BA atravessa?",
+    "gold": [
+        "fm agua grande",
+        "fm candeias",
+        "fm itaparica",
+        "fm maracangalha",
+        "fm marfim",
+        "fm pojuca",
+        "fm sao sebastiao",
+        "fm sergi",
+        "formacao agua grande",
+        "formacao candeias",
+        "formacao itaparica",
+        "formacao maracangalha",
+        "formacao marfim",
+        "formacao pojuca",
+        "formacao sao sebastiao",
+        "formacao sergi",
+        "gr brotas",
+        "gr ilhas",
+        "gr massacara",
+        "gr santo amaro",
+        "grupo brotas",
+        "grupo ilhas",
+        "grupo massacara",
+        "grupo santo amaro",
+        "mb caruacu",
+        "mb gomo",
+        "mb taua",
+        "membro caruacu",
+        "membro gomo",
+        "membro taua"
+    ],
+    "pred": "o poco 7rpj4ba atravessa as seguintes unidades litoestratigraficas 1 formacao itaparica fm itaparica 2 grupo massacara gr massacara 3 membro taua mb taua 4 formacao marfim fm marfim 5 membro caruacu mb caruacu 6 grupo santo amaro gr santo amaro 7 grupo ilhas gr ilhas 8 formacao sergi fm sergi 9 membro gomo mb gomo 10 formacao agua grande fm agua grande",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.9090909090909091,
+        "context_recall": 0.6666666666666666,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9488320214928573
+    }
+}
+{
+    "id": 80827,
+    "question": "Em que campo está localizado o poço 7-CAM-1407D-RN?",
+    "gold": [
+        "canto do amaro"
+    ],
+    "pred": "o poco 7cam1407drn esta localizado no campo denominado canto do amaro",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8971169969067526
+    }
+}
+{
+    "id": 23156,
+    "question": "Em que bacia está localizado o poço 7-PL-6-RN?",
+    "gold": [
+        "bacia de potiguar",
+        "potiguar",
+        "potiguar mar",
+        "potiguar terra"
+    ],
+    "pred": "o poco 7pl6rn esta localizado na bacia de potiguar que tambem e conhecida pelos nomes potiguar mar e potiguar terra",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8010632314178383
+    }
+}
+{
+    "id": 21592,
+    "question": "Em que campo está localizado o poço 7-ROU-28D-BA?",
+    "gold": [
+        "riacho ouricuri"
+    ],
+    "pred": "o poco 7rou28dba esta localizado no campo denominado riacho ouricuri",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.830755885684347
+    }
+}
+{
+    "id": 62706,
+    "question": "Em que campo está localizado o poço 7-AG-348-BA?",
+    "gold": [
+        "agua grande"
+    ],
+    "pred": "o poco 7ag348ba esta localizado no campo denominado agua grande",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8574542087945624
+    }
+}
+{
+    "id": 31135,
+    "question": "Em que bacia está localizado o poço 7-FZB-185-CE?",
+    "gold": [
+        "bacia de potiguar",
+        "potiguar",
+        "potiguar mar",
+        "potiguar terra"
+    ],
+    "pred": "o poco 7fzb185ce esta localizado na bacia de potiguar que tambem e conhecida pelos nomes potiguar mar e potiguar terra",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8684078713492293
+    }
+}
+{
+    "id": 20499,
+    "question": "Em que bacia está localizado o poço 9-BDA-1-RN?",
+    "gold": [
+        "bacia de potiguar",
+        "potiguar",
+        "potiguar mar",
+        "potiguar terra"
+    ],
+    "pred": "o poco 9bda1rn esta localizado na bacia de potiguar que tambem e conhecida pelos nomes potiguar mar e potiguar terra",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8386857544018612
+    }
+}
+{
+    "id": 113113,
+    "question": "Em que campo está localizado o poço 7-BR-36HP-RJS?",
+    "gold": [
+        "barracuda"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.0
+    }
+}
+{
+    "id": 104863,
+    "question": "Em que bacia está localizado o poço 7-SZ-92-SE?",
+    "gold": [
+        "alagoas mar",
+        "alagoas terra",
+        "bacia de sergipealagoas",
+        "sergipe mar",
+        "sergipe terra",
+        "sergipealagoas"
+    ],
+    "pred": "o poco 7sz92se esta localizado na bacia de sergipealagoas que e uma bacia que abrange as areas conhecidas como sergipe terra sergipe mar alagoas mar e alagoas terra",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.8,
+        "context_recall": 0.6666666666666666,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8699179270860514
+    }
+}
+{
+    "id": 60732,
+    "question": "Em que campo está localizado o poço 9-MRL-217D-RJS?",
+    "gold": [
+        "marlim"
+    ],
+    "pred": "o poco 9mrl217drjs esta localizado no campo denominado marlim",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8567337802569482
+    }
+}
+{
+    "id": 106376,
+    "question": "Em que campo está localizado o poço 7-GMR-88-RN?",
+    "gold": [
+        "guamare",
+        "guamare sudeste"
+    ],
+    "pred": "o poco 7gmr88rn esta localizado no campo de guamare que tambem e conhecido por outros nomes como guamare e guamare sudeste",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.6666666666666666,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8210295051953417
+    }
+}
+{
+    "id": 3629,
+    "question": "Que unidades litoestratigráficas o poço 8-CP-182-SE atravessa?",
+    "gold": [
+        "fm barra de itiuba",
+        "fm barreiras",
+        "fm muribeca",
+        "fm riachuelo",
+        "formacao barra de itiuba",
+        "formacao barreiras",
+        "formacao muribeca",
+        "formacao riachuelo",
+        "mb carmopolis",
+        "mb ibura",
+        "mb maruim",
+        "membro carmopolis",
+        "membro ibura",
+        "membro maruim"
+    ],
+    "pred": "o poco 8cp182se atravessa as seguintes unidades litoestratigraficas 1 formacao barra de itiuba fm barra de itiuba 2 formacao riachuelo fm riachuelo 3 membro carmopolis mb carmopolis 4 formacao barreiras fm barreiras 5 membro maruim mb maruim 6 membro ibura mb ibura 7 formacao muribeca fm muribeca",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9500386879138908
+    }
+}
+{
+    "id": 1921,
+    "question": "Que unidades litoestratigráficas o poço 7-MJ-43-BA atravessa?",
+    "gold": [
+        "fm agua grande",
+        "fm candeias",
+        "fm itaparica",
+        "fm maracangalha",
+        "formacao agua grande",
+        "formacao candeias",
+        "formacao itaparica",
+        "formacao maracangalha",
+        "gr santo amaro",
+        "grupo santo amaro",
+        "mb pitanga",
+        "mb taua",
+        "membro pitanga",
+        "membro taua"
+    ],
+    "pred": "o poco 7mj43ba atravessa as seguintes unidades litoestratigraficas 1 formacao candeias fm candeias 2 formacao agua grande fm agua grande 3 membro taua mb taua 4 formacao maracangalha fm maracangalha 5 grupo santo amaro gr santo amaro 6 formacao itaparica fm itaparica 7 membro pitanga mb pitanga",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9526656283581344
+    }
+}
+{
+    "id": 46840,
+    "question": "Em que campo está localizado o poço 7-ET-279-RN?",
+    "gold": [
+        "1brsa452rn",
+        "1brsa453rn",
+        "area do 1brsa452rn",
+        "area do 1brsa453rn",
+        "estreito",
+        "sao sebastiao"
+    ],
+    "pred": "o poco 7et279rn esta localizado na area denominada sao sebastiao que tambem e referida como estreito alem de ser parte das areas 1brsa453rn e 1brsa452rn",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.3333333333333333,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8490494711191386
+    }
+}
+{
+    "id": 14477,
+    "question": "Que unidades litoestratigráficas o poço 7-DJ-565-BA atravessa?",
+    "gold": [
+        "fm agua grande",
+        "fm candeias",
+        "fm itaparica",
+        "fm sergi",
+        "formacao agua grande",
+        "formacao candeias",
+        "formacao itaparica",
+        "formacao sergi",
+        "gr brotas",
+        "gr santo amaro",
+        "grupo brotas",
+        "grupo santo amaro"
+    ],
+    "pred": "o poco 7dj565ba atravessa as seguintes unidades litoestratigraficas 1 formacao agua grande fm agua grande 2 formacao sergi fm sergi 3 grupo santo amaro gr santo amaro 4 formacao itaparica fm itaparica 5 formacao candeias fm candeias 6 grupo brotas gr brotas",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9546237693034202
+    }
+}
+{
+    "id": 55831,
+    "question": "Em que bacia está localizado o poço 7-CP-1090-SE?",
+    "gold": [
+        "alagoas mar",
+        "alagoas terra",
+        "bacia de sergipealagoas",
+        "sergipe mar",
+        "sergipe terra",
+        "sergipealagoas"
+    ],
+    "pred": "o poco 7cp1090se esta localizado na bacia de sergipealagoas essa bacia e composta por diferentes entidades incluindo sergipe terra sergipe mar alagoas mar e alagoas terra portanto o poco mencionado faz parte do contexto geologico e hidrografico da bacia de sergipealagoas",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.625,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.916032287041937
+    }
+}
+{
+    "id": 52079,
+    "question": "Em que bacia está localizado o poço 8-DJIA-14-BA?",
+    "gold": [
+        "bacia de reconcavo",
+        "reconcavo",
+        "reconcavo mar",
+        "reconcavo terra"
+    ],
+    "pred": "o poco 8djia14ba esta localizado na bacia de reconcavo que tambem e conhecida pelos nomes reconcavo mar reconcavo terra e simplesmente reconcavo",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8218940163027235
+    }
+}
+{
+    "id": 56855,
+    "question": "Em que campo está localizado o poço 8-RO-338-SE?",
+    "gold": [
+        "riachuelo"
+    ],
+    "pred": "o poco 8ro338se esta localizado no campo denominado riachuel",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9132827928636414
+    }
+}
+{
+    "id": 24605,
+    "question": "Em que campo está localizado o poço 7-MAG-54-RN?",
+    "gold": [
+        "monte alegre"
+    ],
+    "pred": "o poco 7mag54rn esta localizado no campo denominado monte alegre",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9083447404475651
+    }
+}
+{
+    "id": 1114,
+    "question": "Que unidades litoestratigráficas o poço 7-SE-35-RN atravessa?",
+    "gold": [
+        "fm acu",
+        "fm alagamar",
+        "fm barreiras",
+        "fm jandaira",
+        "fm pendencia",
+        "formacao acu",
+        "formacao alagamar",
+        "formacao barreiras",
+        "formacao jandaira",
+        "formacao pendencia"
+    ],
+    "pred": "o poco 7se35rn atravessa as seguintes unidades litoestratigraficas 1 formacao alagamar fm alagamar 2 formacao jandaira fm jandaira 3 formacao acu fm acu 4 formacao barreiras fm barreiras 5 formacao pendencia fm pendencia",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9493336059167318
+    }
+}
+{
+    "id": 81313,
+    "question": "Que unidades litoestratigráficas o poço 1-BVS-3-RN atravessa?",
+    "gold": [
+        "embasamento",
+        "fm acu",
+        "fm alagamar",
+        "fm barreiras",
+        "fm jandaira",
+        "formacao acu",
+        "formacao alagamar",
+        "formacao barreiras",
+        "formacao jandaira"
+    ],
+    "pred": "o poco 1bvs3rn atravessa as seguintes unidades litoestratigraficas 1 embasamento 2 formacao alagamar tambem conhecida como fm alagamar 3 formacao jandaira tambem conhecida como fm jandaira 4 formacao acu tambem conhecida como fm acu 5 formacao barreiras tambem conhecida como fm barreiras",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.945628384291005
+    }
+}
+{
+    "id": 92650,
+    "question": "Em que campo está localizado o poço 8-MRL-161HP-RJS?",
+    "gold": [
+        "marlim"
+    ],
+    "pred": "o poco 8mrl161hprjs esta localizado no campo denominado marlim",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8762004545525315
+    }
+}
+{
+    "id": 12965,
+    "question": "Que unidades litoestratigráficas o poço 7-CAM-178-RN atravessa?",
+    "gold": [
+        "fm acu",
+        "fm jandaira",
+        "formacao acu",
+        "formacao jandaira"
+    ],
+    "pred": "o poco 7cam178rn atravessa as seguintes unidades litoestratigraficas 1 formacao acu fm acu 2 formacao jandaira fm jandaira",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.6666666666666666,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9535011586069747
+    }
+}
+{
+    "id": 101350,
+    "question": "Em que bacia está localizado o poço 7-DJ-108-BA?",
+    "gold": [
+        "bacia de reconcavo",
+        "reconcavo",
+        "reconcavo mar",
+        "reconcavo terra"
+    ],
+    "pred": "o poco 7dj108ba esta localizado na bacia de reconcavo que tambem e conhecida pelos nomes reconcavo mar reconcavo terra e simplesmente reconcavo",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8099563824672424
+    }
+}
+{
+    "id": 37927,
+    "question": "Em que bacia está localizado o poço 1-PDF-2-RN?",
+    "gold": [
+        "bacia de potiguar",
+        "potiguar",
+        "potiguar mar",
+        "potiguar terra"
+    ],
+    "pred": "o poco 1pdf2rn esta localizado na bacia de potiguar que tambem e conhecida pelos nomes potiguar mar e potiguar terra",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8247473170907802
+    }
+}
+{
+    "id": 107530,
+    "question": "Em que campo está localizado o poço 7-NA-11-RJS?",
+    "gold": [
+        "namorado"
+    ],
+    "pred": "nao ha informacao disponivel no grafo para responder a esta questao",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.0
+    }
+}
+{
+    "id": 7817,
+    "question": "Que unidades litoestratigráficas o poço 3-CH-30D-RJS atravessa?",
+    "gold": [
+        "fm carapebus",
+        "fm embore",
+        "fm outeiro",
+        "fm ubatuba",
+        "formacao carapebus",
+        "formacao embore",
+        "formacao outeiro",
+        "formacao ubatuba",
+        "gr macae",
+        "grupo macae",
+        "mb geriba",
+        "mb grussai",
+        "membro geriba",
+        "membro grussai"
+    ],
+    "pred": "o poco 3ch30drjs atravessa as seguintes unidades litoestratigraficas 1 membro geriba mb geriba 2 formacao ubatuba fm ubatuba 3 formacao outeiro fm outeiro 4 grupo macae gr macae 5 membro grussai mb grussai 6 formacao carapebus fm carapebus 7 formacao embore fm embore",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9538933217827177
+    }
+}
+{
+    "id": 60700,
+    "question": "Em que bacia está localizado o poço 7-PRG-37HP-RJS?",
+    "gold": [
+        "bacia de campos",
+        "bc",
+        "campos",
+        "campos mar",
+        "campos terra"
+    ],
+    "pred": "o poco 7prg37hprjs esta localizado na bacia de campos que tambem e conhecida pelos nomes bc campos terra campos mar e simplesmente campos",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8822012622986725
+    }
+}
+{
+    "id": 24031,
+    "question": "Que unidades litoestratigráficas o poço 3-LUC-33-AM atravessa?",
+    "gold": [
+        "fm alter do chao",
+        "fm carauari",
+        "fm fonte boa",
+        "fm jandiatuba",
+        "fm jurua",
+        "fm solimoes",
+        "fm uere",
+        "formacao alter do chao",
+        "formacao carauari",
+        "formacao fonte boa",
+        "formacao jandiatuba",
+        "formacao jurua",
+        "formacao solimoes",
+        "formacao uere",
+        "gr javari",
+        "gr marimari",
+        "gr purus",
+        "gr tefe",
+        "grupo javari",
+        "grupo marimari",
+        "grupo purus",
+        "grupo tefe"
+    ],
+    "pred": "o poco 3luc33am atravessa as seguintes unidades litoestratigraficas 1 grupo tefe gr tefe 2 grupo javari gr javari 3 formacao jandiatuba fm jandiatuba 4 grupo marimari gr marimari 5 formacao fonte boa fm fonte boa 6 formacao jurua fm jurua 7 formacao solimoes fm solimoes 8 grupo purus gr purus 9 formacao alter do chao fm alter do chao 10 formacao uere fm uere",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 0.9090909090909091,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9588172276107877
+    }
+}
+{
+    "id": 95544,
+    "question": "Em que campo está localizado o poço 7-PIR-71-AL?",
+    "gold": [
+        "pilar"
+    ],
+    "pred": "o poco 7pir71al esta localizado no campo denominado pilar",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9096734745234661
+    }
+}
+{
+    "id": 93031,
+    "question": "Que unidades litoestratigráficas o poço 7-FAL-95DP-ES atravessa?",
+    "gold": [
+        "fm rio doce",
+        "fm urucutuca",
+        "formacao rio doce",
+        "formacao urucutuca",
+        "gr espirito santo",
+        "grupo espirito santo"
+    ],
+    "pred": "o poco 7fal95dpes atravessa as seguintes unidades litoestratigraficas 1 formacao urucutuca fm urucutuca 2 formacao rio doce fm rio doce 3 grupo espirito santo gr espirito santo",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9506296999500554
+    }
+}
+{
+    "id": 63420,
+    "question": "Em que campo está localizado o poço 8-TQ-107-BA?",
+    "gold": [
+        "taquipe"
+    ],
+    "pred": "o poco 8tq107ba esta localizado no campo denominado taquipe",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8295331659414505
+    }
+}
+{
+    "id": 113611,
+    "question": "Em que bacia está localizado o poço 7-FBM-134-BA?",
+    "gold": [
+        "bacia de reconcavo",
+        "reconcavo",
+        "reconcavo mar",
+        "reconcavo terra"
+    ],
+    "pred": "o poco 7fbm134ba esta localizado na bacia de reconcavo que e tambem conhecida pelos nomes reconcavo mar reconcavo terra e simplesmente reconcavo",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8507538796522461
+    }
+}
+{
+    "id": 59820,
+    "question": "Em que bacia está localizado o poço 3-FBL-4D-BA?",
+    "gold": [
+        "bacia de reconcavo",
+        "reconcavo",
+        "reconcavo mar",
+        "reconcavo terra"
+    ],
+    "pred": "o poco 3fbl4dba esta localizado na bacia de reconcavo que tambem e conhecida pelos nomes reconcavo mar reconcavo terra e simplesmente reconcavo",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8076509284980854
+    }
+}
+{
+    "id": 98770,
+    "question": "Que unidades litoestratigráficas o poço 8-CR-13D-CES atravessa?",
+    "gold": [
+        "fm mundau",
+        "fm paracuru",
+        "fm ubarana",
+        "formacao mundau",
+        "formacao paracuru",
+        "formacao ubarana",
+        "gr agulha",
+        "grupo agulha"
+    ],
+    "pred": "o poco 8cr13dces atravessa as seguintes unidades litoestratigraficas 1 formacao mundau fm mundau 2 formacao ubarana fm ubarana 3 grupo agulha gr agulha 4 formacao paracuru fm paracuru",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9496140649199233
+    }
+}
+{
+    "id": 45266,
+    "question": "Em que bacia está localizado o poço 8-MLS-232D-RJS?",
+    "gold": [
+        "bacia de campos",
+        "bc",
+        "campos",
+        "campos mar",
+        "campos terra"
+    ],
+    "pred": "o poco 8mls232drjs esta localizado na bacia de campos que tambem e conhecida pelos nomes bc campos terra campos mar e simplesmente campos",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.884177042350093
+    }
+}
+{
+    "id": 35057,
+    "question": "Em que bacia está localizado o poço 7-RO-631-SE?",
+    "gold": [
+        "alagoas mar",
+        "alagoas terra",
+        "bacia de sergipealagoas",
+        "sergipe mar",
+        "sergipe terra",
+        "sergipealagoas"
+    ],
+    "pred": "o poco 7ro631se esta localizado na bacia de sergipealagoas essa bacia e composta por diferentes areas incluindo sergipe terra sergipe mar alagoas mar e alagoas terra portanto o poco mencionado faz parte dessa importante bacia hidrografica",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.625,
+        "context_recall": 0.8333333333333334,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8704023547044978
+    }
+}
+{
+    "id": 111358,
+    "question": "Em que campo está localizado o poço 7-GO-20-BA?",
+    "gold": [
+        "gomo"
+    ],
+    "pred": "o poco 7go20ba esta localizado no campo denominado gomo",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.0,
+        "answer_relevancy": 0.8499080031000036
+    }
+}
+{
+    "id": 21682,
+    "question": "Em que bacia está localizado o poço 7-RPS-3H-ES?",
+    "gold": [
+        "bacia de espirito santo",
+        "espirito santo",
+        "espirito santo mar",
+        "espirito santo terra"
+    ],
+    "pred": "o poco 7rps3hes esta localizado na bacia de espirito santo essa bacia e tambem conhecida pelos nomes espirito santo mar e espirito santo terra",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.86280948064644
+    }
+}
+{
+    "id": 22182,
+    "question": "Em que bacia está localizado o poço 7-FZB-369-CE?",
+    "gold": [
+        "bacia de potiguar",
+        "potiguar",
+        "potiguar mar",
+        "potiguar terra"
+    ],
+    "pred": "o poco 7fzb369ce esta localizado na bacia de potiguar que tambem e conhecida pelos nomes potiguar mar e potiguar terra",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8532312449457544
+    }
+}
+{
+    "id": 82919,
+    "question": "Em que bacia está localizado o poço 1-RJS-435?",
+    "gold": [
+        "bacia de campos",
+        "bc",
+        "campos",
+        "campos mar",
+        "campos terra"
+    ],
+    "pred": "o poco 1rjs435 esta localizado na bacia de campos que tambem e conhecida pelos nomes bc campos terra campos mar e simplesmente campos",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8968142321939663
+    }
+}
+{
+    "id": 33458,
+    "question": "Em que campo está localizado o poço 7-RO-70-BA?",
+    "gold": [
+        "remanso"
+    ],
+    "pred": "o poco 7ro70ba esta localizado no campo denominado remanso",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9187345384174451
+    }
+}
+{
+    "id": 105590,
+    "question": "Em que campo está localizado o poço 7-RBU-22-BA?",
+    "gold": [
+        "rio do bu"
+    ],
+    "pred": "o poco 7rbu22ba esta localizado no campo denominado rio do bu",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8668577966497982
+    }
+}
+{
+    "id": 9458,
+    "question": "Em que bacia está localizado o poço 7-ET-816-RN?",
+    "gold": [
+        "bacia de potiguar",
+        "potiguar",
+        "potiguar mar",
+        "potiguar terra"
+    ],
+    "pred": "o poco 7et816rn esta localizado na bacia de potiguar que tambem e conhecida pelos nomes potiguar mar e potiguar terra",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8137786637441117
+    }
+}
+{
+    "id": 93424,
+    "question": "Em que bacia está localizado o poço 7-A-3-BA?",
+    "gold": [
+        "bacia de reconcavo",
+        "reconcavo",
+        "reconcavo mar",
+        "reconcavo terra"
+    ],
+    "pred": "o poco 7a3ba esta localizado na bacia de reconcavo que tambem e conhecida pelos nomes reconcavo mar reconcavo terra e simplesmente reconcavo",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8487798149260347
+    }
+}
+{
+    "id": 55580,
+    "question": "Que unidades litoestratigráficas o poço 7-PM-21D-RJS atravessa?",
+    "gold": [
+        "fm carapebus",
+        "fm outeiro",
+        "fm quissama",
+        "fm ubatuba",
+        "formacao carapebus",
+        "formacao outeiro",
+        "formacao quissama",
+        "formacao ubatuba",
+        "gr macae",
+        "grupo macae",
+        "mb tamoios",
+        "membro tamoios"
+    ],
+    "pred": "o poco 7pm21drjs atravessa as seguintes unidades litoestratigraficas 1 formacao outeiro fm outeiro 2 formacao quissama fm quissama 3 grupo macae gr macae 4 formacao ubatuba fm ubatuba 5 formacao carapebus fm carapebus 6 membro tamoios mb tamoios",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9450130599573502
+    }
+}
+{
+    "id": 18251,
+    "question": "Que unidades litoestratigráficas o poço 7-UB-45D-RNS atravessa?",
+    "gold": [
+        "fm acu",
+        "fm alagamar",
+        "fm macau",
+        "fm ubarana",
+        "formacao acu",
+        "formacao alagamar",
+        "formacao macau",
+        "formacao ubarana",
+        "gr agulha",
+        "gr apodi",
+        "gr areia branca",
+        "grupo agulha",
+        "grupo apodi",
+        "grupo areia branca",
+        "mb ponta do tubarao",
+        "membro ponta do tubarao"
+    ],
+    "pred": "o poco 7ub45drns atravessa as seguintes unidades litoestratigraficas 1 formacao acu fm acu 2 grupo areia branca gr areia branca 3 grupo agulha gr agulha 4 grupo apodi gr apodi 5 membro ponta do tubarao mb ponta do tubarao 6 formacao ubarana fm ubarana 7 formacao alagamar fm alagamar 8 formacao macau fm macau",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9458318924918853
+    }
+}
+{
+    "id": 25980,
+    "question": "Que unidades litoestratigráficas o poço 7-SMC-39-AL atravessa?",
+    "gold": [
+        "fm bananeiras",
+        "fm barra de itiuba",
+        "fm barreiras",
+        "fm coqueiro seco",
+        "fm morro do chaves",
+        "fm penedo",
+        "fm serraria",
+        "formacao bananeiras",
+        "formacao barra de itiuba",
+        "formacao barreiras",
+        "formacao coqueiro seco",
+        "formacao morro do chaves",
+        "formacao penedo",
+        "formacao serraria"
+    ],
+    "pred": "o poco 7smc39al atravessa as seguintes unidades litoestratigraficas 1 formacao morro do chaves fm morro do chaves 2 formacao bananeiras fm bananeiras 3 formacao coqueiro seco fm coqueiro seco 4 formacao penedo fm penedo 5 formacao barra de itiuba fm barra de itiuba 6 formacao serraria fm serraria 7 formacao barreiras fm barreiras",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9539926662070245
+    }
+}
+{
+    "id": 38518,
+    "question": "Em que campo está localizado o poço 9-NO-5-ES?",
+    "gold": [
+        "nativo oeste"
+    ],
+    "pred": "o poco 9no5es esta localizado no campo denominado nativo oeste",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.0
+    }
+}
+{
+    "id": 57131,
+    "question": "Em que bacia está localizado o poço 7-ET-809-RN?",
+    "gold": [
+        "bacia de potiguar",
+        "potiguar",
+        "potiguar mar",
+        "potiguar terra"
+    ],
+    "pred": "o poco 7et809rn esta localizado na bacia de potiguar que tambem e conhecida pelos nomes potiguar mar e potiguar terra",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8652769338027103
+    }
+}
+{
+    "id": 32915,
+    "question": "Que unidades litoestratigráficas o poço 7-FZB-289-CE atravessa?",
+    "gold": [
+        "embasamento",
+        "fm acu",
+        "fm barreiras",
+        "fm jandaira",
+        "formacao acu",
+        "formacao barreiras",
+        "formacao jandaira"
+    ],
+    "pred": "o poco 7fzb289ce atravessa as seguintes unidades litoestratigraficas 1 formacao jandaira fm jandaira 2 formacao acu fm acu 3 formacao barreiras fm barreiras 4 embasamento essas formacoes representam diferentes camadas geologicas que compoem a estrutura do subsolo na regiao onde o poco esta localizado",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.2857142857142857,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9761069519845781
+    }
+}
+{
+    "id": 92052,
+    "question": "Em que bacia está localizado o poço 7-RUC-28-AM?",
+    "gold": [
+        "bacia de solimoes",
+        "solimoes"
+    ],
+    "pred": "o poco 7ruc28am esta localizado na bacia de solimoes que tambem e conhecida pelo nome de solimoes",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8746146322618648
+    }
+}
+{
+    "id": 77740,
+    "question": "Em que bacia está localizado o poço 3-ME-1-ALS?",
+    "gold": [
+        "alagoas mar",
+        "alagoas terra",
+        "bacia de sergipealagoas",
+        "sergipe mar",
+        "sergipe terra",
+        "sergipealagoas"
+    ],
+    "pred": "o poco 3me1als esta localizado na bacia de sergipealagoas essa bacia e composta por diferentes areas incluindo sergipe terra sergipe mar alagoas mar e alagoas terra",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.8333333333333334,
+        "context_recall": 0.8333333333333334,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.7937372253408098
+    }
+}
+{
+    "id": 32618,
+    "question": "Em que bacia está localizado o poço 7-FZB-307-CE?",
+    "gold": [
+        "bacia de potiguar",
+        "potiguar",
+        "potiguar mar",
+        "potiguar terra"
+    ],
+    "pred": "o poco 7fzb307ce esta localizado na bacia de potiguar que tambem e conhecida pelos nomes potiguar mar e potiguar terra",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8467321656813104
+    }
+}
+{
+    "id": 71127,
+    "question": "Que unidades litoestratigráficas o poço 1-JT-3-AM atravessa?",
+    "gold": [
+        "fm alter do chao",
+        "fm carauari",
+        "fm fonte boa",
+        "fm jurua",
+        "fm solimoes",
+        "formacao alter do chao",
+        "formacao carauari",
+        "formacao fonte boa",
+        "formacao jurua",
+        "formacao solimoes"
+    ],
+    "pred": "o poco 1jt3am atravessa as seguintes unidades litoestratigraficas 1 formacao solimoes fm solimoes 2 formacao alter do chao fm alter do chao 3 formacao carauari fm carauari 4 formacao jurua fm jurua 5 formacao fonte boa fm fonte boa",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9450781554675705
+    }
+}
+{
+    "id": 86962,
+    "question": "Que unidades litoestratigráficas o poço 1-MDU-2-BA atravessa?",
+    "gold": [
+        "fm agua grande",
+        "fm candeias",
+        "fm itaparica",
+        "fm marfim",
+        "fm pojuca",
+        "fm sao sebastiao",
+        "fm sergi",
+        "formacao agua grande",
+        "formacao candeias",
+        "formacao itaparica",
+        "formacao marfim",
+        "formacao pojuca",
+        "formacao sao sebastiao",
+        "formacao sergi",
+        "gr brotas",
+        "gr ilhas",
+        "gr massacara",
+        "gr santo amaro",
+        "grupo brotas",
+        "grupo ilhas",
+        "grupo massacara",
+        "grupo santo amaro",
+        "mb gomo",
+        "mb taua",
+        "membro gomo",
+        "membro taua"
+    ],
+    "pred": "o poco 1mdu2ba atravessa as seguintes unidades litoestratigraficas 1 grupo massacara gr massacara 2 grupo santo amaro gr santo amaro 3 formacao marfim fm marfim 4 grupo ilhas gr ilhas 5 formacao sao sebastiao fm sao sebastiao 6 formacao itaparica fm itaparica 7 grupo brotas gr brotas 8 formacao candeias fm candeias 9 formacao pojuca fm pojuca 10 formacao sergi fm sergi",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 0.7692307692307693,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.924193032861058
+    }
+}
+{
+    "id": 21861,
+    "question": "Que unidades litoestratigráficas o poço 7-BA-72-BA atravessa?",
+    "gold": [
+        "fm agua grande",
+        "fm barreiras",
+        "fm candeias",
+        "fm itaparica",
+        "fm maracangalha",
+        "fm marfim",
+        "fm marizal",
+        "fm pojuca",
+        "fm taquipe",
+        "formacao agua grande",
+        "formacao barreiras",
+        "formacao candeias",
+        "formacao itaparica",
+        "formacao maracangalha",
+        "formacao marfim",
+        "formacao marizal",
+        "formacao pojuca",
+        "formacao taquipe",
+        "gr ilhas",
+        "gr santo amaro",
+        "grupo ilhas",
+        "grupo santo amaro",
+        "mb gomo",
+        "mb taua",
+        "membro gomo",
+        "membro taua"
+    ],
+    "pred": "o poco 7ba72ba atravessa as seguintes unidades litoestratigraficas 1 formacao maracangalha fm maracangalha 2 membro gomo mb gomo 3 formacao marfim fm marfim 4 formacao candeias fm candeias 5 formacao marizal fm marizal 6 formacao pojuca fm pojuca 7 membro taua mb taua 8 grupo ilhas gr ilhas 9 formacao agua grande fm agua grande 10 grupo santo amaro gr santo amaro",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 0.7692307692307693,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9537940350551805
+    }
+}
+{
+    "id": 50761,
+    "question": "Em que campo está localizado o poço 7-AP-212-RN?",
+    "gold": [
+        "canto do amaro"
+    ],
+    "pred": "o poco 7ap212rn esta localizado no campo denominado canto do amaro",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9059888728754458
+    }
+}
+{
+    "id": 33817,
+    "question": "Que unidades litoestratigráficas o poço 7-REP-17-RN atravessa?",
+    "gold": [
+        "fm acu",
+        "fm barreiras",
+        "fm jandaira",
+        "formacao acu",
+        "formacao barreiras",
+        "formacao jandaira"
+    ],
+    "pred": "o poco 7rep17rn atravessa as seguintes unidades litoestratigraficas 1 formacao jandaira fm jandaira 2 formacao barreiras fm barreiras 3 formacao acu fm acu",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.953637377303696
+    }
+}
+{
+    "id": 30026,
+    "question": "Que unidades litoestratigráficas o poço 7-TQ-93-BA atravessa?",
+    "gold": [
+        "fm pojuca",
+        "fm sao sebastiao",
+        "fm taquipe",
+        "formacao pojuca",
+        "formacao sao sebastiao",
+        "formacao taquipe",
+        "gr ilhas",
+        "gr massacara",
+        "grupo ilhas",
+        "grupo massacara"
+    ],
+    "pred": "o poco 7tq93ba atravessa as seguintes unidades litoestratigraficas 1 formacao pojuca fm pojuca 2 grupo ilhas gr ilhas 3 formacao taquipe fm taquipe 4 grupo massacara gr massacara 5 formacao sao sebastiao fm sao sebastiao",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.952986421462208
+    }
+}
+{
+    "id": 34503,
+    "question": "Que unidades litoestratigráficas o poço 7-PIR-122D-AL atravessa?",
+    "gold": [
+        "fm barreiras",
+        "fm coqueiro seco",
+        "fm maceio",
+        "fm morro do chaves",
+        "fm penedo",
+        "fm ponta verde",
+        "formacao barreiras",
+        "formacao coqueiro seco",
+        "formacao maceio",
+        "formacao morro do chaves",
+        "formacao penedo",
+        "formacao ponta verde"
+    ],
+    "pred": "o poco 7pir122dal atravessa as seguintes unidades litoestratigraficas 1 formacao penedo fm penedo 2 formacao morro do chaves fm morro do chaves 3 formacao barreiras fm barreiras 4 formacao coqueiro seco fm coqueiro seco 5 formacao ponta verde fm ponta verde 6 formacao maceio fm maceio",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9472891999282863
+    }
+}
+{
+    "id": 105586,
+    "question": "Em que campo está localizado o poço 7-FC-30-ES?",
+    "gold": [
+        "fazenda cedro",
+        "fzcedro"
+    ],
+    "pred": "o poco 7fc30es esta localizado no campo fzcedro tambem conhecido como fazenda cedro",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8331968483509519
+    }
+}
+{
+    "id": 78307,
+    "question": "Em que campo está localizado o poço 7-RO-147D-RJS?",
+    "gold": [
+        "roncador"
+    ],
+    "pred": "o poco 7ro147drjs esta localizado no campo denominado roncador",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8459190839078703
+    }
+}
+{
+    "id": 7084,
+    "question": "Em que campo está localizado o poço 7-ARG-837-RN?",
+    "gold": [
+        "alto do rodrigues",
+        "alto rodrigues"
+    ],
+    "pred": "o poco 7arg837rn esta localizado no campo de alto rodrigues tambem conhecido como alto do rodrigues",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8430204751005644
+    }
+}
+{
+    "id": 23308,
+    "question": "Em que campo está localizado o poço 7-ET-175-RN?",
+    "gold": [
+        "1brsa452rn",
+        "1brsa453rn",
+        "area do 1brsa452rn",
+        "area do 1brsa453rn",
+        "estreito",
+        "sao sebastiao"
+    ],
+    "pred": "o poco 7et175rn esta localizado na area denominada sao sebastiao que tambem e referida como estreito e area do 1brsa453rn e area do 1brsa452rn essas designacoes correspondem a mesma entidade geografica indicando a localizacao do referido poco",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9178116256775457
+    }
+}
+{
+    "id": 114868,
+    "question": "Quais são os poços localizados no campo FAZENDA GUINDASTE?",
+    "gold": [
+        "1fgt1al",
+        "1fgt2al",
+        "3fgt3al",
+        "3fgt4al"
+    ],
+    "pred": "os pocos localizados no campo fazenda guindaste sao os seguintes 1 poco 1fgt1al 2 poco 1fgt2al 3 poco 3fgt3al 4 poco 3fgt4al",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.8,
+        "context_recall": 1.0,
+        "context_precision": 0.0,
+        "answer_relevancy": 0.9485305378976233
+    }
+}
+{
+    "id": 55970,
+    "question": "Que unidades litoestratigráficas o poço 9-SZ-163-SE atravessa?",
+    "gold": [
+        "embasamento",
+        "fm barreiras",
+        "fm muribeca",
+        "fm riachuelo",
+        "formacao barreiras",
+        "formacao muribeca",
+        "formacao riachuelo",
+        "mb angico",
+        "mb carmopolis",
+        "mb ibura",
+        "mb oiteirinhos",
+        "membro angico",
+        "membro carmopolis",
+        "membro ibura",
+        "membro oiteirinhos"
+    ],
+    "pred": "o poco 9sz163se atravessa as seguintes unidades litoestratigraficas 1 membro oiteirinhos tambem conhecido como mb oiteirinhos 2 formacao muribeca referida como fm muribeca 3 membro ibura ou mb ibura 4 membro carmopolis designado como mb carmopolis 5 embasamento 6 membro angico identificado como mb angico 7 formacao barreiras denominada fm barreiras 8 formacao riachuelo tambem chamada de fm riachuelo essas unidades representam diferentes camadas geologicas que o poco atravessa cada uma com suas caracteristicas especificas",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9883909640756986
+    }
+}
+{
+    "id": 25817,
+    "question": "Em que bacia está localizado o poço 9-FR-38D-RJS?",
+    "gold": [
+        "bacia de campos",
+        "bc",
+        "campos",
+        "campos mar",
+        "campos terra"
+    ],
+    "pred": "o poco 9fr38drjs esta localizado na bacia de campos que tambem e conhecida pelos nomes bc campos terra campos mar e simplesmente campos",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.864870723450775
+    }
+}
+{
+    "id": 21108,
+    "question": "Que unidades litoestratigráficas o poço 7-CAM-1409-RN atravessa?",
+    "gold": [
+        "fm acu",
+        "fm alagamar",
+        "fm jandaira",
+        "formacao acu",
+        "formacao alagamar",
+        "formacao jandaira"
+    ],
+    "pred": "o poco 7cam1409rn atravessa as seguintes unidades litoestratigraficas 1 formacao acu fm acu 2 formacao alagamar fm alagamar 3 formacao jandaira fm jandaira",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.75,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9542597252449537
+    }
+}
+{
+    "id": 18073,
+    "question": "Em que campo está localizado o poço 4-RJS-209?",
+    "gold": [
+        "pargo"
+    ],
+    "pred": "o poco 4rjs209 esta localizado no campo pargo",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8434436647217473
+    }
+}
+{
+    "id": 75273,
+    "question": "Que unidades litoestratigráficas o poço 7-FU-165D-AL atravessa?",
+    "gold": [
+        "fm barra de itiuba",
+        "fm barreiras",
+        "fm coqueiro seco",
+        "fm morro do chaves",
+        "fm penedo",
+        "formacao barra de itiuba",
+        "formacao barreiras",
+        "formacao coqueiro seco",
+        "formacao morro do chaves",
+        "formacao penedo"
+    ],
+    "pred": "o poco 7fu165dal atravessa as seguintes unidades litoestratigraficas 1 formacao morro do chaves fm morro do chaves 2 formacao coqueiro seco fm coqueiro seco 3 formacao penedo fm penedo 4 formacao barra de itiuba fm barra de itiuba 5 formacao barreiras fm barreiras",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9479597496268116
+    }
+}
+{
+    "id": 88900,
+    "question": "Que unidades litoestratigráficas o poço 7-CL-66D-SE atravessa?",
+    "gold": [
+        "embasamento",
+        "fm muribeca",
+        "fm riachuelo",
+        "formacao muribeca",
+        "formacao riachuelo",
+        "mb angico",
+        "mb carmopolis",
+        "mb ibura",
+        "mb oiteirinhos",
+        "membro angico",
+        "membro carmopolis",
+        "membro ibura",
+        "membro oiteirinhos"
+    ],
+    "pred": "o poco 7cl66dse atravessa as seguintes unidades litoestratigraficas 1 embasamento 2 formacao riachuelo tambem conhecida como fm riachuelo 3 membro oiteirinhos ou mb oiteirinhos 4 membro ibura ou mb ibura 5 membro angico ou mb angico 6 membro carmopolis ou mb carmopolis 7 formacao muribeca tambem referida como fm muribeca essas unidades representam diferentes camadas geologicas que o poco atravessa cada uma com suas caracteristicas especificas",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9861393918480058
+    }
+}
+{
+    "id": 106662,
+    "question": "Em que campo está localizado o poço 7-LPB-24-ES?",
+    "gold": [
+        "lagoa piabanha",
+        "lgpiabanha"
+    ],
+    "pred": "o poco 7lpb24es esta localizado no campo denominado lagoa piabanha que tambem e conhecido pela sigla lgpiabanha",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.890764933679984
+    }
+}
+{
+    "id": 77293,
+    "question": "Em que campo está localizado o poço 7-FMQ-10-RN?",
+    "gold": [
+        "fazenda malaquias",
+        "fzmalaquias"
+    ],
+    "pred": "o poco 7fmq10rn esta localizado na fazenda malaquias que tambem e conhecida pelo rotulo fzmalaquias",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8322495393454106
+    }
+}
+{
+    "id": 85306,
+    "question": "Que unidades litoestratigráficas o poço 7-LV-19-RN atravessa?",
+    "gold": [
+        "fm acu",
+        "fm alagamar",
+        "fm jandaira",
+        "fm pendencia",
+        "formacao acu",
+        "formacao alagamar",
+        "formacao jandaira",
+        "formacao pendencia"
+    ],
+    "pred": "o poco 7lv19rn atravessa as seguintes unidades litoestratigraficas 1 formacao acu fm acu 2 formacao pendencia fm pendencia 3 formacao alagamar fm alagamar 4 formacao jandaira fm jandaira",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9524196234723985
+    }
+}
+{
+    "id": 89956,
+    "question": "Que unidades litoestratigráficas o poço 7-MG-342-BA atravessa?",
+    "gold": [
+        "fm marfim",
+        "fm pojuca",
+        "fm sao sebastiao",
+        "formacao marfim",
+        "formacao pojuca",
+        "formacao sao sebastiao",
+        "gr ilhas",
+        "gr massacara",
+        "grupo ilhas",
+        "grupo massacara",
+        "mb catu",
+        "mb santiago",
+        "membro catu",
+        "membro santiago"
+    ],
+    "pred": "o poco 7mg342ba atravessa as seguintes unidades litoestratigraficas 1 grupo massacara gr massacara 2 membro catu mb catu 3 membro santiago mb santiago 4 formacao pojuca fm pojuca 5 formacao sao sebastiao fm sao sebastiao 6 grupo ilhas gr ilhas 7 formacao marfim fm marfim",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9514398517599864
+    }
+}
+{
+    "id": 22738,
+    "question": "Em que bacia está localizado o poço 1-FCO-1-BA?",
+    "gold": [
+        "bacia de jequitinhonha",
+        "jequitinhonha",
+        "jequitinhonha mar",
+        "jequitinhonha terra"
+    ],
+    "pred": "o poco 1fco1ba esta localizado na bacia de jequitinhonha que tambem e conhecida pelos nomes jequitinhonha mar e jequitinhonha terra",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.822767207227868
+    }
+}
+{
+    "id": 55707,
+    "question": "Em que bacia está localizado o poço 3-EN-30-RJS?",
+    "gold": [
+        "bacia de campos",
+        "bc",
+        "campos",
+        "campos mar",
+        "campos terra"
+    ],
+    "pred": "o poco 3en30rjs esta localizado na bacia de campos que tambem e conhecida pelos nomes bc campos terra campos mar e simplesmente campos",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8972778850884936
+    }
+}
+{
+    "id": 52854,
+    "question": "Em que campo está localizado o poço 7-RO-522-SE?",
+    "gold": [
+        "riachuelo"
+    ],
+    "pred": "o poco 7ro522se esta localizado no campo denominado riachuel",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8730341766239257
+    }
+}
+{
+    "id": 28822,
+    "question": "Que unidades litoestratigráficas o poço 7-SZ-314-SE atravessa?",
+    "gold": [
+        "embasamento",
+        "fm barreiras",
+        "fm muribeca",
+        "fm riachuelo",
+        "formacao barreiras",
+        "formacao muribeca",
+        "formacao riachuelo",
+        "mb angico",
+        "mb carmopolis",
+        "mb ibura",
+        "mb oiteirinhos",
+        "mb taquari",
+        "membro angico",
+        "membro carmopolis",
+        "membro ibura",
+        "membro oiteirinhos",
+        "membro taquari"
+    ],
+    "pred": "o poco 7sz314se atravessa as seguintes unidades litoestratigraficas 1 formacao riachuelo fm riachuelo 2 membro ibura mb ibura 3 membro angico mb angico 4 formacao muribeca fm muribeca 5 membro carmopolis mb carmopolis 6 formacao barreiras fm barreiras 7 membro oiteirinhos mb oiteirinhos 8 embasamento 9 membro taquari mb taquari",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9524996612296691
+    }
+}
+{
+    "id": 66668,
+    "question": "Em que bacia está localizado o poço 7-ET-1285-RN?",
+    "gold": [
+        "bacia de potiguar",
+        "potiguar",
+        "potiguar mar",
+        "potiguar terra"
+    ],
+    "pred": "o poco 7et1285rn esta localizado na bacia de potiguar que tambem e conhecida pelos nomes potiguar mar e potiguar terra",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8812412380084905
+    }
+}
+{
+    "id": 48108,
+    "question": "Que unidades litoestratigráficas o poço 7-CL-72D-SE atravessa?",
+    "gold": [
+        "embasamento",
+        "fm barreiras",
+        "fm muribeca",
+        "fm riachuelo",
+        "formacao barreiras",
+        "formacao muribeca",
+        "formacao riachuelo",
+        "mb angico",
+        "mb carmopolis",
+        "mb ibura",
+        "mb oiteirinhos",
+        "membro angico",
+        "membro carmopolis",
+        "membro ibura",
+        "membro oiteirinhos"
+    ],
+    "pred": "o poco 7cl72dse atravessa as seguintes unidades litoestratigraficas 1 formacao barreiras fm barreiras 2 membro ibura mb ibura 3 membro oiteirinhos mb oiteirinhos 4 formacao muribeca fm muribeca 5 membro carmopolis mb carmopolis 6 formacao riachuelo fm riachuelo 7 membro angico mb angico 8 embasamento essas unidades representam diferentes camadas geologicas que compoem a estrutura do subsolo na area em questao",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.952735805417959
+    }
+}
+{
+    "id": 10489,
+    "question": "Em que bacia está localizado o poço 7-C-28-BA?",
+    "gold": [
+        "bacia de reconcavo",
+        "reconcavo",
+        "reconcavo mar",
+        "reconcavo terra"
+    ],
+    "pred": "o poco 7c28ba esta localizado na bacia de reconcavo que tambem e conhecida pelos nomes reconcavo mar reconcavo terra e simplesmente reconcavo",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8062155778939374
+    }
+}
+{
+    "id": 107415,
+    "question": "Em que bacia está localizado o poço 7-BVS-18-RN?",
+    "gold": [
+        "bacia de potiguar",
+        "potiguar",
+        "potiguar mar",
+        "potiguar terra"
+    ],
+    "pred": "o poco 7bvs18rn esta localizado na bacia de potiguar que tambem e conhecida pelos nomes potiguar mar e potiguar terra",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8233870399706519
+    }
+}
+{
+    "id": 94823,
+    "question": "Em que bacia está localizado o poço 7-MS-8-BA?",
+    "gold": [
+        "bacia de reconcavo",
+        "reconcavo",
+        "reconcavo mar",
+        "reconcavo terra"
+    ],
+    "pred": "o poco 7ms8ba esta localizado na bacia de reconcavo que tambem e conhecida pelos nomes reconcavo mar reconcavo terra e simplesmente reconcavo",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8115357717268394
+    }
+}
+{
+    "id": 103194,
+    "question": "Que unidades litoestratigráficas o poço 7-ET-669-RN atravessa?",
+    "gold": [
+        "fm acu",
+        "fm jandaira",
+        "formacao acu",
+        "formacao jandaira"
+    ],
+    "pred": "o poco 7et669rn atravessa as seguintes unidades litoestratigraficas formacao acu e formacao jandaira",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9534316509446339
+    }
+}
+{
+    "id": 16525,
+    "question": "Que unidades litoestratigráficas o poço 1-BRSA-155-RJS atravessa?",
+    "gold": [
+        "fm carapebus",
+        "fm namorado",
+        "fm outeiro",
+        "fm quissama",
+        "fm retiro",
+        "fm ubatuba",
+        "formacao carapebus",
+        "formacao namorado",
+        "formacao outeiro",
+        "formacao quissama",
+        "formacao retiro",
+        "formacao ubatuba",
+        "gr lagoa feia",
+        "gr macae",
+        "grupo lagoa feia",
+        "grupo macae",
+        "mb geriba",
+        "mb tamoios",
+        "membro geriba",
+        "membro tamoios"
+    ],
+    "pred": "o poco 1brsa155rjs atravessa as seguintes unidades litoestratigraficas 1 grupo macae 2 membro geriba 3 formacao namorado 4 grupo lagoa feia 5 formacao ubatuba 6 formacao outeiro 7 membro tamoios 8 formacao quissama 9 formacao carapebus 10 formacao retiro",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9505859336174435
+    }
+}
+{
+    "id": 63787,
+    "question": "Em que bacia está localizado o poço 7-RO-400-SE?",
+    "gold": [
+        "alagoas mar",
+        "alagoas terra",
+        "bacia de sergipealagoas",
+        "sergipe mar",
+        "sergipe terra",
+        "sergipealagoas"
+    ],
+    "pred": "o poco 7ro400se esta localizado na bacia de sergipealagoas que e uma bacia que abrange as areas conhecidas como sergipe terra sergipe mar alagoas mar e alagoas terra",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.8,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8706083814381698
+    }
+}
+{
+    "id": 55047,
+    "question": "Em que campo está localizado o poço 7-RP-13-RN?",
+    "gold": [
+        "1brsa452rn",
+        "1brsa453rn",
+        "area do 1brsa452rn",
+        "area do 1brsa453rn",
+        "estreito",
+        "sao sebastiao"
+    ],
+    "pred": "o poco 7rp13rn esta localizado na area denominada sao sebastiao que tambem e referida como estreito alem de ser identificado por outros rotulos como area do 1brsa453rn e area do 1brsa452rn",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.8,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9050187402429793
+    }
+}
+{
+    "id": 43596,
+    "question": "Em que bacia está localizado o poço 7-CP-1535-SE?",
+    "gold": [
+        "alagoas mar",
+        "alagoas terra",
+        "bacia de sergipealagoas",
+        "sergipe mar",
+        "sergipe terra",
+        "sergipealagoas"
+    ],
+    "pred": "o poco 7cp1535se esta localizado na bacia de sergipealagoas essa bacia e tambem referida como sergipe terra e sergipe mar alem de incluir alagoas mar e alagoas terra portanto a bacia em questao abrange tanto areas terrestres quanto maritimas sendo uma importante regiao geologica",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.6,
+        "context_recall": 0.8333333333333334,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8589372209809151
+    }
+}
+{
+    "id": 78727,
+    "question": "Em que campo está localizado o poço 7-LV-4-BA?",
+    "gold": [
+        "lagoa verde",
+        "lgverde"
+    ],
+    "pred": "o poco 7lv4ba esta localizado no campo denominado lagoa verde que tambem e conhecido pela sigla lgverde",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9027920236002912
+    }
+}
+{
+    "id": 78913,
+    "question": "Em que campo está localizado o poço 7-CAM-756-RN?",
+    "gold": [
+        "canto do amaro"
+    ],
+    "pred": "o poco 7cam756rn esta localizado no campo denominado canto do amaro",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9018757256338731
+    }
+}
+{
+    "id": 51460,
+    "question": "Em que bacia está localizado o poço 7-GMR-25-RN?",
+    "gold": [
+        "bacia de potiguar",
+        "potiguar",
+        "potiguar mar",
+        "potiguar terra"
+    ],
+    "pred": "o poco 7gmr25rn esta localizado na bacia de potiguar que tambem e conhecida pelos nomes potiguar mar e potiguar terra",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8099172103187078
+    }
+}
+{
+    "id": 100874,
+    "question": "Em que bacia está localizado o poço 3-RO-307-SE?",
+    "gold": [
+        "alagoas mar",
+        "alagoas terra",
+        "bacia de sergipealagoas",
+        "sergipe mar",
+        "sergipe terra",
+        "sergipealagoas"
+    ],
+    "pred": "o poco 3ro307se esta localizado na bacia de sergipealagoas que e uma bacia que abrange as areas conhecidas como sergipe terra sergipe mar alagoas mar e alagoas terra",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8871203152667593
+    }
+}
+{
+    "id": 41722,
+    "question": "Que unidades litoestratigráficas o poço 1-RJS-128 atravessa?",
+    "gold": [
+        "fm carapebus",
+        "fm embore",
+        "fm outeiro",
+        "fm quissama",
+        "fm ubatuba",
+        "formacao carapebus",
+        "formacao embore",
+        "formacao outeiro",
+        "formacao quissama",
+        "formacao ubatuba",
+        "gr campos",
+        "gr macae",
+        "grupo campos",
+        "grupo macae",
+        "mb geriba",
+        "mb grussai",
+        "mb sao tome",
+        "mb tamoios",
+        "membro geriba",
+        "membro grussai",
+        "membro sao tome",
+        "membro tamoios"
+    ],
+    "pred": "o poco 1rjs128 atravessa as seguintes unidades litoestratigraficas 1 formacao quissama fm quissama 2 membro sao tome mb sao tome 3 membro tamoios mb tamoios 4 membro geriba mb geriba 5 membro grussai mb grussai 6 grupo campos gr campos 7 grupo macae gr macae 8 formacao ubatuba fm ubatuba 9 formacao outeiro fm outeiro 10 formacao embore fm embore",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 0.2727272727272727,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9530729347720394
+    }
+}
+{
+    "id": 28833,
+    "question": "Em que campo está localizado o poço 8-CP-1502-SE?",
+    "gold": [
+        "carmopolis",
+        "carmopolis noroeste",
+        "carmopolis nw",
+        "carmopolis sudoeste",
+        "carmopolis sw"
+    ],
+    "pred": "o poco 8cp1502se esta localizado no campo de carmopolis que tambem e conhecido por outros nomes como carmopolis noroeste carmopolis nw carmopolis sw e carmopolis sudoeste",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.6666666666666666,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8276735705087721
+    }
+}
+{
+    "id": 79721,
+    "question": "Em que bacia está localizado o poço 7-CP-217-SE?",
+    "gold": [
+        "alagoas mar",
+        "alagoas terra",
+        "bacia de sergipealagoas",
+        "sergipe mar",
+        "sergipe terra",
+        "sergipealagoas"
+    ],
+    "pred": "o poco 7cp217se esta localizado na bacia de sergipealagoas essa bacia e tambem referida como sergipe terra e sergipe mar alem de alagoas mar e alagoas terra portanto a bacia em questao abrange tanto areas terrestres quanto maritimas sendo uma importante regiao geologica",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.4,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8182240336178183
+    }
+}
+{
+    "id": 44250,
+    "question": "Em que campo está localizado o poço 7-FBM-136-BA?",
+    "gold": [
+        "fazenda balsamo",
+        "fzbalsamo"
+    ],
+    "pred": "o poco 7fbm136ba esta localizado na fazenda balsamo tambem conhecida como fzbalsamo",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8358389315244729
+    }
+}
+{
+    "id": 59439,
+    "question": "Em que campo está localizado o poço 9-PPT-19D-RJS?",
+    "gold": [
+        "papaterra"
+    ],
+    "pred": "o poco 9ppt19drjs esta localizado no campo denominado papaterra",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8738307922395947
+    }
+}
+{
+    "id": 84223,
+    "question": "Em que bacia está localizado o poço 8-LL-93D-RJS?",
+    "gold": [
+        "bacia de santos",
+        "bc",
+        "santos"
+    ],
+    "pred": "o poco 8ll93drjs esta localizado na bacia de santos que tambem e conhecida pelos rotulos bc e santos",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8090819911141187
+    }
+}
+{
+    "id": 85069,
+    "question": "Que unidades litoestratigráficas o poço 1-PV-1-RN atravessa?",
+    "gold": [
+        "fm acu",
+        "fm alagamar",
+        "fm jandaira",
+        "fm pendencia",
+        "formacao acu",
+        "formacao alagamar",
+        "formacao jandaira",
+        "formacao pendencia",
+        "mb ponta do tubarao",
+        "membro ponta do tubarao"
+    ],
+    "pred": "o poco 1pv1rn atravessa as seguintes unidades litoestratigraficas 1 membro ponta do tubarao tambem conhecido como mb ponta do tubarao 2 formacao acu ou fm acu 3 formacao pendencia ou fm pendencia 4 formacao jandaira ou fm jandaira 5 formacao alagamar tambem referida como fm alagamar",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9493764477384236
+    }
+}
+{
+    "id": 8104,
+    "question": "Em que campo está localizado o poço 7-FBM-179-BA?",
+    "gold": [
+        "fazenda balsamo",
+        "fzbalsamo"
+    ],
+    "pred": "o poco 7fbm179ba esta localizado na fazenda balsamo tambem conhecida como fzbalsamo",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.839316042883176
+    }
+}
+{
+    "id": 62919,
+    "question": "Que unidades litoestratigráficas o poço 7-ET-43-RN atravessa?",
+    "gold": [
+        "fm acu",
+        "fm jandaira",
+        "formacao acu",
+        "formacao jandaira"
+    ],
+    "pred": "o poco 7et43rn atravessa as seguintes unidades litoestratigraficas formacao acu e formacao jandaira a formacao acu e tambem conhecida como fm acu enquanto a formacao jandaira e referida como fm jandaira essas formacoes representam importantes unidades geologicas na regiao em questao",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.75,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9495764581597891
+    }
+}
+{
+    "id": 83919,
+    "question": "Em que campo está localizado o poço 9-LUC-62D-AM?",
+    "gold": [
+        "leste do urucu"
+    ],
+    "pred": "o poco 9luc62dam esta localizado no campo denominado leste do urucu",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9019846894347211
+    }
+}
+{
+    "id": 24466,
+    "question": "Que unidades litoestratigráficas o poço 7-DJ-354-BA atravessa?",
+    "gold": [
+        "fm agua grande",
+        "fm candeias",
+        "fm itaparica",
+        "fm sergi",
+        "formacao agua grande",
+        "formacao candeias",
+        "formacao itaparica",
+        "formacao sergi",
+        "gr brotas",
+        "gr santo amaro",
+        "grupo brotas",
+        "grupo santo amaro"
+    ],
+    "pred": "o poco 7dj354ba atravessa as seguintes unidades litoestratigraficas 1 grupo brotas gr brotas 2 formacao candeias fm candeias 3 formacao sergi fm sergi 4 formacao itaparica fm itaparica 5 grupo santo amaro gr santo amaro 6 formacao agua grande fm agua grande",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9520524697823767
+    }
+}
+{
+    "id": 72349,
+    "question": "Em que campo está localizado o poço 9-PTP-28-AM?",
+    "gold": [
+        "rio urucu",
+        "rurucu"
+    ],
+    "pred": "o poco 9ptp28am esta localizado no campo rurucu tambem conhecido como rio urucu",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8936186695967399
+    }
+}
+{
+    "id": 44847,
+    "question": "Que unidades litoestratigráficas o poço 7-CP-614-SE atravessa?",
+    "gold": [
+        "embasamento",
+        "fm barreiras",
+        "fm muribeca",
+        "fm riachuelo",
+        "formacao barreiras",
+        "formacao muribeca",
+        "formacao riachuelo",
+        "mb ibura",
+        "mb maruim",
+        "mb oiteirinhos",
+        "mb taquari",
+        "membro ibura",
+        "membro maruim",
+        "membro oiteirinhos",
+        "membro taquari"
+    ],
+    "pred": "o poco 7cp614se atravessa as seguintes unidades litoestratigraficas 1 formacao barreiras fm barreiras 2 membro ibura mb ibura 3 formacao muribeca fm muribeca 4 membro taquari mb taquari 5 formacao riachuelo fm riachuelo 6 embasamento 7 membro maruim mb maruim 8 membro oiteirinhos mb oiteirinhos",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.8888888888888888,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9515092642440356
+    }
+}
+{
+    "id": 24003,
+    "question": "Em que bacia está localizado o poço 7-CAM-845-RN?",
+    "gold": [
+        "bacia de potiguar",
+        "potiguar",
+        "potiguar mar",
+        "potiguar terra"
+    ],
+    "pred": "o poco 7cam845rn esta localizado na bacia de potiguar que tambem e conhecida pelos nomes potiguar mar e potiguar terra",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8314289522627735
+    }
+}
+{
+    "id": 72234,
+    "question": "Em que bacia está localizado o poço 7-BAL-66-RN?",
+    "gold": [
+        "bacia de potiguar",
+        "potiguar",
+        "potiguar mar",
+        "potiguar terra"
+    ],
+    "pred": "o poco 7bal66rn esta localizado na bacia de potiguar que tambem e conhecida pelos nomes potiguar mar e potiguar terra",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8987163913248
+    }
+}
+{
+    "id": 46325,
+    "question": "Em que campo está localizado o poço 9-ATP-3-RJS?",
+    "gold": [
+        "atapu"
+    ],
+    "pred": "o poco 9atp3rjs esta localizado no campo denominado atapu",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9081171874558441
+    }
+}
+{
+    "id": 34523,
+    "question": "Em que bacia está localizado o poço 8-LPX-10-RN?",
+    "gold": [
+        "bacia de potiguar",
+        "potiguar",
+        "potiguar mar",
+        "potiguar terra"
+    ],
+    "pred": "o poco 8lpx10rn esta localizado na bacia de potiguar que tambem e conhecida pelos nomes potiguar mar e potiguar terra",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.822072428305593
+    }
+}
+{
+    "id": 73820,
+    "question": "Em que bacia está localizado o poço 7-L-17-BA?",
+    "gold": [
+        "bacia de reconcavo",
+        "reconcavo",
+        "reconcavo mar",
+        "reconcavo terra"
+    ],
+    "pred": "o poco 7l17ba esta localizado na bacia de reconcavo que e tambem conhecida pelos nomes reconcavo mar reconcavo terra e simplesmente reconcavo",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8713637002421164
+    }
+}
+{
+    "id": 97576,
+    "question": "Em que bacia está localizado o poço 9-FAL-77D-ES?",
+    "gold": [
+        "bacia de espirito santo",
+        "espirito santo",
+        "espirito santo mar",
+        "espirito santo terra"
+    ],
+    "pred": "o poco 9fal77des esta localizado na bacia de espirito santo essa bacia e tambem referida como espirito santo mar e espirito santo terra sendo uma importante area geologica",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8395973344504343
+    }
+}
+{
+    "id": 81452,
+    "question": "Em que bacia está localizado o poço 7-AG-50-BA?",
+    "gold": [
+        "bacia de reconcavo",
+        "reconcavo",
+        "reconcavo mar",
+        "reconcavo terra"
+    ],
+    "pred": "o poco 7ag50ba esta localizado na bacia de reconcavo que tambem e conhecida pelos nomes reconcavo mar reconcavo terra e simplesmente reconcavo",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8726833247372335
+    }
+}
+{
+    "id": 16535,
+    "question": "Em que bacia está localizado o poço 7-RO-505-SE?",
+    "gold": [
+        "alagoas mar",
+        "alagoas terra",
+        "bacia de sergipealagoas",
+        "sergipe mar",
+        "sergipe terra",
+        "sergipealagoas"
+    ],
+    "pred": "o poco 7ro505se esta localizado na bacia de sergipealagoas que e tambem referida como sergipe terra e sergipe mar alem de alagoas mar e alagoas terra essa bacia e uma importante unidade geologica que abrange as regioes de sergipe e alagoas",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.4,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9148569780646542
+    }
+}
+{
+    "id": 71140,
+    "question": "Em que campo está localizado o poço 7-RUC-44HP-AM?",
+    "gold": [
+        "rio urucu",
+        "rurucu"
+    ],
+    "pred": "o poco 7ruc44hpam esta localizado no campo rurucu tambem conhecido como rio urucu",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8826838876585464
+    }
+}
+{
+    "id": 95691,
+    "question": "Em que campo está localizado o poço 7-ET-1896-RN?",
+    "gold": [
+        "1brsa452rn",
+        "1brsa453rn",
+        "area do 1brsa452rn",
+        "area do 1brsa453rn",
+        "estreito",
+        "sao sebastiao"
+    ],
+    "pred": "o poco 7et1896rn esta localizado na area denominada sao sebastiao que tambem e referida como estreito alem de ser identificada por outros rotulos como area do 1brsa453rn e area do 1brsa452rn",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.8,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.837858354971135
+    }
+}
+{
+    "id": 34569,
+    "question": "Que unidades litoestratigráficas o poço 3-CES-59D atravessa?",
+    "gold": [
+        "fm guamare",
+        "fm mundau",
+        "fm ubarana",
+        "formacao guamare",
+        "formacao mundau",
+        "formacao ubarana"
+    ],
+    "pred": "o poco 3ces59d atravessa as seguintes unidades litoestratigraficas 1 formacao mundau tambem conhecida como fm mundau 2 formacao guamare tambem referida como fm guamare 3 formacao ubarana tambem chamada de fm ubarana",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.75,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9547337376067698
+    }
+}
+{
+    "id": 66925,
+    "question": "Em que campo está localizado o poço 7-FBE-63D-BA?",
+    "gold": [
+        "fazenda boa esperanca",
+        "fzboa esperanca"
+    ],
+    "pred": "o poco 7fbe63dba esta localizado no campo denominado fazenda boa esperanca que tambem e conhecido como fzboa esperanca",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8301521448908346
+    }
+}
+{
+    "id": 104230,
+    "question": "Em que bacia está localizado o poço 7-CAM-487-RN?",
+    "gold": [
+        "bacia de potiguar",
+        "potiguar",
+        "potiguar mar",
+        "potiguar terra"
+    ],
+    "pred": "o poco 7cam487rn esta localizado na bacia de potiguar que tambem e conhecida pelos nomes potiguar mar e potiguar terra",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8705204455958753
+    }
+}
+{
+    "id": 88545,
+    "question": "Em que campo está localizado o poço 9-PIR-139-AL?",
+    "gold": [
+        "pilar"
+    ],
+    "pred": "o poco 9pir139al esta localizado no campo denominado pilar",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9098443160546422
+    }
+}
+{
+    "id": 47540,
+    "question": "Em que bacia está localizado o poço 7-FZB-164-CE?",
+    "gold": [
+        "bacia de potiguar",
+        "potiguar",
+        "potiguar mar",
+        "potiguar terra"
+    ],
+    "pred": "o poco 7fzb164ce esta localizado na bacia de potiguar que tambem e conhecida pelos nomes potiguar mar e potiguar terra",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8480383074933536
+    }
+}
+{
+    "id": 103733,
+    "question": "Que unidades litoestratigráficas o poço 7-BAL-78-RN atravessa?",
+    "gold": [
+        "fm acu",
+        "formacao acu"
+    ],
+    "pred": "o poco 7bal78rn atravessa a unidade litoestratigrafica conhecida como formacao acu tambem referida como fm acu",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8776705422406383
+    }
+}
+{
+    "id": 93910,
+    "question": "Que unidades litoestratigráficas o poço 7-CER-31D-BA atravessa?",
+    "gold": [
+        "fm agua grande",
+        "fm barreiras",
+        "fm candeias",
+        "fm itaparica",
+        "fm marfim",
+        "fm sergi",
+        "formacao agua grande",
+        "formacao barreiras",
+        "formacao candeias",
+        "formacao itaparica",
+        "formacao marfim",
+        "formacao sergi",
+        "gr brotas",
+        "gr ilhas",
+        "gr santo amaro",
+        "grupo brotas",
+        "grupo ilhas",
+        "grupo santo amaro",
+        "mb gomo",
+        "mb taua",
+        "membro gomo",
+        "membro taua"
+    ],
+    "pred": "o poco 7cer31dba atravessa as seguintes unidades litoestratigraficas 1 mb taua membro taua 2 formacao barreiras fm barreiras 3 grupo brotas gr brotas 4 grupo ilhas gr ilhas 5 grupo santo amaro gr santo amaro 6 formacao itaparica fm itaparica 7 formacao marfim fm marfim 8 formacao candeias fm candeias 9 formacao agua grande fm agua grande 10 formacao sergi fm sergi",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 0.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9412175847519383
+    }
+}
+{
+    "id": 42504,
+    "question": "Em que bacia está localizado o poço 9-SZ-201-SE?",
+    "gold": [
+        "alagoas mar",
+        "alagoas terra",
+        "bacia de sergipealagoas",
+        "sergipe mar",
+        "sergipe terra",
+        "sergipealagoas"
+    ],
+    "pred": "o poco 9sz201se esta localizado na bacia de sergipealagoas essa bacia e composta por diferentes entidades incluindo sergipe terra sergipe mar alagoas mar e alagoas terra portanto o poco mencionado faz parte do contexto geologico e geografico da bacia de sergipealagoas",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8770129507610847
+    }
+}
+{
+    "id": 99302,
+    "question": "Em que campo está localizado o poço 7-ESP-34HP-RJS?",
+    "gold": [
+        "espadarte"
+    ],
+    "pred": "o poco 7esp34hprjs esta localizado no campo de espadarte",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8418901790754715
+    }
+}
+{
+    "id": 90778,
+    "question": "Que unidades litoestratigráficas o poço 7-PIR-274D-AL atravessa?",
+    "gold": [
+        "fm barreiras",
+        "fm coqueiro seco",
+        "fm maceio",
+        "fm ponta verde",
+        "formacao barreiras",
+        "formacao coqueiro seco",
+        "formacao maceio",
+        "formacao ponta verde"
+    ],
+    "pred": "o poco 7pir274dal atravessa as seguintes unidades litoestratigraficas 1 formacao ponta verde fm ponta verde 2 formacao coqueiro seco fm coqueiro seco 3 formacao barreiras fm barreiras 4 formacao maceio fm maceio",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9460747833390369
+    }
+}
+{
+    "id": 43375,
+    "question": "Em que campo está localizado o poço 8-CRT-38DP-RJS?",
+    "gold": [
+        "caratinga"
+    ],
+    "pred": "o poco 8crt38dprjs esta localizado no campo de caratinga",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8264614458361899
+    }
+}
+{
+    "id": 68451,
+    "question": "Em que campo está localizado o poço 7-CP-1752-SE?",
+    "gold": [
+        "carmopolis",
+        "carmopolis noroeste",
+        "carmopolis nw",
+        "carmopolis sudoeste",
+        "carmopolis sw"
+    ],
+    "pred": "o poco 7cp1752se esta localizado no campo de carmopolis que tambem e conhecido por outros nomes como carmopolis noroeste carmopolis nw carmopolis sw e carmopolis sudoeste",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.8333333333333334,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8310058299580891
+    }
+}
+{
+    "id": 47441,
+    "question": "Que unidades litoestratigráficas o poço 7-ET-1774DA-RN atravessa?",
+    "gold": [
+        "fm acu",
+        "fm jandaira",
+        "formacao acu",
+        "formacao jandaira"
+    ],
+    "pred": "o poco 7et1774darn atravessa as seguintes unidades litoestratigraficas 1 formacao acu fm acu 2 formacao jandaira fm jandaira",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.6666666666666666,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9476877130026944
+    }
+}
+{
+    "id": 71611,
+    "question": "Em que campo está localizado o poço 7-AG-57-BA?",
+    "gold": [
+        "agua grande"
+    ],
+    "pred": "o poco 7ag57ba esta localizado no campo denominado agua grande",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.9088109851604002
+    }
+}
+{
+    "id": 23662,
+    "question": "Em que campo está localizado o poço 7-DJ-778-BA?",
+    "gold": [
+        "dom joao"
+    ],
+    "pred": "o poco 7dj778ba esta localizado no campo denominado dom joao",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.0,
+        "answer_relevancy": 0.8299135853869685
+    }
+}
+{
+    "id": 64112,
+    "question": "Em que campo está localizado o poço 8-FAL-142D-ES?",
+    "gold": [
+        "fazenda alegre",
+        "fzalegre"
+    ],
+    "pred": "o poco 8fal142des esta localizado no campo denominado fazenda alegre que tambem e conhecido pela sigla fzalegre",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8549789550755925
+    }
+}
+{
+    "id": 106587,
+    "question": "Em que bacia está localizado o poço 7-FZB-805-CE?",
+    "gold": [
+        "bacia de potiguar",
+        "potiguar",
+        "potiguar mar",
+        "potiguar terra"
+    ],
+    "pred": "o poco 7fzb805ce esta localizado na bacia de potiguar que tambem e conhecida pelos nomes potiguar mar e potiguar terra",
+    "execution_accuracy": 1,
+    "ragas": {
+        "faithfulness": 0.5,
+        "context_recall": 1.0,
+        "context_precision": 0.9999999999,
+        "answer_relevancy": 0.8414911529879546
+    }
+}
